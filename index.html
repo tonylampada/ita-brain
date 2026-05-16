@@ -424,13 +424,23 @@ function initFilters() {
     anoEl.appendChild(el);
   });
 
-  const assuntos = [...new Set(state.data.map(q => q.assunto).filter(Boolean))].sort();
+  refreshAssuntoOptions();
+}
+
+function refreshAssuntoOptions() {
   const sel = document.getElementById('filter-assunto');
-  assuntos.forEach(a => {
-    const opt = document.createElement('option');
-    opt.value = a; opt.textContent = a;
-    sel.appendChild(opt);
-  });
+  const mset = state.filters.materia;
+  const pool = mset.size
+    ? state.data.filter(q => mset.has(q.materia))
+    : state.data;
+  const assuntos = [...new Set(pool.map(q => q.assunto).filter(Boolean))].sort();
+  const cur = state.filters.assunto;
+  sel.innerHTML = '<option value="">— todos —</option>' +
+    assuntos.map(a => `<option value="${a}"${a===cur?' selected':''}>${a}</option>`).join('');
+  if (cur && !assuntos.includes(cur)) {
+    state.filters.assunto = '';
+    sel.value = '';
+  }
 }
 
 function bindUI() {
@@ -494,6 +504,7 @@ function toggleSetFilter(key, val, el) {
   if (set.has(val)) { set.delete(val); el.classList.remove('active'); }
   else { set.add(val); el.classList.add('active'); }
   state.visibleN = 60;
+  if (key === 'materia') refreshAssuntoOptions();
   applyFilters();
 }
 
@@ -503,6 +514,7 @@ function clearFilters() {
   document.getElementById('search').value = '';
   document.getElementById('filter-assunto').value = '';
   document.querySelectorAll('.chip.active').forEach(c => c.classList.remove('active'));
+  refreshAssuntoOptions();
   applyFilters();
 }
 

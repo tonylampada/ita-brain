@@ -1,0 +1,4 @@
+.DS_Store
+*.pendente
+__pycache__/
+*.pyc

@@ -94,7 +94,7 @@ def find_question_anchors(pages):
     for page_idx, lines in pages:
         for idx, (y_min, y_max, text) in enumerate(lines):
             tokens = text.split()
-            if not tokens or tokens[0] != "Questão":
+            if not tokens or tokens[0] not in ("Questão", "Questao"):
                 continue
             numero = _first_number(tokens[1:])
             if numero is None:

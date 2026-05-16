@@ -9,6 +9,7 @@
 - MMC — [[mat-2018-f1-q27]]
 - agrupamentos — [[mat-2011-f1-q23]]
 - arestas inteiras — [[mat-2014-f1-q25]]
+- bijeções com restrições de ordem — [[mat-2026-f1-q11]]
 - cardinalidade — [[mat-2009-f1-q01]], [[mat-2011-f1-q05]], [[mat-2012-f1-q14]]
 - cardinalidade de conjunto produto — [[mat-2017-f1-q08]]
 - cardinalidade de conjuntos — [[mat-2010-f1-q21]]
@@ -22,9 +23,10 @@
 - conjunto das partes — [[mat-2009-f1-q01]], [[mat-2010-f1-q21]], [[mat-2012-f1-q14]]
 - conjuntos — [[mat-2011-f1-q05]]
 - conjuntos disjuntos — [[mat-2012-f1-q14]]
-- contagem — [[mat-2012-f1-q14]], [[mat-2017-f1-q24]], [[mat-2021-f2-q07]]
+- contagem — [[mat-2012-f1-q14]], [[mat-2017-f1-q24]], [[mat-2021-f2-q07]], [[mat-2026-f1-q11]]
 - contagem com porcentagens — [[mat-2009-f1-q02]]
 - contagem com simetrias — [[mat-2013-f1-q24]], [[mat-2016-f1-q19]]
+- contagem combinatória — [[mat-2021-f1-q53]]
 - contagem de configurações — [[mat-2022-f2-q04]]
 - contagem de divisores — [[mat-2018-f1-q27]]
 - contagem de paralelepípedos — [[mat-2014-f1-q25]]
@@ -39,6 +41,7 @@
 - diagonais — [[mat-2023-f2-q10]]
 - diagrama de Venn — [[mat-2012-f1-q27]]
 - diferença simétrica — [[mat-2011-f1-q21]]
+- distribuição de balas com restrições — [[mat-2021-f1-q53]]
 - equações — [[mat-2018-f1-q06]]
 - fatoração inteira — [[mat-2017-f1-q08]]
 - funções sobrejetoras — [[mat-2017-f1-q24]]
@@ -71,14 +74,39 @@
 - troca de moedas — [[mat-2012-f1-q01]]
 - álgebra de conjuntos — [[mat-2012-f1-q13]]
 
+### análise combinatória / princípio das gavetas
+- princípio da casa dos pombos — [[mat-2024-f1-q40]]
+- produto fixo — [[mat-2024-f1-q40]]
+- subconjuntos — [[mat-2024-f1-q40]]
+
 ### análise combinatória / probabilidade
 - contagem de casos — [[mat-2015-f1-q26]]
 - experimento aleatório — [[mat-2015-f1-q26]]
 - probabilidade condicional — [[mat-2015-f1-q26]]
 
+### análise combinatória, aritmética
+- problema de contagem com pacotes de velas; progressões — [[mat-2020-f1-q45]]
+
+### análise combinatória, probabilidade
+- lançamentos de moedas numeradas; probabilidade de soma — [[mat-2019-f1-q44]]
+
 ### análise de afirmações
 - raciocínio dedutivo — [[mat-2015-f1-q16]]
 - verdadeiro/falso — [[mat-2015-f1-q16]]
+
+### binômio de Newton
+- produto de expansões binomiais — [[mat-2025-f1-q03]]
+- termo geral — [[mat-2025-f1-q03]]
+- termo independente — [[mat-2025-f1-q03]]
+
+### combinatória, geometria espacial
+- probabilidade de interseção em vértice — [[mat-2022-f1-q52]]
+- retas determinadas por vértices de cubo — [[mat-2022-f1-q52]]
+
+### combinatória, probabilidade
+- mudança no número de algarismos — [[mat-2022-f1-q51]]
+- probabilidade — [[mat-2022-f1-q51]]
+- representação binária — [[mat-2022-f1-q51]]
 
 ### determinantes
 - cálculo de determinante — [[mat-2021-f2-q02]]
@@ -147,12 +175,24 @@
 - tangente — [[mat-2008-f1-q26]]
 - teorema de Bolzano — [[mat-2013-f1-q23]]
 
+### equações algébricas, números reais
+- raízes de equação cúbica; divisibilidade; afirmações — [[mat-2019-f1-q48]]
+
+### equações exponenciais
+- condições para raízes reais distintas — [[mat-2025-f1-q06]]
+- equação 7^x = 5^(9x-1) — [[mat-2021-f1-q47]]
+- equação do 2º grau — [[mat-2025-f1-q06]]
+- localização da solução em intervalo — [[mat-2021-f1-q47]]
+- mudança de variável — [[mat-2025-f1-q06]]
+
 ### funções
+- 2^-x e log2 x — [[mat-2021-f1-q46]]
 - análise de afirmações — [[mat-2014-f1-q02]]
 - análise de proposições — [[mat-2012-f1-q15]]
 - bijetividade — [[mat-2012-f1-q28]]
 - bijeção — [[mat-2017-f1-q01]]
 - cardinalidade de conjuntos finitos — [[mat-2017-f1-q01]]
+- comparação de funções — [[mat-2023-f1-q41]]
 - completar quadrados — [[mat-2011-f1-q11]]
 - composição de funções — [[mat-2010-f1-q06]], [[mat-2014-f1-q21]], [[mat-2018-f1-q04]]
 - comutatividade — [[mat-2018-f1-q04]]
@@ -188,6 +228,7 @@
 - função sobrejetora — [[mat-2017-f1-q01]]
 - função ímpar — [[mat-2010-f1-q24]]
 - funções afins — [[mat-2014-f1-q02]]
+- funções exponenciais — [[mat-2023-f1-q41]]
 - funções injetoras — [[mat-2013-f1-q07]]
 - funções pares e ímpares — [[mat-2010-f1-q06]]
 - funções sobrejetoras — [[mat-2013-f1-q07]]
@@ -200,6 +241,7 @@
 - injetividade — [[mat-2008-f1-q15]], [[mat-2009-f1-q03]], [[mat-2009-f1-q23]]
 - intersecção de intervalos — [[mat-2010-f1-q02]]
 - intersecção reta-parábola — [[mat-2020-f2-q04]]
+- interseções entre reta y=kx e união dos gráficos de 2^x — [[mat-2021-f1-q46]]
 - logaritmo — [[mat-2008-f1-q23]]
 - logaritmo natural — [[mat-2008-f1-q15]]
 - manipulação algébrica — [[mat-2018-f1-q22]]
@@ -215,10 +257,20 @@
 - transformações — [[mat-2017-f1-q26]]
 - zeros de função — [[mat-2013-f1-q06]]
 
+### funções reais
+- composição funcional — [[mat-2025-f1-q04]]
+- injetividade — [[mat-2025-f1-q04]]
+- sobrejetividade — [[mat-2025-f1-q04]]
+
+### funções, trigonometria, séries
+- arcsen; soma de série envolvendo cosseno — [[mat-2019-f1-q46]]
+
 ### geometria analítica
 - baricentro — [[mat-2012-f1-q10]]
+- bissetriz de ângulo — [[mat-2024-f1-q47]]
 - bissetriz interna — [[mat-2012-f1-q12]]
 - centro e raio — [[mat-2011-f1-q13]]
+- centro em região do plano — [[mat-2022-f1-q48]]
 - cilindro circular reto — [[mat-2013-f1-q20]]
 - circunferência — [[mat-2009-f1-q18]], [[mat-2009-f1-q28]], [[mat-2017-f1-q12]], [[mat-2021-f2-q04]], [[mat-2022-f2-q09]]
 - circunferência circunscrita — [[mat-2010-f1-q19]], [[mat-2014-f1-q15]]
@@ -229,11 +281,13 @@
 - circunferências no plano — [[mat-2018-f1-q07]]
 - circunferências tangentes — [[mat-2018-f1-q23]]
 - coeficiente angular — [[mat-2017-f1-q21]]
+- condição sobre parâmetro — [[mat-2022-f1-q48]]
 - coordenadas no plano — [[mat-2012-f1-q10]]
 - corda comum — [[mat-2016-f1-q28]]
 - corda e ponto médio — [[mat-2009-f1-q18]]
 - cosseno — [[mat-2016-f1-q09]]
-- cônicas — [[mat-2013-f1-q17]]
+- cálculo de área — [[mat-2021-f1-q43]]
+- cônicas — [[mat-2013-f1-q17]], [[mat-2022-f1-q48]]
 - cônicas degeneradas — [[mat-2015-f1-q29]]
 - decomposição em duas retas — [[mat-2015-f1-q29]]
 - derivada implícita — [[mat-2008-f1-q12]]
@@ -252,7 +306,7 @@
 - elipse e focos — [[mat-2019-f2-q05]]
 - equação canônica — [[mat-2023-f2-q07]]
 - equação da circunferência — [[mat-2009-f1-q14]], [[mat-2010-f1-q17]], [[mat-2011-f1-q13]], [[mat-2018-f1-q23]], [[mat-2020-f2-q01]]
-- equação da reta — [[mat-2009-f1-q18]], [[mat-2010-f1-q19]], [[mat-2015-f1-q14]], [[mat-2018-f1-q30]]
+- equação da reta — [[mat-2009-f1-q18]], [[mat-2010-f1-q19]], [[mat-2015-f1-q14]], [[mat-2018-f1-q30]], [[mat-2024-f1-q47]]
 - equação de circunferência — [[mat-2014-f1-q19]]
 - equação de reta — [[mat-2022-f2-q06]]
 - equação de reta paralela — [[mat-2012-f1-q12]]
@@ -264,8 +318,8 @@
 - equidistância — [[mat-2016-f1-q26]]
 - excentricidade — [[mat-2025-f2-q02]]
 - feixe de retas — [[mat-2009-f1-q29]]
-- focos — [[mat-2023-f2-q07]]
-- hipérbole — [[mat-2008-f1-q12]]
+- focos — [[mat-2023-f1-q44]], [[mat-2023-f2-q07]]
+- hipérbole — [[mat-2008-f1-q12]], [[mat-2022-f1-q48]], [[mat-2023-f1-q44]]
 - identificação de cônica degenerada — [[mat-2013-f1-q17]]
 - incentro — [[mat-2010-f1-q29]]
 - integração geométrica — [[mat-2016-f1-q14]]
@@ -286,10 +340,11 @@
 - ortogonalidade — [[mat-2018-f1-q07]]
 - par de retas — [[mat-2013-f1-q28]]
 - parametrização — [[mat-2025-f2-q02]]
-- parábola — [[mat-2008-f1-q30]], [[mat-2009-f1-q16]], [[mat-2013-f1-q17]], [[mat-2016-f1-q26]]
+- parábola — [[mat-2008-f1-q30]], [[mat-2009-f1-q16]], [[mat-2013-f1-q17]], [[mat-2016-f1-q26]], [[mat-2026-f1-q09]]
 - parábola e foco — [[mat-2019-f2-q05]]
 - parâmetro da parábola — [[mat-2009-f1-q16]]
 - perímetro — [[mat-2013-f1-q20]]
+- perímetro de triângulo — [[mat-2023-f1-q44]]
 - ponto e reta no plano — [[mat-2015-f1-q14]]
 - ponto médio — [[mat-2020-f2-q01]]
 - ponto pertencente — [[mat-2018-f1-q23]]
@@ -305,8 +360,8 @@
 - raio circunscrito — [[mat-2014-f1-q15]]
 - razão volume/área — [[mat-2013-f1-q20]]
 - reta dada — [[mat-2015-f1-q15]]
-- reta perpendicular — [[mat-2008-f1-q12]]
-- reta tangente — [[mat-2008-f1-q12]], [[mat-2008-f1-q30]], [[mat-2009-f1-q28]], [[mat-2013-f1-q17]]
+- reta perpendicular — [[mat-2008-f1-q12]], [[mat-2024-f1-q47]]
+- reta tangente — [[mat-2008-f1-q12]], [[mat-2008-f1-q30]], [[mat-2009-f1-q28]], [[mat-2013-f1-q17]], [[mat-2026-f1-q09]]
 - reta tangente a circunferência — [[mat-2009-f1-q29]]
 - retas no plano — [[mat-2012-f1-q11]], [[mat-2017-f1-q05]]
 - retas perpendiculares — [[mat-2009-f1-q18]], [[mat-2017-f1-q21]]
@@ -321,6 +376,8 @@
 - tangência a retas — [[mat-2014-f1-q19]]
 - tangência reta-circunferência — [[mat-2016-f1-q28]]
 - triângulo equilátero — [[mat-2010-f1-q19]]
+- triângulo isósceles inscrito em circunferência — [[mat-2021-f1-q43]]
+- triângulo isósceles; raio inscrito; coordenadas de vértice — [[mat-2020-f1-q51]]
 - triângulo no plano — [[mat-2013-f1-q20]], [[mat-2015-f1-q15]]
 - triângulos semelhantes — [[mat-2010-f1-q17]]
 - três pontos — [[mat-2020-f2-q01]]
@@ -329,19 +386,40 @@
 - vértices de triângulo — [[mat-2012-f1-q26]]
 - área — [[mat-2013-f1-q20]], [[mat-2017-f1-q05]]
 - área de quadrilátero — [[mat-2012-f1-q11]], [[mat-2016-f1-q14]]
-- área de triângulo — [[mat-2011-f1-q13]], [[mat-2017-f1-q21]], [[mat-2018-f1-q30]]
+- área de triângulo — [[mat-2011-f1-q13]], [[mat-2017-f1-q21]], [[mat-2018-f1-q30]], [[mat-2026-f1-q09]]
 - área de triângulo via coordenadas — [[mat-2019-f2-q05]]
 - área do círculo — [[mat-2015-f1-q04]]
 - área e perímetro — [[mat-2012-f1-q26]]
 - área entre curvas — [[mat-2013-f1-q28]]
 - área/perímetro — [[mat-2015-f1-q15]]
 - ângulo central — [[mat-2016-f1-q09]]
-- ângulo entre retas — [[mat-2009-f1-q28]], [[mat-2022-f2-q06]]
+- ângulo entre retas — [[mat-2009-f1-q28]], [[mat-2022-f2-q06]], [[mat-2026-f1-q09]]
+
+### geometria analítica (cônicas)
+- elipse e hipérbole — [[mat-2025-f1-q11]]
+- excentricidade — [[mat-2025-f1-q11]]
+- focos comuns — [[mat-2025-f1-q11]]
+
+### geometria analítica — cônicas
+- círculo — [[mat-2024-f1-q48]]
+- elipse — [[mat-2024-f1-q48]]
+- excentricidade — [[mat-2024-f1-q48]]
+- posição relativa entre cônicas — [[mat-2024-f1-q48]]
+
+### geometria analítica, cônicas
+- circunferência circunscrita ao retângulo — [[mat-2021-f1-q44]]
+- elipse — [[mat-2021-f1-q44]]
+- interseções de cônicas com eixos; área de quadrilátero — [[mat-2020-f1-q44]]
+- retângulo circunscrito — [[mat-2021-f1-q44]]
+
+### geometria analítica, trigonometria
+- circunferência; retas tangentes; cosseno do ângulo — [[mat-2019-f1-q39]]
 
 ### geometria espacial
 - altura de triângulo — [[mat-2018-f1-q17]]
 - apótema — [[mat-2009-f1-q30]], [[mat-2011-f1-q19]], [[mat-2022-f2-q07]]
 - arestas opostas iguais — [[mat-2018-f1-q16]]
+- asserções I-III — [[mat-2026-f1-q06]]
 - base hexagonal regular — [[mat-2022-f2-q07]]
 - calota esférica — [[mat-2010-f1-q30]]
 - cilindro — [[mat-2014-f1-q30]]
@@ -349,9 +427,11 @@
 - cilindro inscrito — [[mat-2010-f1-q18]]
 - circunferência — [[mat-2008-f1-q29]]
 - cone circular reto — [[mat-2015-f1-q20]], [[mat-2016-f1-q17]], [[mat-2016-f1-q30]]
+- cone circular reto; planificação; altura — [[mat-2019-f1-q40]]
 - cone de revolução — [[mat-2017-f1-q28]]
 - cone reto — [[mat-2009-f1-q19]], [[mat-2012-f1-q19]], [[mat-2012-f1-q20]]
 - contagem de elementos — [[mat-2018-f1-q21]]
+- contagem de faces — [[mat-2024-f1-q44]]
 - cubo — [[mat-2009-f1-q20]], [[mat-2017-f1-q30]], [[mat-2025-f2-q10]]
 - cubo inscrito — [[mat-2022-f2-q10]]
 - cunha esférica — [[mat-2011-f1-q27]]
@@ -365,8 +445,10 @@
 - distâncias em 3D — [[mat-2014-f1-q28]]
 - distâncias no espaço — [[mat-2018-f1-q17]]
 - dobradura de papel — [[mat-2015-f1-q30]]
+- equidistância — [[mat-2021-f1-q51]]
+- equidistância no espaço — [[mat-2022-f1-q50]]
 - esfera — [[mat-2011-f1-q27]], [[mat-2023-f2-q08]]
-- esfera circunscrita — [[mat-2020-f2-q10]], [[mat-2021-f2-q08]]
+- esfera circunscrita — [[mat-2020-f2-q10]], [[mat-2021-f2-q08]], [[mat-2022-f1-q49]]
 - esfera inscrita — [[mat-2008-f1-q06]], [[mat-2009-f1-q19]], [[mat-2011-f1-q19]], [[mat-2021-f2-q08]]
 - esfera inscrita em cone — [[mat-2019-f2-q08]]
 - esferas inscritas — [[mat-2016-f1-q17]]
@@ -380,13 +462,19 @@
 - octaedro regular — [[mat-2009-f1-q20]], [[mat-2022-f2-q10]]
 - paralelepípedo — [[mat-2018-f1-q16]]
 - paralelepípedo retângulo — [[mat-2013-f1-q30]]
+- perpendicularidade — [[mat-2021-f1-q51]]
 - pirâmide — [[mat-2014-f1-q18]]
 - pirâmide hexagonal regular — [[mat-2011-f1-q19]]
 - pirâmide regular — [[mat-2018-f1-q28]], [[mat-2021-f2-q08]]
+- pirâmide regular hexagonal inscrita em cubo — [[mat-2022-f1-q49]]
 - pirâmide regular octogonal — [[mat-2009-f1-q30]]
 - pirâmide reta — [[mat-2020-f2-q10]]
 - planificação — [[mat-2012-f1-q20]]
-- poliedros convexos — [[mat-2018-f1-q21]]
+- planos e projeções ortogonais no espaço — [[mat-2020-f1-q54]]
+- planos paralelos — [[mat-2022-f1-q50]]
+- planos perpendiculares — [[mat-2026-f1-q06]]
+- poliedros convexos — [[mat-2018-f1-q21]], [[mat-2024-f1-q44]]
+- ponto equidistante de quatro pontos — [[mat-2022-f1-q50]]
 - ponto médio — [[mat-2010-f1-q20]], [[mat-2018-f1-q17]]
 - pontos médios — [[mat-2017-f1-q30]]
 - pontos médios das faces — [[mat-2009-f1-q20]]
@@ -396,14 +484,16 @@
 - progressão geométrica — [[mat-2022-f2-q10]]
 - projeção ortogonal — [[mat-2025-f2-q10]]
 - quadrilátero reverso — [[mat-2013-f1-q18]]
-- raio — [[mat-2020-f2-q10]]
+- raio — [[mat-2020-f2-q10]], [[mat-2022-f1-q49]]
 - razão de semelhança — [[mat-2022-f2-q10]]
 - razão de áreas — [[mat-2021-f2-q08]]
-- relação de Euler — [[mat-2011-f1-q20]], [[mat-2018-f1-q21]]
+- relação de Euler — [[mat-2011-f1-q20]], [[mat-2018-f1-q21]], [[mat-2024-f1-q44]]
 - relações métricas — [[mat-2019-f2-q08]]
 - relações métricas espaciais — [[mat-2016-f1-q30]]
 - relações trigonométricas no espaço — [[mat-2008-f1-q06]]
+- retas — [[mat-2020-f1-q54]]
 - retas coplanares — [[mat-2013-f1-q18]]
+- retas e planos no espaço — [[mat-2026-f1-q06]]
 - retas reversas — [[mat-2013-f1-q18]]
 - secção plana — [[mat-2011-f1-q27]], [[mat-2014-f1-q30]]
 - semelhança — [[mat-2012-f1-q19]]
@@ -412,6 +502,7 @@
 - semelhança e trigonometria — [[mat-2009-f1-q19]]
 - sequência geométrica — [[mat-2022-f2-q10]]
 - setor circular — [[mat-2012-f1-q20]]
+- seções planas no cubo — [[mat-2026-f1-q06]]
 - soma de ângulos das faces — [[mat-2011-f1-q20]]
 - sólido de revolução — [[mat-2008-f1-q29]], [[mat-2012-f1-q25]], [[mat-2014-f1-q20]]
 - taça/líquido — [[mat-2015-f1-q20]]
@@ -453,7 +544,26 @@
 - ângulo diedral — [[mat-2022-f2-q07]]
 - ângulo diedro — [[mat-2020-f2-q10]]
 - ângulo reto entre faces — [[mat-2015-f1-q30]]
+- ângulos entre retas e planos — [[mat-2021-f1-q51]]
 - ângulos poliédricos — [[mat-2011-f1-q20]]
+
+### geometria espacial / poliedros
+- asserções I-III — [[mat-2025-f1-q02]]
+- classificação de poliedros — [[mat-2025-f1-q02]]
+- relação de Euler — [[mat-2025-f1-q02]]
+
+### geometria espacial / progressões
+- cilindro circular reto — [[mat-2024-f1-q43]]
+- progressão geométrica — [[mat-2024-f1-q43]]
+- áreas e volume — [[mat-2024-f1-q43]]
+
+### geometria espacial, poliedros
+- relação de Euler; ângulos das faces; existência de poliedros — [[mat-2020-f1-q53]]
+
+### geometria espacial, progressões
+- cilindro — [[mat-2019-f1-q47]]
+- esfera — [[mat-2019-f1-q47]]
+- volumes em PA; tronco de cone — [[mat-2019-f1-q47]]
 
 ### geometria plana
 - altura — [[mat-2013-f1-q29]]
@@ -467,7 +577,7 @@
 - base média — [[mat-2014-f1-q17]]
 - bissetriz — [[mat-2011-f1-q18]], [[mat-2013-f1-q29]], [[mat-2016-f1-q20]]
 - cevianas em triângulo — [[mat-2013-f1-q29]]
-- circunferência — [[mat-2011-f1-q29]], [[mat-2013-f1-q16]], [[mat-2016-f1-q13]], [[mat-2018-f1-q25]], [[mat-2020-f2-q08]]
+- circunferência — [[mat-2011-f1-q29]], [[mat-2013-f1-q16]], [[mat-2016-f1-q13]], [[mat-2018-f1-q25]], [[mat-2020-f1-q46]], [[mat-2020-f2-q08]]
 - circunferência circunscrita — [[mat-2021-f2-q01]]
 - circunferência inscrita — [[mat-2018-f1-q01]]
 - circunferência sobre diâmetro — [[mat-2018-f1-q11]]
@@ -483,6 +593,7 @@
 - círculo inscrito — [[mat-2023-f2-q06]]
 - círculo inscrito e circunscrito — [[mat-2016-f1-q06]]
 - círculos tangentes — [[mat-2011-f1-q30]]
+- distância a reta — [[mat-2022-f1-q42]]
 - distância ao vértice — [[mat-2011-f1-q30]]
 - distância de ponto a reta — [[mat-2018-f1-q25]]
 - distância entre lado e ponto de encontro de diagonais — [[mat-2015-f1-q17]]
@@ -491,16 +602,21 @@
 - ex-incírculo — [[mat-2025-f2-q04]]
 - função modular — [[mat-2017-f1-q09]]
 - fórmula do raio — [[mat-2012-f1-q09]]
+- hexagrama (estrela de Davi) — [[mat-2026-f1-q05]]
 - hexágono regular — [[mat-2017-f1-q17]]
 - intersecção de regiões — [[mat-2017-f1-q09]]
 - interseção de regiões — [[mat-2011-f1-q18]]
 - lei dos cossenos — [[mat-2011-f1-q29]], [[mat-2016-f1-q20]], [[mat-2017-f1-q20]], [[mat-2022-f2-q08]], [[mat-2023-f2-q06]]
-- lei dos senos — [[mat-2008-f1-q28]], [[mat-2009-f1-q15]], [[mat-2011-f1-q29]], [[mat-2016-f1-q07]]
+- lei dos senos — [[mat-2008-f1-q28]], [[mat-2009-f1-q15]], [[mat-2011-f1-q29]], [[mat-2016-f1-q07]], [[mat-2022-f1-q55]]
+- losango — [[mat-2021-f1-q50]]
 - mediana — [[mat-2013-f1-q29]], [[mat-2014-f1-q16]]
 - otimização geométrica — [[mat-2018-f1-q25]]
+- paralelogramo — [[mat-2021-f1-q50]]
 - polígonos regulares — [[mat-2016-f1-q06]]
 - polígonos regulares inscritos — [[mat-2016-f1-q23]]
+- ponto equidistante de dois pontos — [[mat-2022-f1-q42]]
 - ponto médio — [[mat-2017-f1-q16]]
+- ponto médio e secções — [[mat-2024-f1-q45]]
 - pontos de tangência — [[mat-2018-f1-q01]]
 - pontos médios de diagonais — [[mat-2014-f1-q17]]
 - potência de ponto — [[mat-2012-f1-q30]]
@@ -508,7 +624,10 @@
 - progressão geométrica — [[mat-2008-f1-q07]], [[mat-2014-f1-q29]]
 - projeção ortogonal — [[mat-2020-f2-q08]]
 - propriedades de cíclicos — [[mat-2022-f2-q08]]
+- propriedades de diagonais — [[mat-2021-f1-q50]]
 - quadrado — [[mat-2008-f1-q07]]
+- quadrado inscrito em circunferência — [[mat-2026-f1-q05]]
+- quadrilátero convexo — [[mat-2021-f1-q50]]
 - quadrilátero inscrito — [[mat-2022-f2-q08]]
 - raio — [[mat-2021-f2-q01]]
 - raio circunscrito — [[mat-2022-f2-q08]]
@@ -518,8 +637,10 @@
 - região plana — [[mat-2017-f1-q09]]
 - relações métricas — [[mat-2011-f1-q15]], [[mat-2013-f1-q29]], [[mat-2014-f1-q14]], [[mat-2016-f1-q07]], [[mat-2016-f1-q13]], [[mat-2021-f2-q01]], [[mat-2023-f2-q06]]
 - reta tangente — [[mat-2013-f1-q16]]
+- retângulo — [[mat-2021-f1-q50]]
+- secantes e ângulos inscritos — [[mat-2020-f1-q46]]
 - segmentos tangentes — [[mat-2018-f1-q01]]
-- semelhança — [[mat-2008-f1-q07]]
+- semelhança — [[mat-2008-f1-q07]], [[mat-2024-f1-q45]]
 - semelhança de triângulos — [[mat-2017-f1-q20]]
 - semiperímetro — [[mat-2012-f1-q09]]
 - setor circular — [[mat-2018-f1-q11]]
@@ -540,17 +661,21 @@
 - triângulo com pontos em lados — [[mat-2015-f1-q18]]
 - triângulo equilátero — [[mat-2008-f1-q20]], [[mat-2011-f1-q30]], [[mat-2016-f1-q20]]
 - triângulo inscrito — [[mat-2008-f1-q28]], [[mat-2009-f1-q15]], [[mat-2011-f1-q18]], [[mat-2016-f1-q07]]
+- triângulo inscrito em circunferência — [[mat-2022-f1-q55]]
 - triângulo isósceles — [[mat-2008-f1-q18]], [[mat-2011-f1-q15]], [[mat-2011-f1-q29]], [[mat-2013-f1-q16]], [[mat-2014-f1-q16]]
-- triângulo retângulo — [[mat-2011-f1-q15]], [[mat-2014-f1-q14]], [[mat-2017-f1-q16]], [[mat-2018-f1-q11]]
+- triângulo retângulo — [[mat-2011-f1-q15]], [[mat-2014-f1-q14]], [[mat-2017-f1-q16]], [[mat-2018-f1-q11]], [[mat-2022-f1-q42]]
 - triângulo) — [[mat-2011-f1-q16]]
 - triângulos — [[mat-2018-f1-q01]]
+- triângulos equiláteros inscritos — [[mat-2026-f1-q05]]
 - área — [[mat-2012-f1-q09]], [[mat-2014-f1-q16]]
 - área de hexágono e triângulo — [[mat-2016-f1-q23]]
 - área de setor — [[mat-2012-f1-q30]]
 - área de triângulo — [[mat-2008-f1-q28]], [[mat-2009-f1-q15]], [[mat-2014-f1-q29]], [[mat-2016-f1-q07]], [[mat-2016-f1-q13]], [[mat-2017-f1-q16]], [[mat-2023-f2-q06]]
 - área e perímetro — [[mat-2008-f1-q20]]
-- áreas — [[mat-2008-f1-q07]], [[mat-2011-f1-q18]], [[mat-2011-f1-q30]], [[mat-2018-f1-q11]]
+- áreas — [[mat-2008-f1-q07]], [[mat-2011-f1-q18]], [[mat-2011-f1-q30]], [[mat-2018-f1-q11]], [[mat-2026-f1-q05]]
 - áreas (quadrado — [[mat-2011-f1-q16]]
+- áreas de quadriláteros — [[mat-2024-f1-q45]]
+- ângulo agudo — [[mat-2022-f1-q55]]
 - ângulo central — [[mat-2020-f2-q08]]
 - ângulo inscrito — [[mat-2013-f1-q16]], [[mat-2020-f2-q08]]
 - ângulo reto inscrito — [[mat-2015-f1-q17]]
@@ -558,9 +683,32 @@
 - ângulos inscritos — [[mat-2011-f1-q29]]
 - ângulos internos — [[mat-2008-f1-q18]]
 
+### geometria plana / sólidos de revolução
+- cone — [[mat-2025-f1-q09]]
+- intersecção de circunferências — [[mat-2025-f1-q09]]
+- volume de sólido de revolução — [[mat-2025-f1-q09]]
+
+### geometria plana, geometria espacial
+- triângulo retângulo — [[mat-2023-f1-q46]]
+- volume do sólido de rotação — [[mat-2023-f1-q46]]
+
+### geometria plana, progressões
+- polígonos convexos — [[mat-2023-f1-q39]]
+- ângulos internos em PA — [[mat-2023-f1-q39]]
+
+### geometria plana, trigonometria
+- otimização de distância — [[mat-2023-f1-q42]]
+- retângulo; tangente de ângulo entre segmentos — [[mat-2019-f1-q37]]
+- triângulo retângulo — [[mat-2023-f1-q42]]
+
+### inequações
+- conjunto solução em R — [[mat-2021-f1-q42]]
+- inequação racional/polinomial — [[mat-2021-f1-q42]]
+
 ### logaritmos
 - análise de funções polinomiais — [[mat-2019-f2-q04]]
 - análise de sinais — [[mat-2012-f1-q29]], [[mat-2023-f2-q03]]
+- aproximações numéricas — [[mat-2026-f1-q02]]
 - base do logaritmo — [[mat-2013-f1-q22]]
 - base fracionária — [[mat-2011-f1-q24]]
 - base variável — [[mat-2009-f1-q21]], [[mat-2012-f1-q29]], [[mat-2016-f1-q21]], [[mat-2023-f2-q03]]
@@ -593,21 +741,26 @@
 - manipulação algébrica — [[mat-2013-f1-q05]]
 - manipulação de log — [[mat-2025-f2-q05]]
 - monotonicidade de função logarítmica — [[mat-2016-f1-q01]]
-- mudança de base — [[mat-2014-f1-q03]], [[mat-2014-f1-q22]], [[mat-2017-f1-q10]], [[mat-2018-f1-q09]]
+- mudança de base — [[mat-2014-f1-q03]], [[mat-2014-f1-q22]], [[mat-2017-f1-q10]], [[mat-2018-f1-q09]], [[mat-2022-f1-q41]], [[mat-2026-f1-q02]]
 - mudança de variável — [[mat-2008-f1-q14]], [[mat-2013-f1-q04]], [[mat-2019-f2-q04]]
 - módulo — [[mat-2008-f1-q14]]
 - ordem de grandeza — [[mat-2016-f1-q02]]
 - otimização em intervalo fechado — [[mat-2019-f2-q04]]
 - parte inteira de raiz — [[mat-2016-f1-q02]]
 - primeiro algarismo de potência — [[mat-2025-f2-q05]]
-- propriedades de logaritmos — [[mat-2011-f1-q24]], [[mat-2014-f1-q03]], [[mat-2014-f1-q22]], [[mat-2017-f1-q10]], [[mat-2019-f2-q04]]
+- propriedades de logaritmo — [[mat-2022-f1-q41]]
+- propriedades de logaritmos — [[mat-2011-f1-q24]], [[mat-2014-f1-q03]], [[mat-2014-f1-q22]], [[mat-2017-f1-q10]], [[mat-2019-f2-q04]], [[mat-2026-f1-q02]]
 - propriedades do logaritmo natural — [[mat-2013-f1-q05]]
 - propriedades dos logaritmos — [[mat-2018-f1-q09]]
 - sistemas com radicais — [[mat-2013-f1-q05]]
 - solução em R — [[mat-2017-f1-q22]]
+- soma de logs em bases distintas — [[mat-2022-f1-q41]]
 - soma de raízes — [[mat-2013-f1-q04]]
 - somatórios — [[mat-2014-f1-q03]]
 - trigonometria — [[mat-2012-f1-q29]]
+
+### logaritmos, exponenciais
+- produto de logaritmos encadeados; mudança de base — [[mat-2020-f1-q41]]
 
 ### matrizes
 - análise de afirmações — [[mat-2014-f1-q09]]
@@ -637,7 +790,7 @@
 - matriz 2×2 por lei de formação — [[mat-2015-f1-q13]]
 - matriz antissimétrica — [[mat-2014-f1-q08]], [[mat-2014-f1-q09]]
 - matriz escalar — [[mat-2011-f1-q25]]
-- matriz inversa — [[mat-2010-f1-q14]], [[mat-2012-f1-q24]]
+- matriz inversa — [[mat-2010-f1-q14]], [[mat-2012-f1-q24]], [[mat-2026-f1-q07]]
 - matriz inversa à esquerda — [[mat-2016-f1-q24]]
 - matriz inversível — [[mat-2011-f1-q07]], [[mat-2014-f1-q08]]
 - matriz invertível — [[mat-2023-f2-q02]]
@@ -656,6 +809,7 @@
 - paridade de ordem — [[mat-2014-f1-q08]]
 - potências de matriz — [[mat-2015-f1-q13]]
 - produto de matrizes — [[mat-2009-f1-q26]], [[mat-2014-f1-q09]], [[mat-2016-f1-q11]]
+- produto matricial — [[mat-2026-f1-q07]]
 - progressão aritmética — [[mat-2022-f2-q03]]
 - progressão geométrica — [[mat-2009-f1-q11]], [[mat-2010-f1-q14]]
 - propriedade det(A⁻¹) = 1/det(A) — [[mat-2010-f1-q14]]
@@ -674,12 +828,29 @@
 - traço de matriz — [[mat-2009-f1-q11]]
 - álgebra matricial — [[mat-2009-f1-q09]], [[mat-2018-f1-q13]]
 
+### matrizes / álgebra linear
+- asserções I-III — [[mat-2026-f1-q03]]
+- matriz simétrica — [[mat-2026-f1-q03]]
+- matriz singular — [[mat-2026-f1-q03]]
+- progressão aritmética em linhas — [[mat-2026-f1-q03]]
+
+### matrizes, determinantes
+- equação envolvendo det(A) — [[mat-2023-f1-q37]]
+- matrizes inversíveis com elementos inteiros; propriedades — [[mat-2019-f1-q45]]
+- propriedades do determinante — [[mat-2023-f1-q37]]
+
+### matrizes, probabilidade
+- matrizes nilpotentes; probabilidade de L² = 0 e R² = 0 — [[mat-2020-f1-q55]]
+
 ### números complexos
 - análise de afirmações — [[mat-2014-f1-q05]]
 - arcsen e arctg — [[mat-2015-f1-q03]]
 - argumento — [[mat-2012-f1-q04]]
+- argumento e módulo — [[mat-2024-f1-q46]]
 - argumento principal — [[mat-2010-f1-q04]], [[mat-2013-f1-q03]], [[mat-2013-f1-q21]]
 - argumento real — [[mat-2012-f1-q03]]
+- comprimento do lado — [[mat-2021-f1-q54]]
+- condições para z1 e z2 serem reais — [[mat-2022-f1-q44]]
 - conjugado — [[mat-2010-f1-q03]], [[mat-2010-f1-q04]], [[mat-2011-f1-q02]], [[mat-2014-f1-q04]], [[mat-2014-f1-q05]], [[mat-2017-f1-q15]]
 - conjuntos no plano complexo — [[mat-2015-f1-q24]]
 - contagem — [[mat-2011-f1-q22]]
@@ -697,7 +868,7 @@
 - esboço de conjuntos — [[mat-2009-f1-q22]]
 - expansão binomial — [[mat-2022-f2-q02]]
 - forma algébrica — [[mat-2022-f2-q02]]
-- forma polar — [[mat-2008-f1-q22]], [[mat-2011-f1-q02]], [[mat-2013-f1-q03]], [[mat-2015-f1-q03]], [[mat-2016-f1-q12]], [[mat-2017-f1-q15]], [[mat-2021-f2-q06]]
+- forma polar — [[mat-2008-f1-q22]], [[mat-2011-f1-q02]], [[mat-2013-f1-q03]], [[mat-2015-f1-q03]], [[mat-2016-f1-q12]], [[mat-2017-f1-q15]], [[mat-2021-f2-q06]], [[mat-2024-f1-q46]]
 - forma trigonométrica — [[mat-2009-f1-q04]], [[mat-2010-f1-q03]], [[mat-2011-f1-q01]], [[mat-2012-f1-q03]], [[mat-2013-f1-q21]], [[mat-2018-f1-q24]], [[mat-2020-f2-q06]]
 - fórmula de De Moivre — [[mat-2009-f1-q04]], [[mat-2012-f1-q03]], [[mat-2018-f1-q24]], [[mat-2020-f2-q06]]
 - geometria do disco — [[mat-2019-f2-q03]]
@@ -716,22 +887,26 @@
 - módulo de complexo — [[mat-2008-f1-q02]], [[mat-2010-f1-q03]], [[mat-2017-f1-q15]], [[mat-2018-f1-q10]]
 - módulo de diferenças — [[mat-2011-f1-q22]]
 - módulo de número complexo — [[mat-2013-f1-q02]], [[mat-2013-f1-q03]]
-- módulo e argumento — [[mat-2019-f2-q03]]
+- módulo e argumento — [[mat-2019-f2-q03]], [[mat-2026-f1-q01]]
 - módulo e distância — [[mat-2015-f1-q02]]
 - operações algébricas — [[mat-2008-f1-q02]]
 - operações com conjuntos — [[mat-2015-f1-q02]]
+- operações em C — [[mat-2026-f1-q01]]
 - otimização — [[mat-2015-f1-q24]]
 - otimização do argumento — [[mat-2019-f2-q03]]
 - parametrização — [[mat-2013-f1-q21]]
 - parte imaginária — [[mat-2022-f2-q02]]
+- parte real — [[mat-2026-f1-q01]]
 - parte real e imaginária — [[mat-2009-f1-q22]], [[mat-2010-f1-q04]], [[mat-2011-f1-q03]]
 - parte real positiva — [[mat-2013-f1-q10]]
 - plano de Argand-Gauss — [[mat-2020-f2-q07]]
 - polígono regular — [[mat-2018-f1-q08]]
 - potenciação de complexos — [[mat-2009-f1-q04]], [[mat-2010-f1-q03]], [[mat-2016-f1-q12]]
+- potência de complexos — [[mat-2024-f1-q46]]
 - potências de complexo — [[mat-2021-f2-q06]]
 - potências de complexos — [[mat-2011-f1-q01]], [[mat-2013-f1-q21]], [[mat-2015-f1-q03]], [[mat-2022-f2-q02]]
 - potências de z — [[mat-2020-f2-q06]]
+- produto e quociente reais — [[mat-2022-f1-q44]]
 - propriedades do argumento — [[mat-2012-f1-q04]]
 - raiz puramente imaginária — [[mat-2017-f1-q18]]
 - raízes complexas — [[mat-2013-f1-q10]]
@@ -744,11 +919,37 @@
 - simetria — [[mat-2011-f1-q22]]
 - sistema de equações — [[mat-2022-f2-q02]]
 - sistemas com complexos — [[mat-2016-f1-q12]]
+- soma — [[mat-2022-f1-q44]]
 - soma de cossenos — [[mat-2018-f1-q24]]
 - soma de progressão geométrica — [[mat-2011-f1-q01]]
 - soma de raízes — [[mat-2011-f1-q03]], [[mat-2013-f1-q02]], [[mat-2013-f1-q10]]
 - transformações no plano complexo — [[mat-2020-f2-q07]]
+- triângulo equilátero no plano complexo — [[mat-2021-f1-q54]]
 - área de polígono no plano complexo — [[mat-2018-f1-q08]]
+
+### números complexos / geometria analítica
+- módulo e potências de complexos — [[mat-2025-f1-q01]]
+- plano de Argand-Gauss — [[mat-2025-f1-q01]]
+- área de triângulo — [[mat-2025-f1-q01]]
+
+### números complexos / geometria plana
+- polígono no plano de Argand-Gauss — [[mat-2026-f1-q04]]
+- raízes de equação complexa — [[mat-2026-f1-q04]]
+- área — [[mat-2026-f1-q04]]
+
+### números complexos, geometria plana
+- raízes n-ésimas; área de triângulo no plano de Argand-Gauss — [[mat-2019-f1-q42]]
+
+### números complexos, sequências
+- iteração de função complexa — [[mat-2023-f1-q38]]
+- periodicidade — [[mat-2023-f1-q38]]
+
+### números complexos, sequências, progressões
+- potências de complexos — [[mat-2023-f1-q43]]
+- soma de série geométrica — [[mat-2023-f1-q43]]
+
+### números complexos, séries
+- parte real de soma infinita de PG complexa — [[mat-2020-f1-q43]]
 
 ### números reais
 - análise de afirmações — [[mat-2014-f1-q01]], [[mat-2015-f1-q01]]
@@ -795,6 +996,11 @@
 - teoria dos conjuntos — [[mat-2010-f1-q01]], [[mat-2013-f1-q01]]
 - teoria dos números — [[mat-2020-f2-q03]]
 
+### números reais, lógica
+- análise de afirmações sobre racionalidade de a — [[mat-2020-f1-q52]]
+- p — [[mat-2020-f1-q52]]
+- q — [[mat-2020-f1-q52]]
+
 ### polinômios
 - MDC de polinômios — [[mat-2021-f2-q05]]
 - MMC de polinômios — [[mat-2018-f1-q29]]
@@ -808,12 +1014,14 @@
 - coeficientes inteiros — [[mat-2015-f1-q25]]
 - coeficientes reais — [[mat-2012-f1-q08]]
 - composição de funções — [[mat-2009-f1-q06]]
+- congruências — [[mat-2021-f1-q55]]
 - contagem — [[mat-2015-f1-q25]], [[mat-2020-f2-q09]]
 - derivada de polinômio — [[mat-2011-f1-q08]], [[mat-2015-f1-q07]]
 - derivada/raízes — [[mat-2020-f2-q05]]
 - divisibilidade — [[mat-2012-f1-q08]], [[mat-2020-f2-q09]]
 - divisibilidade de polinômios — [[mat-2018-f1-q29]]
 - divisibilidade polinomial — [[mat-2011-f1-q12]]
+- divisibilidade; relações de Girard; valor de polinômio — [[mat-2020-f1-q50]]
 - divisão de polinômios — [[mat-2016-f1-q29]], [[mat-2025-f2-q01]]
 - divisão polinomial — [[mat-2014-f1-q12]], [[mat-2015-f1-q08]], [[mat-2021-f2-q05]], [[mat-2023-f2-q04]]
 - equações polinomiais — [[mat-2022-f2-q01]]
@@ -831,9 +1039,11 @@
 - multiplicidade de raízes — [[mat-2009-f1-q06]], [[mat-2010-f1-q08]]
 - módulo de polinômios — [[mat-2010-f1-q10]]
 - módulo de raízes — [[mat-2016-f1-q18]]
+- p(51) e p(3) — [[mat-2021-f1-q55]]
 - perímetro de retângulo — [[mat-2022-f2-q01]]
 - polinômio com coeficientes complexos — [[mat-2016-f1-q18]]
-- polinômio cúbico — [[mat-2012-f1-q06]]
+- polinômio com coeficientes inteiros — [[mat-2021-f1-q55]]
+- polinômio cúbico — [[mat-2012-f1-q06]], [[mat-2026-f1-q08]]
 - polinômio de grau 3 com parâmetro real — [[mat-2015-f1-q22]]
 - polinômio de grau 4 — [[mat-2015-f1-q25]]
 - polinômio de grau 5 — [[mat-2014-f1-q06]]
@@ -853,16 +1063,18 @@
 - raízes da unidade — [[mat-2023-f2-q04]]
 - raízes de polinômio — [[mat-2008-f1-q08]], [[mat-2009-f1-q05]]
 - raízes em progressão aritmética — [[mat-2014-f1-q06]]
+- raízes em progressão geométrica — [[mat-2024-f1-q42]]
 - raízes inteiras — [[mat-2020-f2-q09]]
 - raízes múltiplas — [[mat-2010-f1-q09]], [[mat-2016-f1-q15]]
 - raízes racionais — [[mat-2011-f1-q12]]
-- raízes reais — [[mat-2017-f1-q23]], [[mat-2022-f2-q01]]
+- raízes reais — [[mat-2017-f1-q23]], [[mat-2022-f2-q01]], [[mat-2026-f1-q08]]
 - raízes simétricas — [[mat-2010-f1-q25]]
 - recorrência — [[mat-2010-f1-q10]]
 - redução de potências — [[mat-2018-f1-q02]]
 - relações algébricas — [[mat-2018-f1-q02]]
-- relações de Girard — [[mat-2010-f1-q09]], [[mat-2011-f1-q08]], [[mat-2011-f1-q10]], [[mat-2012-f1-q06]], [[mat-2013-f1-q09]], [[mat-2014-f1-q06]], [[mat-2015-f1-q07]], [[mat-2016-f1-q18]], [[mat-2019-f2-q01]], [[mat-2025-f2-q07]]
+- relações de Girard — [[mat-2010-f1-q09]], [[mat-2011-f1-q08]], [[mat-2011-f1-q10]], [[mat-2012-f1-q06]], [[mat-2013-f1-q09]], [[mat-2014-f1-q06]], [[mat-2015-f1-q07]], [[mat-2016-f1-q18]], [[mat-2019-f2-q01]], [[mat-2024-f1-q42]], [[mat-2025-f2-q07]]
 - resto — [[mat-2016-f1-q29]]
+- simetria p(2+x) = -p(2-x) — [[mat-2026-f1-q08]]
 - sistema linear nas raízes — [[mat-2012-f1-q06]]
 - sistemas com parâmetros — [[mat-2019-f2-q01]]
 - sistemas lineares — [[mat-2010-f1-q09]]
@@ -873,8 +1085,35 @@
 - teorema das raízes racionais — [[mat-2020-f2-q09]]
 - teorema do resto — [[mat-2015-f1-q08]], [[mat-2025-f2-q01]]
 - triângulo retângulo — [[mat-2025-f2-q07]]
+- valor mínimo — [[mat-2026-f1-q08]]
 - valor mínimo de função — [[mat-2020-f2-q05]]
 - valor numérico — [[mat-2008-f1-q08]]
+
+### polinômios / análise combinatória
+- contagem — [[mat-2024-f1-q41]]
+- polinômios de grau 4 — [[mat-2024-f1-q41]]
+- soma das raízes (relações de Girard) — [[mat-2024-f1-q41]]
+
+### polinômios / números complexos
+- MDC de polinômios — [[mat-2025-f1-q10]]
+- raízes complexas — [[mat-2025-f1-q10]]
+- raízes comuns — [[mat-2025-f1-q10]]
+
+### polinômios, análise combinatória
+- expansão polinomial — [[mat-2023-f1-q48]]
+- soma de coeficientes de potências múltiplas de 3 — [[mat-2023-f1-q48]]
+
+### polinômios, equações algébricas
+- média harmônica de raízes — [[mat-2023-f1-q40]]
+- relações de Girard — [[mat-2023-f1-q40]]
+
+### polinômios, números complexos
+- raízes de polinômio com relação entre parte real e imaginária — [[mat-2020-f1-q48]]
+- raízes de polinômio de grau 4 no plano complexo — [[mat-2022-f1-q45]]
+- área de quadrilátero — [[mat-2022-f1-q45]]
+
+### polinômios, progressões
+- raízes em PA; soma de coeficientes — [[mat-2019-f1-q38]]
 
 ### probabilidade
 - análise combinatória — [[mat-2019-f2-q10]], [[mat-2025-f2-q06]]
@@ -903,7 +1142,7 @@
 - eventos — [[mat-2013-f1-q11]]
 - eventos complementares — [[mat-2018-f1-q19]]
 - eventos compostos — [[mat-2008-f1-q01]], [[mat-2011-f1-q04]]
-- eventos independentes — [[mat-2012-f1-q02]], [[mat-2017-f1-q19]], [[mat-2018-f1-q19]]
+- eventos independentes — [[mat-2012-f1-q02]], [[mat-2017-f1-q19]], [[mat-2018-f1-q19]], [[mat-2023-f1-q45]]
 - eventos sucessivos — [[mat-2021-f2-q10]]
 - identidade de Vandermonde — [[mat-2018-f1-q26]]
 - independência — [[mat-2008-f1-q27]]
@@ -921,6 +1160,7 @@
 - probabilidade do complementar — [[mat-2012-f1-q02]], [[mat-2017-f1-q19]]
 - probabilidade do enésimo sucesso — [[mat-2025-f2-q06]]
 - probabilidade em conjuntos finitos — [[mat-2019-f2-q10]]
+- probabilidade em jogos sequenciais — [[mat-2023-f1-q45]]
 - probabilidade hipergeométrica — [[mat-2018-f1-q26]]
 - probabilidade total — [[mat-2009-f1-q12]], [[mat-2010-f1-q26]]
 - proporcionalidade inversa — [[mat-2017-f1-q19]]
@@ -933,6 +1173,10 @@
 - união de eventos — [[mat-2012-f1-q02]], [[mat-2017-f1-q19]]
 - união e interseção — [[mat-2013-f1-q11]]
 - união e interseção de eventos — [[mat-2008-f1-q27]]
+
+### probabilidade, geometria espacial
+- dodecaedro regular — [[mat-2021-f1-q52]]
+- probabilidade de dois vértices pertencerem à mesma aresta — [[mat-2021-f1-q52]]
 
 ### progressões
 - PA — [[mat-2018-f1-q18]]
@@ -964,6 +1208,19 @@
 - termo geral — [[mat-2018-f1-q18]]
 - termo independente — [[mat-2018-f1-q03]]
 
+### progressões / geometria analítica
+- circunferências tangentes externamente — [[mat-2026-f1-q12]]
+- parâmetros — [[mat-2026-f1-q12]]
+- progressão geométrica — [[mat-2026-f1-q12]]
+
+### progressões aritméticas, geometria plana
+- desigualdade triangular — [[mat-2021-f1-q49]]
+- perímetro fixo — [[mat-2021-f1-q49]]
+- triângulos com lados em PA — [[mat-2021-f1-q49]]
+
+### progressões, números reais
+- PG e relação pitagórica; razão e soma de valores — [[mat-2020-f1-q42]]
+
 ### sequências
 - análise de afirmações — [[mat-2015-f1-q05]], [[mat-2016-f1-q05]]
 - divisibilidade — [[mat-2015-f1-q05]]
@@ -973,6 +1230,14 @@
 - progressão geométrica — [[mat-2015-f1-q05]]
 - sequência de Fibonacci — [[mat-2015-f1-q05]]
 - sequência recursiva — [[mat-2016-f1-q05]]
+
+### sequências / séries
+- asserções I-III — [[mat-2025-f1-q05]]
+- progressões aritméticas e geométricas — [[mat-2025-f1-q05]]
+- somas parciais — [[mat-2025-f1-q05]]
+
+### sequências, progressões, números reais
+- somas; equações; PA com raízes — [[mat-2019-f1-q43]]
 
 ### sistemas e progressões
 - progressões — [[mat-2015-f1-q23]]
@@ -994,7 +1259,8 @@
 - discussão de sistemas — [[mat-2008-f1-q03]], [[mat-2013-f1-q26]]
 - discussão de soluções — [[mat-2009-f1-q10]]
 - equações simétricas — [[mat-2018-f1-q20]]
-- escalonamento — [[mat-2008-f1-q03]], [[mat-2010-f1-q27]], [[mat-2016-f1-q08]]
+- equivalência de sistemas — [[mat-2025-f1-q07]]
+- escalonamento — [[mat-2008-f1-q03]], [[mat-2010-f1-q27]], [[mat-2016-f1-q08]], [[mat-2025-f1-q07]]
 - existência e unicidade — [[mat-2010-f1-q27]]
 - infinitas soluções — [[mat-2018-f1-q14]]
 - manipulação com exponenciais — [[mat-2014-f1-q11]]
@@ -1003,7 +1269,7 @@
 - ortogonalidade — [[mat-2009-f1-q10]]
 - parametrização de soluções — [[mat-2023-f2-q01]]
 - parâmetro — [[mat-2017-f1-q27]]
-- parâmetros — [[mat-2008-f1-q03]], [[mat-2018-f1-q14]]
+- parâmetros — [[mat-2008-f1-q03]], [[mat-2018-f1-q14]], [[mat-2025-f1-q07]]
 - posto de matriz — [[mat-2016-f1-q08]]
 - regra de Cramer — [[mat-2014-f1-q11]]
 - sistema 3x3 — [[mat-2014-f1-q11]]
@@ -1020,17 +1286,36 @@
 - trigonometria — [[mat-2013-f1-q26]]
 - trigonometria (sen — [[mat-2014-f1-q26]]
 
+### sistemas lineares, geometria analítica
+- b) que tornam sistema impossível — [[mat-2019-f1-q41]]
+- lugar geométrico de pares (a — [[mat-2019-f1-q41]]
+
+### teoria dos conjuntos
+- diferença) — [[mat-2024-f1-q37]]
+- identidades — [[mat-2024-f1-q37]]
+- interseção — [[mat-2024-f1-q37]]
+- operações entre conjuntos (união — [[mat-2024-f1-q37]]
+
+### teoria dos números
+- asserções I-III — [[mat-2025-f1-q12]]
+- fatoração em primos — [[mat-2025-f1-q12]]
+- fatorial; contagem de zeros à direita; expoente de 5 em 100! — [[mat-2020-f1-q49]]
+- número de divisores — [[mat-2025-f1-q12]]
+- quadrados perfeitos — [[mat-2025-f1-q12]]
+
 ### trigonometria
+- 2π[ — [[mat-2022-f1-q54]]
+- 2π] — [[mat-2020-f1-q47]]
 - alternância de sinais — [[mat-2012-f1-q18]]
 - análise de soluções — [[mat-2010-f1-q07]]
 - arccotg — [[mat-2010-f1-q07]]
-- arco duplo — [[mat-2013-f1-q15]], [[mat-2019-f2-q02]]
+- arco duplo — [[mat-2013-f1-q15]], [[mat-2019-f2-q02]], [[mat-2024-f1-q39]]
 - arco metade — [[mat-2009-f1-q17]]
 - arco seno — [[mat-2017-f1-q04]]
 - arco-metade — [[mat-2017-f1-q04]]
 - arcsen e arccos — [[mat-2008-f1-q11]], [[mat-2012-f1-q16]]
 - arcsen/arccos — [[mat-2015-f1-q10]]
-- arctg — [[mat-2010-f1-q07]], [[mat-2015-f1-q09]]
+- arctg — [[mat-2010-f1-q07]], [[mat-2015-f1-q09]], [[mat-2024-f1-q39]]
 - combinação linear de sen e cos — [[mat-2012-f1-q22]]
 - conjunto imagem — [[mat-2008-f1-q13]]
 - contagem de soluções — [[mat-2013-f1-q14]]
@@ -1038,13 +1323,17 @@
 - cossecante — [[mat-2017-f1-q02]], [[mat-2017-f1-q29]]
 - cossecante e secante — [[mat-2013-f1-q15]]
 - cosseno da soma — [[mat-2008-f1-q11]]
+- cos⁶(x) — [[mat-2022-f1-q54]]
 - cotangente — [[mat-2010-f1-q28]], [[mat-2013-f1-q15]]
 - derivada/análise de máximo — [[mat-2010-f1-q16]]
 - determinação de quadrante — [[mat-2016-f1-q04]]
 - domínio — [[mat-2012-f1-q16]], [[mat-2022-f2-q05]]
+- domínio de função trigonométrica — [[mat-2025-f1-q08]]
 - domínio em intervalo fechado — [[mat-2017-f1-q02]]
 - equação trigonométrica — [[mat-2008-f1-q16]], [[mat-2009-f1-q27]], [[mat-2010-f1-q28]], [[mat-2012-f1-q17]], [[mat-2017-f1-q29]]
+- equação trigonométrica com cos²(2x) — [[mat-2022-f1-q54]]
 - equação trigonométrica linear (a·sen x + b·cos x) — [[mat-2015-f1-q10]]
+- equação trigonométrica; soma de soluções em [0 — [[mat-2020-f1-q47]]
 - equações transcendentes — [[mat-2010-f1-q07]]
 - equações trigonométricas — [[mat-2013-f1-q14]], [[mat-2013-f1-q27]], [[mat-2015-f1-q11]], [[mat-2017-f1-q02]], [[mat-2018-f1-q12]], [[mat-2019-f2-q02]], [[mat-2022-f2-q05]]
 - frações de volta — [[mat-2011-f1-q14]]
@@ -1061,26 +1350,29 @@
 - identidade do arco duplo — [[mat-2012-f1-q17]]
 - identidade do arco metade — [[mat-2015-f1-q27]]
 - identidade soma de senos — [[mat-2010-f1-q16]]
-- identidades — [[mat-2014-f1-q27]], [[mat-2016-f1-q10]], [[mat-2016-f1-q22]], [[mat-2017-f1-q29]]
+- identidades — [[mat-2014-f1-q27]], [[mat-2016-f1-q10]], [[mat-2016-f1-q22]], [[mat-2017-f1-q29]], [[mat-2026-f1-q10]]
+- identidades de arco duplo — [[mat-2025-f1-q08]]
 - identidades de seno da soma e diferença — [[mat-2019-f2-q09]]
 - identidades de tangente — [[mat-2018-f1-q12]]
 - identidades fundamentais — [[mat-2010-f1-q28]]
-- identidades trigonométricas — [[mat-2008-f1-q13]], [[mat-2009-f1-q17]], [[mat-2010-f1-q15]], [[mat-2011-f1-q28]], [[mat-2013-f1-q14]], [[mat-2013-f1-q15]], [[mat-2013-f1-q27]], [[mat-2014-f1-q13]], [[mat-2015-f1-q11]], [[mat-2016-f1-q04]], [[mat-2019-f2-q02]], [[mat-2021-f2-q09]], [[mat-2023-f2-q05]], [[mat-2023-f2-q09]], [[mat-2025-f2-q03]]
+- identidades trigonométricas — [[mat-2008-f1-q13]], [[mat-2009-f1-q17]], [[mat-2010-f1-q15]], [[mat-2011-f1-q28]], [[mat-2013-f1-q14]], [[mat-2013-f1-q15]], [[mat-2013-f1-q27]], [[mat-2014-f1-q13]], [[mat-2015-f1-q11]], [[mat-2016-f1-q04]], [[mat-2019-f2-q02]], [[mat-2021-f2-q09]], [[mat-2023-f2-q05]], [[mat-2023-f2-q09]], [[mat-2024-f1-q39]], [[mat-2025-f2-q03]]
 - inequações trigonométricas — [[mat-2014-f1-q27]]
 - intervalo de solução — [[mat-2009-f1-q27]]
 - intervalo de validade — [[mat-2025-f2-q03]]
 - intervalo fundamental — [[mat-2013-f1-q14]]
-- intervalos — [[mat-2016-f1-q22]]
+- intervalos — [[mat-2016-f1-q22]], [[mat-2025-f1-q08]]
 - lei dos cossenos — [[mat-2009-f1-q13]], [[mat-2011-f1-q17]], [[mat-2016-f1-q16]]
 - lei dos senos — [[mat-2011-f1-q17]], [[mat-2019-f2-q09]], [[mat-2023-f2-q09]]
 - manipulação algébrica — [[mat-2014-f1-q13]], [[mat-2021-f2-q09]]
 - movimento circular — [[mat-2011-f1-q14]]
 - máximo — [[mat-2012-f1-q22]]
+- número de soluções em [0 — [[mat-2022-f1-q54]]
 - otimização trigonométrica — [[mat-2010-f1-q16]]
 - paridade do índice — [[mat-2012-f1-q18]]
 - perímetro — [[mat-2016-f1-q10]], [[mat-2023-f2-q09]]
 - período de função — [[mat-2008-f1-q13]]
 - potências de seno e cosseno — [[mat-2019-f2-q02]]
+- produto de soluções — [[mat-2026-f1-q10]]
 - produto em soma — [[mat-2010-f1-q15]], [[mat-2011-f1-q28]]
 - radianos — [[mat-2011-f1-q14]]
 - raiz dupla em equação quadrática — [[mat-2009-f1-q13]]
@@ -1096,6 +1388,7 @@
 - seno da soma — [[mat-2025-f2-q03]]
 - seno de arco — [[mat-2009-f1-q27]]
 - simplificação — [[mat-2009-f1-q17]]
+- sistema de equações trigonométricas — [[mat-2026-f1-q10]]
 - sistema de inequações — [[mat-2014-f1-q27]]
 - sistema trigonométrico — [[mat-2016-f1-q22]]
 - sistemas trigonométricos — [[mat-2025-f2-q03]]
@@ -1126,7 +1419,54 @@
 - ângulo notável — [[mat-2011-f1-q28]]
 - ângulo obtuso — [[mat-2011-f1-q17]]
 
+### trigonometria, funções
+- identidades trigonométricas — [[mat-2023-f1-q47]]
+- número de soluções em intervalo — [[mat-2023-f1-q47]]
+
+### trigonometria, geometria
+- classificação — [[mat-2022-f1-q53]]
+- desigualdade trigonométrica — [[mat-2022-f1-q53]]
+- ângulos internos de triângulo — [[mat-2022-f1-q53]]
+
+### trigonometria, geometria plana
+- lei dos cossenos — [[mat-2021-f1-q45]]
+- raio da circunferência inscrita — [[mat-2021-f1-q45]]
+- área de triângulo — [[mat-2021-f1-q45]]
+
+### trigonometria, progressões
+- progressão aritmética com tan(x-r) — [[mat-2022-f1-q47]]
+- tan(x) — [[mat-2022-f1-q47]]
+- tan(x+r) — [[mat-2022-f1-q47]]
+- tangente — [[mat-2022-f1-q47]]
+
+### álgebra linear
+- condições de existência e unicidade — [[mat-2024-f1-q38]]
+- equivalência de soluções — [[mat-2022-f1-q43]]
+- invertibilidade — [[mat-2024-f1-q38]]
+- parâmetro real — [[mat-2022-f1-q43]]
+- sistemas lineares equivalentes — [[mat-2022-f1-q43]]
+- sistemas lineares matriciais — [[mat-2024-f1-q38]]
+
+### álgebra linear, matrizes
+- comutatividade — [[mat-2021-f1-q41]], [[mat-2022-f1-q46]]
+- determinante — [[mat-2021-f1-q41]], [[mat-2022-f1-q46]]
+- invertibilidade — [[mat-2022-f1-q46]]
+- matriz 2x2 atuando em vetores — [[mat-2021-f1-q48]]
+- matrizes simétricas e antissimétricas — [[mat-2021-f1-q41]]
+- transposta vs quadrado — [[mat-2022-f1-q46]]
+- traço da matriz — [[mat-2021-f1-q48]]
+
 ## Física
+
+### MHS / oscilações
+- associação de molas em série — [[fis-2025-f1-q16]]
+- osciladores massa-mola — [[fis-2025-f1-q16]]
+- razão de frequências — [[fis-2025-f1-q16]]
+
+### MHS, dilatação térmica
+- defasagem entre osciladores — [[fis-2024-f1-q06]]
+- dilatação linear — [[fis-2024-f1-q06]]
+- período do pêndulo simples — [[fis-2024-f1-q06]]
 
 ### acústica
 - MHS — [[fis-2022-f2-q03]]
@@ -1163,6 +1503,13 @@
 - velocidade do som em sólidos — [[fis-2012-f1-q01]]
 - velocidade máxima em MHS — [[fis-2022-f2-q03]]
 
+### análise dimensional, eletromagnetismo
+- análise dimensional de constantes em teoria hipotética N-dimensional — [[fis-2020-f1-q01]]
+
+### análise dimensional, sistemas de unidades
+- ordem de grandeza da velocidade da luz — [[fis-2021-f1-q01]]
+- unidades atômicas de Hartree — [[fis-2021-f1-q01]]
+
 ### calorimetria
 - associação de resistores — [[fis-2012-f1-q13]]
 - calor de vaporização — [[fis-2008-f1-q27]]
@@ -1180,6 +1527,7 @@
 - MRUV — [[fis-2016-f1-q05]], [[fis-2018-f1-q08]], [[fis-2023-f2-q01]]
 - alcance horizontal — [[fis-2018-f1-q02]]
 - altura máxima e tempo de voo — [[fis-2016-f1-q05]]
+- análise gráfica — [[fis-2023-f1-q01]]
 - colisão elástica — [[fis-2014-f1-q25]]
 - colisão elástica em duas dimensões — [[fis-2017-f1-q23]]
 - conservação de energia — [[fis-2017-f1-q23]]
@@ -1191,16 +1539,19 @@
 - deslocamento — [[fis-2009-f1-q04]]
 - distância entre trajetórias — [[fis-2009-f1-q09]]
 - distância mínima entre trajetórias — [[fis-2013-f1-q01]]
+- distância percorrida — [[fis-2025-f1-q13]]
 - distância x deslocamento — [[fis-2017-f1-q14]]
 - encontro de móveis — [[fis-2016-f1-q03]]
+- encontro de trajetórias — [[fis-2026-f1-q02]]
 - equação horária do movimento — [[fis-2009-f1-q18]]
 - equivalência — [[fis-2009-f1-q18]]
 - força de arrasto — [[fis-2018-f1-q07]]
+- função horária da posição — [[fis-2025-f1-q13]]
 - geometria vetorial — [[fis-2009-f1-q04]]
 - interpretação de gráficos — [[fis-2018-f1-q08]]
 - intersecção de trajetórias — [[fis-2011-f1-q08]]
-- lançamento horizontal — [[fis-2018-f1-q07]]
-- lançamento oblíquo — [[fis-2009-f1-q09]], [[fis-2011-f1-q08]], [[fis-2017-f1-q23]], [[fis-2018-f1-q02]]
+- lançamento horizontal — [[fis-2018-f1-q07]], [[fis-2023-f1-q01]]
+- lançamento oblíquo — [[fis-2009-f1-q09]], [[fis-2011-f1-q08]], [[fis-2017-f1-q23]], [[fis-2018-f1-q02]], [[fis-2026-f1-q02]]
 - lançamento vertical — [[fis-2009-f1-q09]], [[fis-2016-f1-q05]]
 - leitura de gráfico v-d — [[fis-2017-f1-q14]]
 - movimento de projéteis — [[fis-2018-f1-q02]]
@@ -1213,9 +1564,10 @@
 - projéteis — [[fis-2011-f1-q08]]
 - queda com atrito — [[fis-2023-f2-q01]]
 - queda com resistência do ar — [[fis-2018-f1-q07]]
-- queda livre — [[fis-2009-f1-q18]], [[fis-2014-f1-q25]], [[fis-2016-f1-q05]]
+- queda livre — [[fis-2009-f1-q18]], [[fis-2014-f1-q25]], [[fis-2016-f1-q05]], [[fis-2026-f1-q02]]
 - referenciais inerciais — [[fis-2018-f1-q07]]
 - referencial não inercial — [[fis-2009-f1-q18]]
+- resistência do ar — [[fis-2023-f1-q01]]
 - sequência de espaçamentos de Galileu — [[fis-2023-f2-q01]]
 - simetria de movimento — [[fis-2011-f1-q01]]
 - sistema de equações — [[fis-2009-f1-q03]]
@@ -1224,7 +1576,7 @@
 - velocidade constante — [[fis-2013-f1-q01]]
 - velocidade escalar média — [[fis-2017-f1-q14]]
 - velocidade instantânea — [[fis-2018-f1-q08]]
-- velocidade média — [[fis-2009-f1-q03]], [[fis-2018-f1-q08]]
+- velocidade média — [[fis-2009-f1-q03]], [[fis-2018-f1-q08]], [[fis-2025-f1-q13]]
 - velocidade média escalar — [[fis-2009-f1-q04]]
 - velocidade média vetorial — [[fis-2009-f1-q04]]
 - velocidade relativa — [[fis-2009-f1-q03]]
@@ -1235,10 +1587,28 @@
 - efeito Doppler — [[fis-2021-f2-q01]]
 - movimento relativo — [[fis-2021-f2-q01]]
 
+### cinemática, colisões
+- colisões elásticas entre esferas — [[fis-2021-f1-q03]]
+- deslocamento até o solo — [[fis-2021-f1-q03]]
+- lançamento horizontal — [[fis-2021-f1-q03]]
+
+### cinemática, energia
+- MRU — [[fis-2024-f1-q01]]
+- energia cinética — [[fis-2024-f1-q01]]
+- leitura de curvas de calibração — [[fis-2024-f1-q01]]
+
 ### cinemática, lançamento de projéteis, movimento circular
 - análise de simultaneidade — [[fis-2020-f2-q01]]
 - cinemática angular — [[fis-2020-f2-q01]]
 - decomposição de movimentos — [[fis-2020-f2-q01]]
+
+### cinemática, perseguição
+- comparação de trajetórias retilínea e curva para interceptar alvo móvel — [[fis-2020-f1-q02]]
+
+### cinemática, óptica geométrica
+- queda livre — [[fis-2024-f1-q02]]
+- semelhança de triângulos — [[fis-2024-f1-q02]]
+- velocidade da sombra projetada — [[fis-2024-f1-q02]]
 
 ### circuitos
 - RC — [[fis-2016-f1-q18]]
@@ -1304,6 +1674,15 @@
 - transferência de carga entre capacitores — [[fis-2014-f1-q29]]
 - transferência máxima de potência — [[fis-2022-f2-q07]]
 - transformador ideal — [[fis-2008-f1-q28]]
+
+### circuitos RC
+- constante de tempo — [[fis-2021-f1-q13]]
+- descarga de capacitor — [[fis-2021-f1-q13]]
+- escala temporal de flash — [[fis-2021-f1-q13]]
+
+### circuitos, eletrodinâmica
+- associações em paralelo — [[fis-2023-f1-q09]]
+- modelagem de membrana neuronal por resistor e capacitor — [[fis-2023-f1-q09]]
 
 ### dinâmica
 - MHS — [[fis-2009-f1-q07]], [[fis-2010-f1-q09]], [[fis-2017-f1-q06]]
@@ -1477,21 +1856,74 @@
 - vínculos geométricos — [[fis-2016-f1-q29]]
 - áreas e massas equivalentes — [[fis-2015-f1-q06]]
 
+### dinâmica / energia
+- colisão com mola — [[fis-2026-f1-q03]]
+- energia dissipada — [[fis-2026-f1-q03]]
+- lançamento vertical com resistência do ar — [[fis-2026-f1-q03]]
+
+### dinâmica, colisões
+- centro de massa de esfera com cavidade — [[fis-2024-f1-q03]]
+- coeficiente de restituição — [[fis-2022-f1-q02]], [[fis-2024-f1-q03]]
+- conservação do momento — [[fis-2022-f1-q02]]
+- lançamento vertical — [[fis-2022-f1-q02]]
+- queda livre — [[fis-2022-f1-q02]], [[fis-2024-f1-q03]]
+
 ### dinâmica, eletromagnetismo
 - força magnética sobre carga — [[fis-2021-f2-q02]]
 - movimento circular em plano inclinado — [[fis-2021-f2-q02]]
 - tração em fio — [[fis-2021-f2-q02]]
+
+### dinâmica, energia
+- esforço médio da locomotiva — [[fis-2021-f1-q02]]
+- resistências passivas — [[fis-2021-f1-q02]]
+- trem com aceleração constante — [[fis-2021-f1-q02]]
+
+### dinâmica, energia, atrito
+- lançamento vertical com resistência do ar; reflexões elásticas — [[fis-2020-f1-q06]]
+
+### dinâmica, estática
+- equilíbrio de sistema rotacional com mola — [[fis-2023-f1-q02]]
+- pontos de equilíbrio estável/instável — [[fis-2023-f1-q02]]
+
+### dinâmica, movimento circular
+- análise de duas partículas presas em corda; forças e tensões — [[fis-2019-f1-q02]]
+- conservação de energia em escorregador curvo — [[fis-2022-f1-q04]]
+- força centrípeta — [[fis-2022-f1-q04]]
+- reação normal — [[fis-2022-f1-q04]]
+
+### dinâmica, oscilações
+- bloco suspenso por molas; tensão máxima após travamento súbito — [[fis-2020-f1-q03]]
 
 ### dinâmica, oscilações, trabalho e energia
 - MHS amortecido por atrito — [[fis-2020-f2-q03]]
 - conservação de energia — [[fis-2020-f2-q03]]
 - quantidade de movimento — [[fis-2020-f2-q03]]
 
+### dinâmica, trabalho e energia
+- bola em rotação e queda; conservação de energia/momento angular — [[fis-2019-f1-q07]]
+- conservação de energia — [[fis-2023-f1-q04]]
+- movimento circular — [[fis-2023-f1-q04]]
+- trabalho da força viscosa — [[fis-2023-f1-q04]]
+
+### eletricidade / circuitos
+- análise gráfica — [[fis-2025-f1-q22]]
+- análise gráfica V vs R1/R2 — [[fis-2026-f1-q09]]
+- divisor de tensão — [[fis-2026-f1-q09]]
+- ponte de Wheatstone — [[fis-2025-f1-q22]]
+- potenciômetro — [[fis-2026-f1-q09]]
+- reostato — [[fis-2025-f1-q22]]
+- resistência equivalente — [[fis-2025-f1-q22]]
+- voltímetro — [[fis-2026-f1-q09]]
+
 ### eletrodinâmica
 - MRUV — [[fis-2009-f1-q02]]
 - associação de resistores — [[fis-2016-f1-q27]]
+- associações em série e paralelo — [[fis-2021-f1-q12]]
 - balanço térmico em condutor — [[fis-2011-f1-q16]]
+- capacitor e fonte; carregamento — [[fis-2020-f1-q12]]
 - cinemática — [[fis-2009-f1-q02]]
+- circuito com reostato — [[fis-2020-f1-q12]]
+- curvas características de resistores — [[fis-2021-f1-q12]]
 - dissipação de calor — [[fis-2011-f1-q16]]
 - efeito Joule — [[fis-2011-f1-q16]]
 - esboço de gráfico — [[fis-2016-f1-q27]]
@@ -1511,17 +1943,21 @@
 - resistência interna — [[fis-2012-f1-q05]]
 - segunda lei de Ohm — [[fis-2008-f1-q25]]
 
+### eletrodinâmica, circuitos
+- bateria de células voltaicas em série; carga por fonte de corrente — [[fis-2019-f1-q05]]
+
 ### eletromagnetismo
 - FEM induzida — [[fis-2009-f1-q14]], [[fis-2009-f1-q29]], [[fis-2016-f1-q19]]
 - FEM induzida em fluido condutor — [[fis-2016-f1-q11]]
 - aceleração de carga em campo elétrico — [[fis-2013-f1-q30]]
 - análise gráfica i×d — [[fis-2025-f2-q09]]
+- asserções I-V — [[fis-2026-f1-q10]]
 - associação de resistores — [[fis-2018-f1-q30]]
 - autoindução — [[fis-2013-f1-q11]]
 - balança de corrente — [[fis-2025-f2-q09]]
 - bétatron — [[fis-2017-f1-q12]]
 - campo de fio retilíneo — [[fis-2011-f1-q28]]
-- campo de solenoide — [[fis-2010-f1-q19]]
+- campo de solenoide — [[fis-2010-f1-q19]], [[fis-2024-f1-q11]]
 - campo magnético de espira circular — [[fis-2011-f1-q28]], [[fis-2018-f1-q30]]
 - campo magnético de espiras — [[fis-2014-f1-q28]]
 - campo magnético de fio retilíneo — [[fis-2019-f2-q06]]
@@ -1531,7 +1967,8 @@
 - circuitos em série — [[fis-2015-f1-q27]]
 - conservação de energia — [[fis-2017-f1-q13]], [[fis-2023-f2-q09]]
 - corrente induzida — [[fis-2014-f1-q11]]
-- correntes de Foucault — [[fis-2017-f1-q21]]
+- corrente induzida em espira — [[fis-2025-f1-q23]]
+- correntes de Foucault — [[fis-2017-f1-q21]], [[fis-2026-f1-q10]]
 - correntes em sentidos opostos — [[fis-2012-f1-q29]]
 - correntes induzidas — [[fis-2017-f1-q21]]
 - decomposição de velocidades — [[fis-2022-f2-q08]]
@@ -1549,15 +1986,18 @@
 - equilíbrio eletrostático em campo magnético — [[fis-2016-f1-q11]]
 - equilíbrio em plano inclinado — [[fis-2009-f1-q14]]
 - espectrômetro de massa — [[fis-2022-f2-q08]]
+- espira circular; fluxo magnético e indução — [[fis-2019-f1-q12]]
 - estimativa do campo B — [[fis-2025-f2-q09]]
 - fator de Lorentz — [[fis-2014-f1-q08]]
 - fem de movimento — [[fis-2018-f1-q25]]
 - fem induzida — [[fis-2017-f1-q12]]
 - fem induzida em espira — [[fis-2010-f1-q19]]
 - fluxo em campo não uniforme — [[fis-2021-f2-q09]]
-- fluxo magnético — [[fis-2008-f1-q10]], [[fis-2009-f1-q29]], [[fis-2011-f1-q18]], [[fis-2012-f1-q30]], [[fis-2014-f1-q11]], [[fis-2016-f1-q19]], [[fis-2025-f2-q01]]
-- força de Lorentz — [[fis-2016-f1-q11]], [[fis-2022-f2-q08]]
-- força magnética — [[fis-2009-f1-q14]]
+- fluxo magnético — [[fis-2008-f1-q10]], [[fis-2009-f1-q29]], [[fis-2011-f1-q18]], [[fis-2012-f1-q30]], [[fis-2014-f1-q11]], [[fis-2016-f1-q19]], [[fis-2023-f1-q11]], [[fis-2025-f2-q01]]
+- fluxo magnético em sonda — [[fis-2024-f1-q11]]
+- fluxo magnético variável — [[fis-2025-f1-q23]]
+- força de Lorentz — [[fis-2016-f1-q11]], [[fis-2022-f1-q12]], [[fis-2022-f2-q08]]
+- força magnética — [[fis-2009-f1-q14]], [[fis-2024-f1-q10]]
 - força magnética em condutor — [[fis-2022-f2-q09]]
 - força magnética entre fios paralelos — [[fis-2012-f1-q29]], [[fis-2018-f1-q18]], [[fis-2023-f2-q09]]
 - força magnética sobre carga — [[fis-2011-f1-q28]]
@@ -1566,23 +2006,27 @@
 - força sobre corrente — [[fis-2010-f1-q19]]
 - força sobre ímã em queda — [[fis-2017-f1-q21]]
 - frequências altas — [[fis-2014-f1-q28]]
+- geometria do raio — [[fis-2024-f1-q10]]
 - gerador de corrente constante — [[fis-2008-f1-q11]]
 - gravidade vs força magnética — [[fis-2019-f2-q06]]
-- indução — [[fis-2014-f1-q28]]
-- indução eletromagnética — [[fis-2008-f1-q10]], [[fis-2009-f1-q14]], [[fis-2009-f1-q29]], [[fis-2010-f1-q19]], [[fis-2011-f1-q18]], [[fis-2014-f1-q11]], [[fis-2018-f1-q25]], [[fis-2021-f2-q09]], [[fis-2022-f2-q09]]
+- indução — [[fis-2014-f1-q28]], [[fis-2024-f1-q11]]
+- indução eletromagnética — [[fis-2008-f1-q10]], [[fis-2009-f1-q14]], [[fis-2009-f1-q29]], [[fis-2010-f1-q19]], [[fis-2011-f1-q18]], [[fis-2014-f1-q11]], [[fis-2018-f1-q25]], [[fis-2021-f2-q09]], [[fis-2022-f2-q09]], [[fis-2023-f1-q11]], [[fis-2026-f1-q10]]
 - indução eletromagnética (fem de movimento) — [[fis-2023-f2-q09]]
 - lei de Ampère — [[fis-2012-f1-q29]], [[fis-2018-f1-q18]], [[fis-2019-f2-q06]]
 - lei de Biot-Savart — [[fis-2018-f1-q30]]
-- lei de Faraday — [[fis-2008-f1-q10]], [[fis-2009-f1-q29]], [[fis-2011-f1-q18]], [[fis-2012-f1-q30]], [[fis-2013-f1-q11]], [[fis-2016-f1-q19]], [[fis-2017-f1-q12]], [[fis-2018-f1-q25]], [[fis-2022-f2-q09]]
-- lei de Lenz — [[fis-2008-f1-q11]], [[fis-2014-f1-q11]], [[fis-2017-f1-q21]]
+- lei de Faraday — [[fis-2008-f1-q10]], [[fis-2009-f1-q29]], [[fis-2011-f1-q18]], [[fis-2012-f1-q30]], [[fis-2013-f1-q11]], [[fis-2016-f1-q19]], [[fis-2017-f1-q12]], [[fis-2018-f1-q25]], [[fis-2022-f2-q09]], [[fis-2024-f1-q11]], [[fis-2025-f1-q23]]
+- lei de Lenz — [[fis-2008-f1-q11]], [[fis-2014-f1-q11]], [[fis-2017-f1-q21]], [[fis-2023-f1-q11]]
 - lei de Ohm — [[fis-2016-f1-q19]]
 - movimento circular de carga em campo B — [[fis-2025-f2-q01]]
+- movimento circular de partícula carregada — [[fis-2024-f1-q10]]
 - movimento de carga em campo magnético — [[fis-2022-f2-q08]]
 - movimento de carga em campo magnético uniforme — [[fis-2013-f1-q30]]
+- movimento de carga em campos E e B cruzados — [[fis-2022-f1-q12]]
 - movimento de carga em campos cruzados — [[fis-2017-f1-q13]]
 - oscilador mola-massa — [[fis-2023-f2-q09]]
 - potência elétrica — [[fis-2015-f1-q27]]
 - quantum de fluxo magnético — [[fis-2025-f2-q01]]
+- queda de ímã em tubo condutor — [[fis-2026-f1-q10]]
 - raio de Larmor — [[fis-2022-f2-q08]]
 - referenciais inerciais — [[fis-2014-f1-q08]]
 - regime transitório — [[fis-2013-f1-q11]]
@@ -1593,6 +2037,7 @@
 - resistência e corrente induzida — [[fis-2012-f1-q30]]
 - solenoide — [[fis-2009-f1-q29]]
 - superposição de campos — [[fis-2011-f1-q28]]
+- tempo para atingir altura — [[fis-2022-f1-q12]]
 - teorema do trabalho-energia — [[fis-2013-f1-q30]]
 - torque magnético — [[fis-2014-f1-q28]]
 - trajetória circular — [[fis-2013-f1-q30]]
@@ -1600,17 +2045,30 @@
 - variação temporal de corrente — [[fis-2013-f1-q11]]
 - velocidade terminal — [[fis-2021-f2-q09]], [[fis-2022-f2-q09]]
 
+### eletromagnetismo / corrente elétrica
+- corrente em feixe de elétrons (MEV) — [[fis-2026-f1-q01]]
+- densidade de carga — [[fis-2026-f1-q01]]
+- fluxo de carga — [[fis-2026-f1-q01]]
+
+### eletromagnetismo, dinâmica
+- cilindro com espiras em plano inclinado; campo magnético; atrito — [[fis-2020-f1-q10]]
+
+### eletromagnetismo, magnetismo
+- campo gravitacional — [[fis-2023-f1-q10]]
+- conservação da energia cinética — [[fis-2023-f1-q10]]
+- força magnética sobre carga — [[fis-2023-f1-q10]]
+
 ### eletrostática
 - análise de proposições — [[fis-2012-f1-q16]]
 - análise dimensional — [[fis-2014-f1-q21]]
 - análise qualitativa de configurações — [[fis-2015-f1-q04]]
 - aproximação binomial — [[fis-2008-f1-q21]]
 - aproximação multipolar — [[fis-2018-f1-q12]]
-- associação de capacitores — [[fis-2011-f1-q15]]
+- associação de capacitores — [[fis-2011-f1-q15]], [[fis-2022-f1-q13]]
 - associação de capacitores em série — [[fis-2013-f1-q10]]
 - associação em série — [[fis-2008-f1-q19]], [[fis-2012-f1-q15]]
 - aterramento — [[fis-2009-f1-q28]]
-- blindagem eletrostática — [[fis-2010-f1-q17]], [[fis-2013-f1-q15]]
+- blindagem eletrostática — [[fis-2010-f1-q17]], [[fis-2013-f1-q15]], [[fis-2024-f1-q09]]
 - campo elétrico no interior — [[fis-2009-f1-q13]]
 - campo elétrico uniforme — [[fis-2012-f1-q16]]
 - capacitor de placas paralelas — [[fis-2009-f1-q16]], [[fis-2012-f1-q15]], [[fis-2013-f1-q10]], [[fis-2013-f1-q29]], [[fis-2014-f1-q05]]
@@ -1619,7 +2077,9 @@
 - capacitores em série — [[fis-2012-f1-q26]]
 - capacitância de esfera condutora — [[fis-2017-f1-q04]]
 - capacitância de placas paralelas — [[fis-2008-f1-q19]]
+- capacitância equivalente — [[fis-2022-f1-q13]]
 - carga induzida — [[fis-2009-f1-q16]]
+- carga induzida em casca metálica aterrada — [[fis-2024-f1-q09]]
 - cargas puntuais — [[fis-2010-f1-q14]]
 - cavidades — [[fis-2010-f1-q17]]
 - cinemática com força resultante constante — [[fis-2015-f1-q02]]
@@ -1639,13 +2099,14 @@
 - dielétricos vs condutores — [[fis-2012-f1-q15]]
 - diferença de potencial — [[fis-2011-f1-q15]]
 - distribuição de cargas — [[fis-2013-f1-q15]]
+- distribuição de cargas entre esferas condutoras — [[fis-2021-f1-q11]]
 - energia armazenada em capacitores — [[fis-2018-f1-q23]]
 - energia potencial eletrostática — [[fis-2015-f1-q17]]
 - equação da capacitância — [[fis-2012-f1-q26]]
 - equilíbrio de cargas — [[fis-2015-f1-q04]]
 - equilíbrio de forças em fios — [[fis-2015-f1-q24]]
 - equilíbrio dinâmico — [[fis-2025-f2-q08]]
-- equilíbrio eletrostático — [[fis-2014-f1-q09]]
+- equilíbrio eletrostático — [[fis-2014-f1-q09]], [[fis-2021-f1-q11]]
 - equilíbrio mecânico de corpo rígido — [[fis-2012-f1-q23]]
 - esfera condutora — [[fis-2009-f1-q13]]
 - esferas condutoras — [[fis-2009-f1-q28]]
@@ -1665,7 +2126,7 @@
 - indução em condutores — [[fis-2013-f1-q15]]
 - lançamento vertical — [[fis-2015-f1-q02]]
 - lei de Coulomb — [[fis-2012-f1-q23]], [[fis-2014-f1-q23]], [[fis-2015-f1-q04]], [[fis-2015-f1-q24]], [[fis-2018-f1-q12]]
-- lei de Gauss — [[fis-2009-f1-q13]]
+- lei de Gauss — [[fis-2009-f1-q13]], [[fis-2024-f1-q09]]
 - leitura de gráfico — [[fis-2023-f2-q07]]
 - lugar geométrico equipotencial — [[fis-2010-f1-q14]]
 - movimento circular uniforme — [[fis-2025-f2-q08]]
@@ -1674,13 +2135,16 @@
 - permissividade elétrica — [[fis-2009-f1-q16]]
 - potencial de anel carregado — [[fis-2021-f2-q08]]
 - potencial elétrico — [[fis-2009-f1-q13]], [[fis-2009-f1-q28]], [[fis-2010-f1-q14]], [[fis-2014-f1-q09]], [[fis-2017-f1-q04]]
+- potencial elétrico em diferentes pontos — [[fis-2019-f1-q09]]
 - potencial em cascas esféricas — [[fis-2013-f1-q15]]
 - potencial em condutor esférico — [[fis-2008-f1-q21]]
+- proporção de massas — [[fis-2021-f1-q11]]
 - rede cristalina — [[fis-2014-f1-q23]]
 - redistribuição de carga — [[fis-2012-f1-q26]]
 - simetria — [[fis-2023-f2-q07]]
 - simetria de circuito — [[fis-2011-f1-q15]]
 - simetria de configuração — [[fis-2025-f2-q08]]
+- simetria do octaedro — [[fis-2022-f1-q13]]
 - simetria hexagonal — [[fis-2015-f1-q24]]
 - sistema de equações — [[fis-2009-f1-q28]]
 - soma de contribuições de pares — [[fis-2015-f1-q17]]
@@ -1695,10 +2159,18 @@
 - unidades atômicas de Hartree — [[fis-2014-f1-q21]]
 - velocidade de escape eletrostática — [[fis-2021-f2-q08]]
 
+### eletrostática / capacitores
+- associações — [[fis-2025-f1-q21]]
+- capacitor com dielétricos (água e óleo) — [[fis-2025-f1-q21]]
+- capacitância equivalente — [[fis-2025-f1-q21]]
+
 ### eletrostática, eletrodinâmica
 - campo elétrico uniforme — [[fis-2020-f2-q08]]
 - capacitor de placas paralelas — [[fis-2020-f2-q08]]
 - movimento de carga em campo elétrico — [[fis-2020-f2-q08]]
+
+### eletrostática, equilíbrio
+- três esferas carregadas em fios; ângulo de equilíbrio — [[fis-2020-f1-q13]]
 
 ### estática
 - análise dimensional — [[fis-2014-f1-q01]]
@@ -1714,6 +2186,7 @@
 - equilíbrio com atrito — [[fis-2017-f1-q07]]
 - equilíbrio de alavanca — [[fis-2010-f1-q15]]
 - equilíbrio de barra articulada — [[fis-2011-f1-q21]]
+- equilíbrio de barra rígida presa por corda horizontal — [[fis-2019-f1-q06]]
 - equilíbrio de corpo extenso — [[fis-2021-f2-q05]], [[fis-2025-f2-q02]]
 - equilíbrio de corpo rígido — [[fis-2011-f1-q10]], [[fis-2013-f1-q05]], [[fis-2017-f1-q02]]
 - equilíbrio de corpo suspenso — [[fis-2010-f1-q06]]
@@ -1757,6 +2230,18 @@
 - vantagem mecânica — [[fis-2012-f1-q22]]
 - vínculos sem atrito — [[fis-2008-f1-q03]]
 
+### estática / hidrostática
+- densidades — [[fis-2025-f1-q17]]
+- empuxo — [[fis-2025-f1-q17]]
+- equilíbrio de barra — [[fis-2025-f1-q17]]
+- torques — [[fis-2025-f1-q17]]
+
+### estática, corpos rígidos
+- equilíbrio de torques — [[fis-2022-f1-q03]]
+- ponte levadiça — [[fis-2022-f1-q03]]
+- posição de homem em rampa articulada — [[fis-2022-f1-q03]]
+- tensão máxima da corda — [[fis-2022-f1-q03]]
+
 ### estática, hidrostática
 - atrito estático — [[fis-2020-f2-q02]]
 - empuxo — [[fis-2020-f2-q02]]
@@ -1769,6 +2254,7 @@
 - cinemática relativística — [[fis-2021-f2-q10]]
 - comprimento de onda — [[fis-2016-f1-q20]], [[fis-2018-f1-q15]]
 - comprimento de onda de de Broglie — [[fis-2011-f1-q30]], [[fis-2021-f2-q10]]
+- comprimento de onda do fóton — [[fis-2025-f1-q24]]
 - conservação de carga — [[fis-2017-f1-q08]]
 - conservação de energia — [[fis-2008-f1-q09]]
 - conservação de energia e momento para fóton-elétron livre — [[fis-2023-f2-q10]]
@@ -1782,18 +2268,21 @@
 - corrente elétrica — [[fis-2017-f1-q08]]
 - curva I-V fotoelétrica — [[fis-2011-f1-q20]]
 - decaimento beta — [[fis-2015-f1-q14]]
-- decaimento de múons — [[fis-2015-f1-q19]]
+- decaimento de múons — [[fis-2015-f1-q19]], [[fis-2023-f1-q12]]
 - decaimento de partículas — [[fis-2020-f2-q10]]
 - decaimento radioativo e meia-vida — [[fis-2015-f1-q14]]
 - difração de elétrons (de Broglie) — [[fis-2018-f1-q15]]
 - difração de raios X (lei de Bragg) — [[fis-2018-f1-q15]]
 - dilatação temporal — [[fis-2015-f1-q19]]
+- dilatação temporal relativística — [[fis-2023-f1-q12]]
 - dimensões nucleares — [[fis-2021-f2-q10]]
 - dinâmica relativística — [[fis-2013-f1-q21]]
 - dualidade onda-partícula — [[fis-2008-f1-q09]], [[fis-2011-f1-q30]], [[fis-2018-f1-q15]]
+- dupla fenda — [[fis-2026-f1-q12]]
 - efeito Compton — [[fis-2025-f2-q10]]
 - efeito Doppler relativístico — [[fis-2014-f1-q20]], [[fis-2016-f1-q20]]
-- efeito fotoelétrico — [[fis-2011-f1-q20]], [[fis-2012-f1-q20]], [[fis-2013-f1-q18]], [[fis-2014-f1-q19]], [[fis-2015-f1-q14]], [[fis-2017-f1-q09]], [[fis-2022-f2-q10]], [[fis-2023-f2-q10]]
+- efeito Raman — [[fis-2025-f1-q24]]
+- efeito fotoelétrico — [[fis-2011-f1-q20]], [[fis-2012-f1-q20]], [[fis-2013-f1-q18]], [[fis-2014-f1-q19]], [[fis-2015-f1-q14]], [[fis-2017-f1-q09]], [[fis-2022-f2-q10]], [[fis-2023-f2-q10]], [[fis-2026-f1-q12]]
 - energia cinética máxima — [[fis-2013-f1-q18]]
 - energia cinética relativística — [[fis-2021-f2-q10]], [[fis-2025-f2-q10]]
 - energia de ionização — [[fis-2014-f1-q07]]
@@ -1816,7 +2305,9 @@
 - fórmula de Rydberg — [[fis-2017-f1-q15]]
 - fóton — [[fis-2017-f1-q09]]
 - geometria de reflexão em espelho esférico — [[fis-2015-f1-q30]]
+- gráficos I × V — [[fis-2026-f1-q12]]
 - intensidade de radiação — [[fis-2014-f1-q19]]
+- intensidade e comprimento de onda — [[fis-2026-f1-q12]]
 - intensidade luminosa — [[fis-2010-f1-q29]]
 - interpretação de gráficos — [[fis-2017-f1-q08]]
 - isótopos — [[fis-2015-f1-q14]]
@@ -1837,7 +2328,7 @@
 - princípio da incerteza — [[fis-2014-f1-q27]]
 - princípio da incerteza de Heisenberg — [[fis-2012-f1-q20]], [[fis-2019-f2-q10]]
 - pêndulo — [[fis-2009-f1-q21]]
-- quantização de energia — [[fis-2012-f1-q20]], [[fis-2014-f1-q27]], [[fis-2017-f1-q09]]
+- quantização de energia — [[fis-2012-f1-q20]], [[fis-2014-f1-q27]], [[fis-2017-f1-q09]], [[fis-2025-f1-q24]]
 - quantização de órbitas — [[fis-2011-f1-q30]]
 - radiação Cherenkov — [[fis-2015-f1-q30]]
 - radiação de corpo negro — [[fis-2018-f1-q26]]
@@ -1856,12 +2347,21 @@
 - transições eletrônicas — [[fis-2018-f1-q29]]
 - índice de refração — [[fis-2015-f1-q30]]
 
+### física moderna, eletromagnetismo
+- filamento em câmara de vácuo; emissão termiônica — [[fis-2019-f1-q11]]
+
+### física moderna, energia
+- conversão massa-energia — [[fis-2022-f1-q15]]
+- estimativa de área de painéis solares — [[fis-2022-f1-q15]]
+- fusão nuclear no Sol — [[fis-2022-f1-q15]]
+
 ### gravitação
 - aceleração gravitacional aparente — [[fis-2008-f1-q04]]
 - análise de proposições — [[fis-2015-f1-q12]]
 - análise dimensional — [[fis-2010-f1-q01]], [[fis-2017-f1-q01]], [[fis-2018-f1-q01]]
 - análise qualitativa — [[fis-2009-f1-q06]]
 - aproximação binomial — [[fis-2009-f1-q25]], [[fis-2022-f2-q02]]
+- balança de torção — [[fis-2022-f1-q05]]
 - campo gravitacional de corpos com simetria — [[fis-2015-f1-q12]]
 - centro de massa — [[fis-2014-f1-q13]], [[fis-2016-f1-q07]]
 - conservação de energia — [[fis-2019-f2-q01]]
@@ -1870,11 +2370,14 @@
 - constantes fundamentais — [[fis-2017-f1-q01]]
 - conversão de energia — [[fis-2012-f1-q09]]
 - coordenadas polares — [[fis-2018-f1-q24]]
+- corpo celeste esférico atravessado por túnel; aceleração gravitacional — [[fis-2019-f1-q03]]
 - dedução da 3ª lei de Kepler — [[fis-2010-f1-q27]]
 - densidade — [[fis-2018-f1-q01]]
 - densidade e volume de esferas — [[fis-2022-f2-q02]]
 - densidade média — [[fis-2017-f1-q16]]
+- determinação da constante G — [[fis-2022-f1-q05]]
 - diferença de forças — [[fis-2009-f1-q25]]
+- distância de satélite — [[fis-2025-f1-q15]]
 - efeito Doppler — [[fis-2014-f1-q13]]
 - energia em campo gravitacional — [[fis-2020-f2-q04]]
 - energia mecânica em órbita elíptica — [[fis-2013-f1-q20]]
@@ -1882,11 +2385,12 @@
 - energia orbital — [[fis-2015-f1-q22]]
 - energia potencial gravitacional — [[fis-2012-f1-q09]], [[fis-2019-f2-q01]]
 - excentricidade — [[fis-2018-f1-q24]], [[fis-2020-f2-q04]]
+- experimento de Cavendish — [[fis-2022-f1-q05]]
 - expoentes de grandezas físicas — [[fis-2017-f1-q01]]
 - força central — [[fis-2010-f1-q03]]
 - força centrípeta — [[fis-2008-f1-q04]], [[fis-2010-f1-q02]], [[fis-2010-f1-q27]]
 - força gravitacional — [[fis-2009-f1-q06]], [[fis-2009-f1-q25]], [[fis-2022-f2-q02]]
-- força gravitacional entre múltiplos corpos — [[fis-2018-f1-q13]]
+- força gravitacional entre múltiplos corpos — [[fis-2018-f1-q13]], [[fis-2026-f1-q04]]
 - forças de maré — [[fis-2009-f1-q25]]
 - geometria de campos vetoriais — [[fis-2015-f1-q12]]
 - geometria de polígonos — [[fis-2018-f1-q13]]
@@ -1906,7 +2410,8 @@
 - ondas gravitacionais — [[fis-2017-f1-q01]]
 - ordem de grandeza — [[fis-2010-f1-q01]], [[fis-2012-f1-q09]]
 - ordens de grandeza — [[fis-2018-f1-q01]]
-- período orbital — [[fis-2019-f2-q03]]
+- período de órbita — [[fis-2026-f1-q04]]
+- período orbital — [[fis-2019-f2-q03]], [[fis-2025-f1-q15]]
 - peso aparente — [[fis-2010-f1-q02]]
 - potencial gravitacional — [[fis-2010-f1-q01]]
 - queda livre desde infinito — [[fis-2012-f1-q09]]
@@ -1919,13 +2424,15 @@
 - semieixo maior — [[fis-2019-f2-q03]]
 - semieixos e excentricidade — [[fis-2013-f1-q20]]
 - sistema binário — [[fis-2014-f1-q13]], [[fis-2016-f1-q07]]
+- sistema de três satélites em triângulo equilátero — [[fis-2021-f1-q04]]
 - sistemas binários — [[fis-2012-f1-q10]]
-- terceira lei de Kepler — [[fis-2008-f1-q02]], [[fis-2011-f1-q04]], [[fis-2012-f1-q10]], [[fis-2016-f1-q07]], [[fis-2017-f1-q16]], [[fis-2018-f1-q13]], [[fis-2019-f2-q03]]
+- terceira lei de Kepler — [[fis-2008-f1-q02]], [[fis-2011-f1-q04]], [[fis-2012-f1-q10]], [[fis-2016-f1-q07]], [[fis-2017-f1-q16]], [[fis-2018-f1-q13]], [[fis-2019-f2-q03]], [[fis-2025-f1-q15]]
 - trabalho de força variável — [[fis-2019-f2-q01]]
+- trajetória parabólica para elíptica; mudança de velocidade — [[fis-2020-f1-q05]]
 - transferência de Hohmann — [[fis-2015-f1-q22]]
 - velocidade de escape — [[fis-2019-f2-q01]]
-- velocidade orbital — [[fis-2009-f1-q06]], [[fis-2025-f2-q05]]
-- órbita circular — [[fis-2008-f1-q02]], [[fis-2010-f1-q27]], [[fis-2014-f1-q02]], [[fis-2025-f2-q05]]
+- velocidade orbital — [[fis-2009-f1-q06]], [[fis-2021-f1-q04]], [[fis-2025-f2-q05]]
+- órbita circular — [[fis-2008-f1-q02]], [[fis-2010-f1-q27]], [[fis-2014-f1-q02]], [[fis-2025-f2-q05]], [[fis-2026-f1-q04]]
 - órbita elíptica — [[fis-2014-f1-q02]]
 - órbita elíptica degenerada — [[fis-2019-f2-q03]]
 - órbita rasante — [[fis-2017-f1-q16]]
@@ -1936,10 +2443,28 @@
 - órbitas keplerianas — [[fis-2015-f1-q22]]
 - órbitas planetárias — [[fis-2011-f1-q04]]
 
+### gravitação, astronomia
+- período orbital — [[fis-2024-f1-q05]]
+- razão de distâncias por área aparente — [[fis-2024-f1-q05]]
+- terceira lei de Kepler — [[fis-2024-f1-q05]]
+
+### gravitação, dinâmica de rotação
+- dependência com a latitude — [[fis-2024-f1-q04]]
+- impulso para escape — [[fis-2024-f1-q04]]
+- rotação da Terra — [[fis-2024-f1-q04]]
+
 ### gravitação, trabalho e energia
 - atração mútua — [[fis-2021-f2-q03]]
 - conservação de energia mecânica gravitacional — [[fis-2021-f2-q03]]
 - conservação de quantidade de movimento — [[fis-2021-f2-q03]]
+
+### hidrodinâmica
+- diferença de pressão em tubo com estreitamento — [[fis-2022-f1-q06]]
+- equação da continuidade — [[fis-2022-f1-q06]]
+- equação de Bernoulli — [[fis-2022-f1-q06]]
+
+### hidrodinâmica, lançamento oblíquo
+- equação da continuidade; alcance horizontal de jato — [[fis-2020-f1-q04]]
 
 ### hidrostática
 - decomposição vetorial — [[fis-2010-f1-q24]]
@@ -1959,6 +2484,7 @@
 - equilíbrio de corpos imersos — [[fis-2018-f1-q22]]
 - equilíbrio de forças — [[fis-2010-f1-q24]], [[fis-2014-f1-q03]]
 - equilíbrio de pressão — [[fis-2009-f1-q26]]
+- equilíbrio de pressões — [[fis-2026-f1-q06]]
 - equilíbrio estável — [[fis-2011-f1-q24]]
 - equilíbrio hidrostático — [[fis-2009-f1-q08]]
 - estabilidade de flutuação — [[fis-2011-f1-q24]]
@@ -1987,7 +2513,24 @@
 - teorema de Stevin — [[fis-2018-f1-q06]]
 - trajetória parabólica — [[fis-2023-f2-q03]]
 - variação de massa e volume — [[fis-2013-f1-q25]]
+- vasos comunicantes — [[fis-2026-f1-q06]]
 - volume submerso — [[fis-2016-f1-q08]]
+- áreas diferentes — [[fis-2026-f1-q06]]
+
+### hidrostática, hidrodinâmica
+- Torricelli — [[fis-2021-f1-q05]]
+- alcance horizontal de jato de líquido — [[fis-2021-f1-q05]]
+- pressão sob pistão — [[fis-2021-f1-q05]]
+
+### hidrostática, mecânica dos fluidos
+- MUV — [[fis-2023-f1-q05]]
+- pressão em fluido em referencial acelerado — [[fis-2023-f1-q05]]
+
+### indução eletromagnética
+- corrente induzida com resistividades distintas — [[fis-2022-f1-q14]]
+- força eletromotriz média induzida em bobina girante — [[fis-2021-f1-q15]]
+- lei de Faraday — [[fis-2021-f1-q15]], [[fis-2022-f1-q14]]
+- solenoides coaxiais — [[fis-2022-f1-q14]]
 
 ### magnetismo
 - análise de proposições — [[fis-2015-f1-q05]]
@@ -1997,6 +2540,8 @@
 - campo magnético de espira circular — [[fis-2013-f1-q19]], [[fis-2014-f1-q18]]
 - campo magnético de fio retilíneo — [[fis-2008-f1-q07]], [[fis-2017-f1-q29]]
 - campo magnético de fios paralelos — [[fis-2009-f1-q15]]
+- campo magnético em função do raio — [[fis-2021-f1-q14]]
+- cilindro condutor oco — [[fis-2021-f1-q14]]
 - corrente em arestas — [[fis-2010-f1-q18]]
 - dependência radial de campo — [[fis-2018-f1-q09]]
 - energia cinética por ddp — [[fis-2010-f1-q08]]
@@ -2012,6 +2557,7 @@
 - geometria vetorial — [[fis-2017-f1-q29]]
 - indução eletromagnética — [[fis-2015-f1-q18]]
 - integração — [[fis-2010-f1-q28]]
+- lei de Ampère — [[fis-2021-f1-q14]]
 - lei de Biot-Savart — [[fis-2010-f1-q18]], [[fis-2014-f1-q18]], [[fis-2017-f1-q29]]
 - linhas de campo magnético — [[fis-2012-f1-q19]]
 - momento magnético — [[fis-2008-f1-q08]]
@@ -2034,6 +2580,15 @@
 - torque magnético — [[fis-2010-f1-q28]]
 - trajetória em regiões distintas — [[fis-2015-f1-q29]]
 - ímãs e fios retilíneos — [[fis-2012-f1-q19]]
+
+### magnetismo, eletromagnetismo
+- partícula carregada em campo magnético uniforme — [[fis-2019-f1-q10]]
+
+### mecânica / colisões
+- MRUV — [[fis-2025-f1-q14]]
+- colisão inelástica — [[fis-2025-f1-q14]]
+- conservação de energia — [[fis-2025-f1-q14]]
+- trajetória circular — [[fis-2025-f1-q14]]
 
 ### mecânica dos fluidos
 - análise dimensional — [[fis-2016-f1-q01]]
@@ -2071,6 +2626,25 @@
 - lei dos gases ideais — [[fis-2020-f2-q06]]
 - pressão estática e dinâmica — [[fis-2020-f2-q06]]
 - tubo de Pitot — [[fis-2020-f2-q06]]
+
+### ondas / acústica
+- Bernoulli — [[fis-2026-f1-q11]]
+- diferença de pressão — [[fis-2026-f1-q11]]
+- efeito Doppler em ultrassom médico — [[fis-2026-f1-q11]]
+- fluxo sanguíneo — [[fis-2026-f1-q11]]
+- intensidade sonora — [[fis-2025-f1-q19]]
+- nível em decibéis — [[fis-2025-f1-q19]]
+- áreas e amplitude — [[fis-2025-f1-q19]]
+
+### ondas, acústica
+- comprimento efetivo — [[fis-2021-f1-q08]]
+- cordas vibrantes — [[fis-2022-f1-q09]]
+- decomposição espectral — [[fis-2022-f1-q09]]
+- frequência fundamental — [[fis-2021-f1-q08]], [[fis-2022-f1-q09]]
+- harmônicos — [[fis-2022-f1-q09]]
+- ondas em cordas — [[fis-2021-f1-q08]]
+- tensão — [[fis-2021-f1-q08]]
+- timbre — [[fis-2021-f1-q08]]
 
 ### ondulatória
 - amplitude — [[fis-2008-f1-q06]]
@@ -2138,6 +2712,12 @@
 - velocidade em meios elásticos — [[fis-2008-f1-q15]]
 - velocidade transversal máxima — [[fis-2017-f1-q19]]
 
+### ondulatória, acústica
+- intensidade sonora em dB — [[fis-2023-f1-q07]]
+- interferência sonora em tubo com caminhos distintos — [[fis-2020-f1-q11]]
+- ondas transversais x longitudinais — [[fis-2023-f1-q07]]
+- propagação de ondas — [[fis-2023-f1-q07]]
+
 ### ondulatória, hidrostática
 - análise gráfica — [[fis-2021-f2-q06]]
 - empuxo — [[fis-2021-f2-q06]]
@@ -2149,16 +2729,43 @@
 - interferência de ondas — [[fis-2021-f2-q07]]
 - leitura de gráfico — [[fis-2021-f2-q07]]
 
+### oscilações
+- MHS massa-mola — [[fis-2021-f1-q07]]
+- aproximação linear — [[fis-2021-f1-q07]]
+- colisão — [[fis-2026-f1-q05]]
+- conservação de energia — [[fis-2026-f1-q05]]
+- pêndulo simples — [[fis-2026-f1-q05]]
+- sistema massa-mola — [[fis-2026-f1-q05]]
+- variação de frequência com adição de massa — [[fis-2021-f1-q07]]
+
+### oscilações, conservação de momento
+- período de oscilação — [[fis-2022-f1-q07]]
+- sistema massa-mola — [[fis-2022-f1-q07]]
+- velocidade do centro de massa após liberação — [[fis-2022-f1-q07]]
+
+### oscilações, dilatação térmica
+- período de pêndulo com dilatação linear; aproximação binomial — [[fis-2020-f1-q08]]
+
+### relatividade especial
+- contração/dilatação — [[fis-2024-f1-q12]]
+- relatividade da simultaneidade — [[fis-2024-f1-q12]]
+- simultaneidade — [[fis-2024-f1-q12]]
+
+### relatividade restrita, óptica
+- efeito Doppler relativístico; pulso de luz em referenciais — [[fis-2020-f1-q07]]
+
 ### termodinâmica
 - análise dimensional — [[fis-2023-f2-q04]]
 - aproximação binomial — [[fis-2008-f1-q29]]
+- ar-condicionado — [[fis-2026-f1-q07]]
 - balanço radiativo — [[fis-2008-f1-q29]]
+- calor — [[fis-2025-f1-q18]]
 - calor específico — [[fis-2014-f1-q22]]
 - calor latente — [[fis-2015-f1-q07]]
 - calorimetria — [[fis-2015-f1-q07]]
 - ciclo de Carnot — [[fis-2017-f1-q18]], [[fis-2025-f2-q06]]
 - ciclo de Carnot reverso (bomba de calor) — [[fis-2017-f1-q28]]
-- ciclo termodinâmico — [[fis-2009-f1-q27]], [[fis-2010-f1-q10]], [[fis-2014-f1-q10]], [[fis-2017-f1-q18]]
+- ciclo termodinâmico — [[fis-2009-f1-q27]], [[fis-2010-f1-q10]], [[fis-2014-f1-q10]], [[fis-2017-f1-q18]], [[fis-2023-f1-q06]]
 - coeficiente adiabático — [[fis-2008-f1-q20]]
 - coeficiente de performance — [[fis-2025-f2-q06]]
 - condutividade efetiva em série — [[fis-2025-f2-q06]]
@@ -2170,12 +2777,14 @@
 - conservação de momento linear — [[fis-2013-f1-q08]]
 - conservação do número de mols — [[fis-2018-f1-q20]]
 - constante de tempo — [[fis-2023-f2-q04]]
+- consumo energético — [[fis-2026-f1-q07]]
 - conversão de unidades de energia — [[fis-2019-f2-q05]]
 - degradação de energia — [[fis-2014-f1-q15]]
 - demônio de Maxwell — [[fis-2018-f1-q17]]
 - diagrama T-S — [[fis-2010-f1-q10]]
 - dilatação volumétrica — [[fis-2014-f1-q22]]
 - efeito Föhn — [[fis-2022-f2-q05]]
+- eficiência de Carnot — [[fis-2026-f1-q07]]
 - eficiência de refrigerador — [[fis-2019-f2-q05]]
 - emissividade — [[fis-2008-f1-q29]]
 - empuxo em gases — [[fis-2016-f1-q13]]
@@ -2183,16 +2792,18 @@
 - entropia — [[fis-2011-f1-q13]], [[fis-2014-f1-q15]], [[fis-2018-f1-q17]]
 - equação de Clapeyron — [[fis-2016-f1-q13]], [[fis-2017-f1-q27]]
 - equação de estado dos gases ideais — [[fis-2018-f1-q20]]
+- equilíbrio de forças em êmbolo — [[fis-2023-f1-q03]]
 - equilíbrio térmico estacionário — [[fis-2017-f1-q28]]
 - expansão adiabática — [[fis-2013-f1-q08]]
 - expansão contra mola — [[fis-2010-f1-q25]]
+- expansão livre de gás ideal — [[fis-2021-f1-q06]]
 - expoente de Poisson — [[fis-2013-f1-q26]]
 - extrapolação ao zero absoluto — [[fis-2013-f1-q22]]
 - fluxo de calor — [[fis-2019-f2-q05]]
 - fluxo estacionário — [[fis-2023-f2-q04]]
 - gravitação universal — [[fis-2017-f1-q22]]
 - gás diatômico — [[fis-2008-f1-q20]]
-- gás ideal — [[fis-2011-f1-q27]], [[fis-2013-f1-q08]], [[fis-2016-f1-q13]], [[fis-2022-f2-q05]]
+- gás ideal — [[fis-2011-f1-q27]], [[fis-2013-f1-q08]], [[fis-2016-f1-q13]], [[fis-2022-f2-q05]], [[fis-2025-f1-q18]]
 - gás ideal monoatômico — [[fis-2010-f1-q25]], [[fis-2014-f1-q10]]
 - irreversibilidade — [[fis-2013-f1-q17]]
 - lei de Fourier — [[fis-2019-f2-q05]]
@@ -2201,8 +2812,11 @@
 - logaritmos — [[fis-2015-f1-q16]]
 - manipulação algébrica de relações PVT — [[fis-2015-f1-q16]]
 - manômetro de mercúrio — [[fis-2013-f1-q22]]
+- mistura de gases hélio e oxigênio; equilíbrio térmico — [[fis-2019-f1-q08]]
 - mudança de fase — [[fis-2015-f1-q07]]
 - máquina térmica — [[fis-2014-f1-q15]]
+- máquinas térmicas — [[fis-2026-f1-q07]]
+- máquinas térmicas acopladas; rendimento e entropia — [[fis-2020-f1-q15]]
 - pressão de radiação — [[fis-2015-f1-q07]]
 - pressão de vapor — [[fis-2022-f2-q05]]
 - pressão hidrostática — [[fis-2011-f1-q27]], [[fis-2017-f1-q27]]
@@ -2212,28 +2826,34 @@
 - processo adiabático quase-estático — [[fis-2008-f1-q20]]
 - processo adiabático reversível — [[fis-2013-f1-q26]]
 - processo isocórico — [[fis-2009-f1-q27]]
-- processo isotérmico — [[fis-2009-f1-q27]]
+- processo isotérmico — [[fis-2009-f1-q27]], [[fis-2025-f1-q18]]
 - processos irreversíveis — [[fis-2011-f1-q13]]
 - processos isotérmicos — [[fis-2018-f1-q20]]
 - processos macroscópicos — [[fis-2013-f1-q17]]
 - radiação de Stefan-Boltzmann — [[fis-2023-f2-q04]]
 - relação PV^gamma — [[fis-2011-f1-q27]]
 - rendimento — [[fis-2017-f1-q18]], [[fis-2017-f1-q28]]
+- rendimento de máquina térmica — [[fis-2023-f1-q06]]
 - rendimento de máquinas térmicas — [[fis-2010-f1-q10]]
 - reversibilidade — [[fis-2011-f1-q13]]
 - segunda lei — [[fis-2010-f1-q10]]
 - segunda lei da termodinâmica — [[fis-2011-f1-q13]], [[fis-2013-f1-q17]], [[fis-2014-f1-q15]], [[fis-2018-f1-q17]]
 - seta do tempo — [[fis-2013-f1-q17]]
+- sistema acelerado — [[fis-2023-f1-q03]]
 - sistemas conectados — [[fis-2018-f1-q20]]
 - temperatura absoluta — [[fis-2010-f1-q04]]
+- temperatura de equilíbrio — [[fis-2021-f1-q06]]
 - teoria cinética — [[fis-2013-f1-q22]]
 - teoria cinética dos gases — [[fis-2010-f1-q04]], [[fis-2017-f1-q22]], [[fis-2018-f1-q17]]
 - trabalho contra pressão atmosférica — [[fis-2014-f1-q22]]
 - trabalho e calor em ciclos — [[fis-2014-f1-q10]]
+- trabalho e energia em mola — [[fis-2025-f1-q18]]
 - trabalho em gás ideal — [[fis-2008-f1-q20]], [[fis-2013-f1-q26]], [[fis-2015-f1-q16]]
 - transferência de calor — [[fis-2025-f2-q06]]
 - transformação geral — [[fis-2016-f1-q13]], [[fis-2017-f1-q27]]
+- transformação isentrópica de gás ideal — [[fis-2023-f1-q03]]
 - transformação isovolumétrica — [[fis-2013-f1-q22]]
+- transformações isotérmica e isocórica — [[fis-2023-f1-q06]]
 - troca de calor por condução — [[fis-2017-f1-q28]]
 - umidade relativa — [[fis-2022-f2-q05]]
 - variação de energia interna — [[fis-2013-f1-q08]]
@@ -2244,6 +2864,9 @@
 - calor latente de vaporização — [[fis-2021-f2-q04]]
 - conversão de unidades — [[fis-2021-f2-q04]]
 - trabalho mecânico e custo metabólico — [[fis-2021-f2-q04]]
+
+### termodinâmica, gases ideais
+- aquecimento isocórico vs isobárico; trabalho e energia interna — [[fis-2020-f1-q09]]
 
 ### termodinâmica, teoria cinética dos gases
 - calor específico — [[fis-2020-f2-q07]]
@@ -2259,6 +2882,12 @@
 - período do pêndulo simples — [[fis-2016-f1-q09]]
 - sincronização de tempos — [[fis-2013-f1-q27]]
 - teoria cinética dos gases — [[fis-2013-f1-q27]]
+
+### termologia, óptica
+- dilatação linear — [[fis-2022-f1-q08]]
+- estimativa de temperatura — [[fis-2022-f1-q08]]
+- lâmina bimetálica — [[fis-2022-f1-q08]]
+- reflexão de laser — [[fis-2022-f1-q08]]
 
 ### trabalho e energia
 - análise de proposições — [[fis-2012-f1-q08]]
@@ -2291,6 +2920,22 @@
 - teorema trabalho-energia — [[fis-2012-f1-q08]]
 - vínculo geométrico — [[fis-2018-f1-q04]]
 
+### unidades, sistema internacional
+- constantes fundamentais exatas — [[fis-2022-f1-q01]]
+- redefinição do SI de 2019 — [[fis-2022-f1-q01]]
+- unidades básicas — [[fis-2022-f1-q01]]
+
+### óptica
+- arco-íris — [[fis-2025-f1-q20]]
+- asserções I-III — [[fis-2025-f1-q20]]
+- comprimento de onda — [[fis-2026-f1-q08]]
+- dispersão — [[fis-2025-f1-q20]]
+- espessura mínima — [[fis-2026-f1-q08]]
+- interferência em películas finas — [[fis-2026-f1-q08]]
+- reflexão — [[fis-2025-f1-q20]]
+- refração — [[fis-2025-f1-q20]]
+- índices de refração — [[fis-2026-f1-q08]]
+
 ### óptica física
 - abertura circular — [[fis-2011-f1-q14]]
 - anéis de Newton — [[fis-2010-f1-q11]], [[fis-2014-f1-q04]]
@@ -2319,6 +2964,7 @@
 - experimento tipo Fizeau — [[fis-2015-f1-q20]]
 - experiência de Young — [[fis-2014-f1-q24]]
 - fendas — [[fis-2017-f1-q10]]
+- filtros polarizadores — [[fis-2023-f1-q08]]
 - franjas de interferência — [[fis-2009-f1-q12]]
 - franjas em meios distintos — [[fis-2013-f1-q03]]
 - fóton único — [[fis-2025-f2-q07]]
@@ -2337,6 +2983,7 @@
 - interferência em películas finas — [[fis-2009-f1-q12]]
 - interferômetro de Mach-Zehnder — [[fis-2025-f2-q07]]
 - interferômetro de Michelson — [[fis-2014-f1-q06]], [[fis-2022-f2-q06]]
+- lei de Malus — [[fis-2023-f1-q08]]
 - leitura de gráfico — [[fis-2022-f2-q06]]
 - limite de resolução angular — [[fis-2013-f1-q24]]
 - limite de resolução de Rayleigh — [[fis-2011-f1-q14]]
@@ -2345,6 +2992,7 @@
 - máximos e mínimos — [[fis-2008-f1-q18]]
 - mínimos de difração — [[fis-2009-f1-q17]]
 - padrão de interferência — [[fis-2008-f1-q18]]
+- polarização da luz — [[fis-2023-f1-q08]]
 - reflexão e fase — [[fis-2013-f1-q13]]
 - resolução angular — [[fis-2011-f1-q14]]
 - separação mínima entre detectores — [[fis-2013-f1-q24]]
@@ -2362,18 +3010,22 @@
 - ampliação longitudinal — [[fis-2019-f2-q04]]
 - ampliação transversal — [[fis-2019-f2-q04]]
 - aproximação paraxial — [[fis-2011-f1-q12]], [[fis-2023-f2-q06]]
+- aumento linear — [[fis-2024-f1-q07]]
 - aumento linear transversal — [[fis-2010-f1-q26]], [[fis-2018-f1-q14]]
 - desvio em prisma de pequena abertura — [[fis-2013-f1-q12]]
 - distância focal — [[fis-2009-f1-q11]], [[fis-2018-f1-q14]]
-- equação de Gauss — [[fis-2009-f1-q11]], [[fis-2010-f1-q26]], [[fis-2019-f2-q04]]
+- equação de Gauss — [[fis-2009-f1-q11]], [[fis-2010-f1-q26]], [[fis-2019-f2-q04]], [[fis-2024-f1-q07]]
 - equação dos espelhos esféricos — [[fis-2018-f1-q14]]
-- espelho côncavo — [[fis-2019-f2-q04]]
+- equação dos fabricantes — [[fis-2021-f1-q09]]
+- espelho côncavo — [[fis-2019-f2-q04]], [[fis-2022-f1-q10]]
+- espelho côncavo; relações de tamanho objeto-imagem — [[fis-2019-f1-q04]]
 - espelho esférico convexo — [[fis-2009-f1-q11]]
 - espelhos côncavos e convexos — [[fis-2018-f1-q14]]
 - fibra óptica — [[fis-2016-f1-q17]]
 - fluxo radiante — [[fis-2012-f1-q17]]
-- formação de imagem — [[fis-2010-f1-q26]], [[fis-2011-f1-q12]]
+- formação de imagem — [[fis-2010-f1-q26]], [[fis-2011-f1-q12]], [[fis-2021-f1-q09]]
 - formação de imagem por interface plana — [[fis-2023-f2-q06]]
+- formação de imagens — [[fis-2022-f1-q10]]
 - formação do arco-íris — [[fis-2008-f1-q30]]
 - geometria — [[fis-2016-f1-q17]]
 - geometria de trajetórias — [[fis-2008-f1-q30]]
@@ -2382,7 +3034,11 @@
 - iluminamento — [[fis-2012-f1-q17]]
 - lei de Snell — [[fis-2008-f1-q30]], [[fis-2015-f1-q26]], [[fis-2017-f1-q30]], [[fis-2023-f2-q06]]
 - lei do cosseno (Lambert) — [[fis-2012-f1-q17]]
+- lente biconvexa imersa — [[fis-2021-f1-q09]]
+- lente convergente — [[fis-2022-f1-q10]]
+- lente convergente; foco em meio com índice de refração — [[fis-2020-f1-q14]]
 - lente divergente — [[fis-2010-f1-q26]]
+- microscópio composto — [[fis-2024-f1-q07]]
 - método de Foucault — [[fis-2014-f1-q26]]
 - reflexão em espelho plano — [[fis-2013-f1-q12]]
 - reflexão em espelho rotativo — [[fis-2014-f1-q26]]
@@ -2394,6 +3050,7 @@
 - refração em metamaterial (índice negativo) — [[fis-2023-f2-q06]]
 - refração em prisma — [[fis-2015-f1-q26]]
 - refração em superfície esférica — [[fis-2011-f1-q12]]
+- sistema lente-espelho — [[fis-2022-f1-q10]]
 - tempo de propagação em fibra óptica — [[fis-2020-f2-q09]]
 - traçado de raios — [[fis-2017-f1-q30]]
 - velocidade da imagem — [[fis-2019-f2-q04]]
@@ -2403,7 +3060,23 @@
 - ângulo limite — [[fis-2015-f1-q26]], [[fis-2017-f1-q30]]
 - índice de refração — [[fis-2011-f1-q12]], [[fis-2011-f1-q29]], [[fis-2013-f1-q12]], [[fis-2014-f1-q26]], [[fis-2015-f1-q26]], [[fis-2016-f1-q17]], [[fis-2020-f2-q09]]
 
+### óptica geométrica, ondulatória, acústica
+- análise conceitual de observações cotidianas — [[fis-2019-f1-q01]]
+
+### óptica ondulatória
+- condição de franja verde a partir de azul e amarelo — [[fis-2022-f1-q11]]
+- diferença de caminho óptico — [[fis-2024-f1-q08]]
+- dupla fenda de Young — [[fis-2021-f1-q10]], [[fis-2022-f1-q11]]
+- experimento de Young — [[fis-2024-f1-q08]]
+- interferência — [[fis-2022-f1-q11]]
+- número de máximos em faixa angular — [[fis-2021-f1-q10]]
+- índice de refração — [[fis-2024-f1-q08]]
+
 ## Química
+
+### análise térmica, estequiometria
+- TGA do oxalato de cálcio mono-hidratado — [[qui-2021-f1-q62]]
+- etapas de decomposição — [[qui-2021-f1-q62]]
 
 ### atomística
 - afinidade eletrônica — [[qui-2009-f1-q09]], [[qui-2016-f1-q20]]
@@ -2458,11 +3131,37 @@
 - ânions — [[qui-2009-f1-q09]]
 - íons hidrogenoides — [[qui-2018-f1-q02]]
 
+### atomística, estequiometria
+- fórmulas moleculares — [[qui-2023-f1-q55]]
+- isótopos — [[qui-2023-f1-q55]]
+- razões de massa — [[qui-2023-f1-q55]]
+
+### atomística, química analítica
+- espectroscopia de massa; isótopos do bromo; abundâncias — [[qui-2019-f1-q59]]
+
+### atomística, radioatividade
+- níveis de energia do hidrogênio atômico; transições eletrônicas — [[qui-2019-f1-q52]]
+
+### atomística, tabela periódica
+- afinidade eletrônica — [[qui-2023-f1-q51]]
+- energia de ionização — [[qui-2023-f1-q51]]
+- raio atômico — [[qui-2023-f1-q51]]
+
+### atomística, tabela periódica, ligações químicas, geometria molecular
+- configuração eletrônica; energia de ligação; geometria — [[qui-2019-f1-q56]]
+
+### bioquímica
+- aminoácidos — [[qui-2022-f1-q59]]
+- atividade óptica — [[qui-2022-f1-q59]]
+- estado iônico em pH fisiológico — [[qui-2022-f1-q59]]
+- polimerização — [[qui-2022-f1-q59]]
+
 ### cinética química
+- Arrhenius — [[qui-2026-f1-q01]]
 - análise de dados experimentais de velocidade inicial — [[qui-2014-f1-q30]]
 - análise de proposições — [[qui-2015-f1-q05]]
 - aproximação do estado estacionário — [[qui-2016-f1-q25]]
-- catalisador — [[qui-2010-f1-q08]]
+- catalisador — [[qui-2010-f1-q08]], [[qui-2026-f1-q01]]
 - catálise — [[qui-2011-f1-q19]], [[qui-2012-f1-q25]]
 - catálise heterogênea — [[qui-2016-f1-q18]]
 - catálise homogênea — [[qui-2008-f1-q30]]
@@ -2478,13 +3177,14 @@
 - cálculo da constante k — [[qui-2014-f1-q13]]
 - cálculo de constante de velocidade inversa — [[qui-2022-f2-q01]]
 - dependência da concentração — [[qui-2010-f1-q14]], [[qui-2012-f1-q06]]
+- determinação de ordem de reação e constante k — [[qui-2021-f1-q59]]
 - diagrama de coordenada de reação — [[qui-2012-f1-q03]]
 - diagrama de energia — [[qui-2011-f1-q19]]
 - diagrama energético — [[qui-2010-f1-q25]]
 - endotermia/exotermia — [[qui-2015-f1-q23]]
-- energia de ativação — [[qui-2008-f1-q30]], [[qui-2012-f1-q25]], [[qui-2016-f1-q04]], [[qui-2017-f1-q04]]
+- energia de ativação — [[qui-2008-f1-q30]], [[qui-2012-f1-q25]], [[qui-2016-f1-q04]], [[qui-2017-f1-q04]], [[qui-2023-f1-q50]], [[qui-2025-f1-q31]], [[qui-2026-f1-q01]]
 - energia de ativação direta e inversa — [[qui-2015-f1-q23]]
-- equação de Arrhenius — [[qui-2016-f1-q04]], [[qui-2018-f1-q28]], [[qui-2022-f2-q01]]
+- equação de Arrhenius — [[qui-2016-f1-q04]], [[qui-2018-f1-q28]], [[qui-2022-f2-q01]], [[qui-2023-f1-q50]], [[qui-2025-f1-q31]]
 - equação estequiométrica — [[qui-2014-f1-q30]]
 - equações de velocidade — [[qui-2016-f1-q25]]
 - equilíbrio químico — [[qui-2008-f1-q09]], [[qui-2022-f2-q01]]
@@ -2509,7 +3209,7 @@
 - intermediário reacional — [[qui-2016-f1-q25]]
 - intermediário vs estado de transição — [[qui-2011-f1-q19]]
 - intermediários — [[qui-2010-f1-q25]], [[qui-2016-f1-q17]]
-- lei de velocidade — [[qui-2010-f1-q08]], [[qui-2010-f1-q14]], [[qui-2010-f1-q25]], [[qui-2012-f1-q06]], [[qui-2013-f1-q08]], [[qui-2014-f1-q30]], [[qui-2016-f1-q17]], [[qui-2017-f1-q14]], [[qui-2022-f2-q01]]
+- lei de velocidade — [[qui-2010-f1-q08]], [[qui-2010-f1-q14]], [[qui-2010-f1-q25]], [[qui-2012-f1-q06]], [[qui-2013-f1-q08]], [[qui-2014-f1-q30]], [[qui-2016-f1-q17]], [[qui-2017-f1-q14]], [[qui-2021-f1-q59]], [[qui-2022-f2-q01]]
 - lei de velocidade com saturação — [[qui-2011-f1-q21]]
 - lei de velocidade de 2ª ordem — [[qui-2018-f1-q28]]
 - lei de velocidade experimental — [[qui-2011-f1-q24]]
@@ -2527,6 +3227,7 @@
 - perfil energético de reação — [[qui-2008-f1-q30]]
 - pressões parciais — [[qui-2022-f2-q03]]
 - primeira ordem — [[qui-2017-f1-q14]]
+- razão entre constantes de velocidade — [[qui-2025-f1-q31]]
 - reação autocatalítica — [[qui-2008-f1-q09]]
 - reação de ordem zero — [[qui-2010-f1-q14]], [[qui-2016-f1-q18]]
 - reação de primeira e segunda ordem — [[qui-2009-f1-q28]]
@@ -2536,10 +3237,16 @@
 - sistemas fechados — [[qui-2008-f1-q09]]
 - substituição eletrofílica aromática — [[qui-2012-f1-q03]]
 - tempo de meia-vida — [[qui-2009-f1-q28]], [[qui-2012-f1-q06]], [[qui-2022-f2-q03]]
-- tempo de reação — [[qui-2016-f1-q18]]
+- tempo de reação — [[qui-2016-f1-q18]], [[qui-2026-f1-q01]]
 - transformações físicas vs químicas — [[qui-2008-f1-q08]]
 - velocidade de reação — [[qui-2009-f1-q11]], [[qui-2013-f1-q08]]
 - velocidade direta e inversa — [[qui-2012-f1-q25]]
+
+### cinética química / propriedades coligativas
+- evolução temporal — [[qui-2026-f1-q07]]
+- lei de Raoult — [[qui-2026-f1-q07]]
+- pressão de vapor — [[qui-2026-f1-q07]]
+- reação elementar A→3B — [[qui-2026-f1-q07]]
 
 ### cinética química, equilíbrio químico
 - cálculo de Keq — [[qui-2020-f2-q01]]
@@ -2547,20 +3254,37 @@
 - efeito da temperatura nas constantes de velocidade — [[qui-2020-f2-q01]]
 - energia de ativação — [[qui-2020-f2-q01]]
 
+### cinética química, química analítica
+- computadores químicos; conceitos de mecanismos reacionais — [[qui-2019-f1-q55]]
+
 ### cinética química, química orgânica
 - catálise — [[qui-2020-f2-q06]]
 - isomerização cis-trans — [[qui-2020-f2-q06]]
 - mecanismo de reação — [[qui-2020-f2-q06]]
 - perfil de energia — [[qui-2020-f2-q06]]
 
+### cinética química, reações inorgânicas
+- retardantes de chama; fenômenos físico-químicos — [[qui-2019-f1-q51]]
+
+### cinética química, termoquímica
+- catalisador — [[qui-2023-f1-q52]]
+- diagrama de energia — [[qui-2023-f1-q52]]
+- ordem de reação — [[qui-2023-f1-q52]]
+
+### combustão, química orgânica
+- combustão de parafina; difusão de O2; estrutura da chama — [[qui-2020-f1-q59]]
+
 ### eletroquímica
 - EPH — [[qui-2008-f1-q12]]
 - anodo/catodo — [[qui-2025-f2-q10]]
+- asserções I-IV — [[qui-2026-f1-q05]]
 - balanceamento de redox — [[qui-2021-f2-q08]]
 - balanceamento iônico — [[qui-2015-f1-q24]]
 - balanceamento por redox — [[qui-2013-f1-q22]]
 - balanceamento redox — [[qui-2016-f1-q09]]
 - balanço de carga — [[qui-2016-f1-q19]]
+- bateria chumbo-ácido — [[qui-2021-f1-q57]]
+- bateria de fluxo H2/Br2; potenciais-padrão; estabilidade do solvente — [[qui-2020-f1-q57]]
 - combinação de semi-reações — [[qui-2012-f1-q07]]
 - combinação de semirreações — [[qui-2011-f1-q22]]
 - concentração iônica — [[qui-2013-f1-q15]]
@@ -2571,11 +3295,12 @@
 - constante de equilíbrio via potencial redox — [[qui-2008-f1-q14]]
 - conversão de escalas de referência — [[qui-2011-f1-q11]]
 - conversão de unidades — [[qui-2008-f1-q29]], [[qui-2019-f2-q03]]
-- corrosão — [[qui-2008-f1-q29]], [[qui-2017-f1-q01]]
+- corrosão — [[qui-2008-f1-q29]], [[qui-2017-f1-q01]], [[qui-2026-f1-q05]]
 - corrosão da prata por sulfeto (Ag2S) — [[qui-2014-f1-q22]]
 - corrosão de metais — [[qui-2010-f1-q29]], [[qui-2021-f2-q01]]
 - corrosão eletrolítica — [[qui-2009-f1-q29]]
 - corrosão eletroquímica — [[qui-2008-f1-q11]], [[qui-2013-f1-q22]]
+- corrosão; proteção catódica; pilha — [[qui-2019-f1-q53]]
 - cálculo de Eº — [[qui-2012-f1-q07]]
 - cálculo de [H+] — [[qui-2015-f1-q13]]
 - cálculo de corrente a partir de taxa de corrosão — [[qui-2008-f1-q29]]
@@ -2589,7 +3314,8 @@
 - célula a combustível H2/O2 alcalina — [[qui-2014-f1-q20]]
 - célula de combustível — [[qui-2013-f1-q25]]
 - célula eletroquímica — [[qui-2012-f1-q10]]
-- célula galvânica — [[qui-2009-f1-q20]], [[qui-2010-f1-q05]], [[qui-2018-f1-q24]]
+- célula galvânica — [[qui-2009-f1-q20]], [[qui-2010-f1-q05]], [[qui-2018-f1-q24]], [[qui-2026-f1-q05]]
+- célula galvânica vs eletrolítica — [[qui-2024-f1-q59]]
 - células galvânicas Fe/Sn — [[qui-2009-f1-q24]]
 - ddp de pilha — [[qui-2019-f2-q06]]
 - densidade de corrente — [[qui-2009-f1-q29]], [[qui-2010-f1-q30]], [[qui-2014-f1-q25]]
@@ -2602,16 +3328,18 @@
 - eficiência de corrente 100% — [[qui-2014-f1-q25]]
 - eletrodeposição — [[qui-2010-f1-q18]], [[qui-2014-f1-q25]]
 - eletrodo ativo — [[qui-2010-f1-q18]]
-- eletrodo de calomelano — [[qui-2012-f1-q10]]
+- eletrodo de calomelano — [[qui-2012-f1-q10]], [[qui-2024-f1-q59]]
 - eletrodo de cobre-sulfato — [[qui-2011-f1-q11]]
 - eletrodo padrão de hidrogênio — [[qui-2017-f1-q12]]
 - eletrodos (anodo/catodo) — [[qui-2014-f1-q20]]
 - eletrodos inertes — [[qui-2012-f1-q11]], [[qui-2016-f1-q19]]
 - eletrólise — [[qui-2010-f1-q18]], [[qui-2010-f1-q30]], [[qui-2011-f1-q06]], [[qui-2012-f1-q11]], [[qui-2016-f1-q11]], [[qui-2017-f1-q16]], [[qui-2018-f1-q24]], [[qui-2020-f2-q04]], [[qui-2025-f2-q10]]
+- eletrólise da água — [[qui-2021-f1-q57]]
 - eletrólise de solução aquosa — [[qui-2016-f1-q19]]
-- energia livre de Gibbs — [[qui-2012-f1-q07]], [[qui-2016-f1-q09]]
+- energia livre de Gibbs — [[qui-2012-f1-q07]], [[qui-2016-f1-q09]], [[qui-2024-f1-q59]]
 - equação de Nernst — [[qui-2008-f1-q12]], [[qui-2008-f1-q14]], [[qui-2009-f1-q20]], [[qui-2009-f1-q24]], [[qui-2010-f1-q05]], [[qui-2010-f1-q29]], [[qui-2011-f1-q11]], [[qui-2012-f1-q04]], [[qui-2012-f1-q10]], [[qui-2013-f1-q15]], [[qui-2014-f1-q26]], [[qui-2015-f1-q13]], [[qui-2016-f1-q07]], [[qui-2017-f1-q12]], [[qui-2019-f2-q06]]
 - equações de oxirredução — [[qui-2010-f1-q27]]
+- equilíbrio termodinâmico — [[qui-2021-f1-q57]]
 - equivalente-grama — [[qui-2011-f1-q06]]
 - espontaneidade termodinâmica — [[qui-2010-f1-q29]]
 - espécies em meio ácido — [[qui-2015-f1-q26]]
@@ -2642,7 +3370,7 @@
 - passivação — [[qui-2013-f1-q22]]
 - pilha galvânica — [[qui-2008-f1-q12]]
 - ponto de viragem (indicador) — [[qui-2015-f1-q24]]
-- potenciais de eletrodo — [[qui-2012-f1-q07]]
+- potenciais de eletrodo — [[qui-2012-f1-q07]], [[qui-2021-f1-q57]], [[qui-2026-f1-q05]]
 - potenciais de eletrodo padrão — [[qui-2012-f1-q04]]
 - potenciais de redução — [[qui-2010-f1-q27]]
 - potenciais padrão — [[qui-2008-f1-q14]], [[qui-2010-f1-q05]], [[qui-2010-f1-q29]]
@@ -2652,7 +3380,7 @@
 - potencial de eletrodo — [[qui-2008-f1-q12]], [[qui-2013-f1-q15]], [[qui-2014-f1-q26]], [[qui-2016-f1-q07]]
 - potencial de pilha — [[qui-2017-f1-q12]]
 - potencial de reação — [[qui-2021-f2-q08]]
-- potencial padrão — [[qui-2009-f1-q20]], [[qui-2018-f1-q18]], [[qui-2018-f1-q24]]
+- potencial padrão — [[qui-2009-f1-q20]], [[qui-2018-f1-q18]], [[qui-2018-f1-q24]], [[qui-2024-f1-q59]]
 - potencial padrão de eletrodo — [[qui-2011-f1-q11]]
 - processos catódicos e anódicos — [[qui-2010-f1-q18]]
 - produto de solubilidade — [[qui-2012-f1-q04]]
@@ -2675,7 +3403,7 @@
 - sais fundidos vs soluções aquosas — [[qui-2012-f1-q11]]
 - semi-reações — [[qui-2016-f1-q07]]
 - semirreação de redução de O2 em meio neutro — [[qui-2014-f1-q26]]
-- semirreações — [[qui-2013-f1-q22]], [[qui-2015-f1-q26]], [[qui-2020-f2-q04]], [[qui-2025-f2-q10]]
+- semirreações — [[qui-2013-f1-q22]], [[qui-2015-f1-q26]], [[qui-2020-f2-q04]], [[qui-2025-f2-q10]], [[qui-2026-f1-q05]]
 - semirreações anódica e catódica — [[qui-2013-f1-q25]], [[qui-2018-f1-q24]]
 - semirreações de oxirredução — [[qui-2018-f1-q18]]
 - separação de cátions — [[qui-2010-f1-q27]]
@@ -2685,12 +3413,19 @@
 - trabalho elétrico — [[qui-2018-f1-q18]]
 - ΔG° = -nFE° — [[qui-2014-f1-q20]], [[qui-2014-f1-q26]]
 
+### eletroquímica, corrosão
+- processos de oxidação-redução — [[qui-2021-f1-q67]]
+- proteção catódica — [[qui-2021-f1-q67]]
+- ânodo de sacrifício — [[qui-2021-f1-q67]]
+
 ### equilíbrio iônico
+- Henderson-Hasselbalch — [[qui-2024-f1-q56]]
 - Kw — [[qui-2013-f1-q21]]
 - [H+] — [[qui-2015-f1-q09]]
 - atividade iônica — [[qui-2019-f2-q07]]
 - autoionização da água — [[qui-2012-f1-q20]]
 - ação tamponante — [[qui-2016-f1-q27]]
+- base forte adicionada a tampão — [[qui-2024-f1-q56]]
 - carga iônica — [[qui-2013-f1-q12]]
 - cianeto de amônio — [[qui-2009-f1-q27]]
 - concentração de OH- — [[qui-2009-f1-q16]]
@@ -2747,7 +3482,7 @@
 - limitações do conceito de pH em soluções concentradas — [[qui-2019-f2-q07]]
 - mobilidade iônica — [[qui-2010-f1-q04]]
 - neutralização — [[qui-2010-f1-q04]]
-- pH — [[qui-2013-f1-q12]]
+- pH — [[qui-2013-f1-q12]], [[qui-2024-f1-q56]]
 - pH de sais — [[qui-2013-f1-q21]]
 - pH de soluções de sais — [[qui-2011-f1-q03]]
 - pH de ácido forte — [[qui-2019-f2-q07]]
@@ -2774,7 +3509,7 @@
 - solubilidade de sais — [[qui-2008-f1-q05]], [[qui-2022-f2-q04]]
 - solubilidade de sal pouco solúvel em presença de íon X- — [[qui-2014-f1-q17]]
 - solução saturada — [[qui-2008-f1-q07]]
-- solução tampão — [[qui-2012-f1-q28]], [[qui-2016-f1-q27]]
+- solução tampão — [[qui-2012-f1-q28]], [[qui-2016-f1-q27]], [[qui-2024-f1-q56]]
 - tamponamento por uréia — [[qui-2017-f1-q25]]
 - titulação de ácido fraco — [[qui-2010-f1-q21]]
 - titulação ácido-base — [[qui-2010-f1-q04]], [[qui-2018-f1-q23]]
@@ -2785,10 +3520,20 @@
 - ácidos fracos — [[qui-2017-f1-q25]]
 - ácidos fracos vs fortes — [[qui-2015-f1-q09]]
 
+### equilíbrio iônico, hidrólise
+- hidrólise salina; caráter ácido/básico de soluções — [[qui-2020-f1-q64]]
+
+### equilíbrio iônico, soluções
+- mistura de ácido forte e base forte; cálculo de [H3O+] — [[qui-2020-f1-q61]]
+
 ### equilíbrio iônico, ácidos e bases
 - curva de titulação — [[qui-2020-f2-q10]]
+- hidrólise — [[qui-2023-f1-q49]]
 - hidrólise salina — [[qui-2020-f2-q10]]
+- indicador ácido-base; constante de dissociação; variação de pH — [[qui-2019-f1-q54]]
 - pH de ácido/base forte e fraco — [[qui-2020-f2-q10]]
+- pH no ponto de equivalência — [[qui-2023-f1-q49]]
+- titulação ácido fraco-base forte — [[qui-2023-f1-q49]]
 
 ### equilíbrio químico
 - Kc — [[qui-2015-f1-q12]]
@@ -2800,13 +3545,20 @@
 - constante Kp em sistemas gasosos — [[qui-2008-f1-q04]]
 - constante de equilíbrio — [[qui-2010-f1-q10]]
 - constante de equilíbrio K — [[qui-2013-f1-q28]]
-- constante de equilíbrio Kc — [[qui-2025-f2-q02]]
+- constante de equilíbrio Kc — [[qui-2023-f1-q56]], [[qui-2025-f2-q02]]
 - constante de equilíbrio global — [[qui-2017-f1-q28]]
+- constante kp — [[qui-2022-f1-q68]]
 - conversão concentração-pressão — [[qui-2011-f1-q30]]
+- cálculo de concentrações no equilíbrio — [[qui-2023-f1-q56]]
 - decomposição térmica — [[qui-2008-f1-q04]]
+- deslocamento por adição de reagente — [[qui-2022-f1-q68]]
+- diagramas de equilíbrio — [[qui-2023-f1-q60]]
+- dissociação de PCl5 — [[qui-2022-f1-q68]]
 - dissolução de rochas — [[qui-2012-f1-q27]]
 - efeito da pressão — [[qui-2019-f2-q10]]
 - efeito da temperatura em reação exotérmica — [[qui-2019-f2-q10]]
+- efeito de temperatura — [[qui-2022-f1-q65]]
+- efeito de temperatura e pressão — [[qui-2023-f1-q60]]
 - efeito do catalisador — [[qui-2019-f2-q10]]
 - efeito do íon comum — [[qui-2010-f1-q10]], [[qui-2011-f1-q29]]
 - energia de ativação — [[qui-2013-f1-q28]]
@@ -2829,14 +3581,33 @@
 - perturbação de equilíbrio — [[qui-2008-f1-q22]]
 - perturbação do equilíbrio — [[qui-2025-f2-q02]]
 - pressão de vapor — [[qui-2008-f1-q22]], [[qui-2011-f1-q30]]
+- pressão e remoção de produtos — [[qui-2022-f1-q65]]
 - pressões parciais — [[qui-2008-f1-q04]], [[qui-2016-f1-q10]]
-- princípio de Le Chatelier — [[qui-2008-f1-q22]], [[qui-2012-f1-q27]], [[qui-2019-f2-q10]], [[qui-2025-f2-q02]]
+- princípio de Le Chatelier — [[qui-2008-f1-q22]], [[qui-2012-f1-q27]], [[qui-2019-f2-q10]], [[qui-2022-f1-q65]], [[qui-2023-f1-q60]], [[qui-2025-f2-q02]]
 - princípio do equilíbrio detalhado — [[qui-2017-f1-q28]]
 - produto de solubilidade — [[qui-2010-f1-q10]]
 - produto de solubilidade Kps — [[qui-2011-f1-q29]]
 - solubilidade molar — [[qui-2011-f1-q29]]
 - temperatura — [[qui-2010-f1-q10]]
 - toxicologia do mercúrio — [[qui-2011-f1-q30]]
+
+### equilíbrio químico / propriedades coligativas
+- calor de vaporização — [[qui-2026-f1-q06]]
+- constante de equilíbrio — [[qui-2026-f1-q06]]
+- ebulioscopia — [[qui-2026-f1-q06]]
+- equilíbrio em solução — [[qui-2026-f1-q06]]
+
+### equilíbrio químico, cinética
+- catalisador e temperatura — [[qui-2020-f1-q58]]
+- processo Haber-Bosch; efeito de pressão — [[qui-2020-f1-q58]]
+
+### equilíbrio químico, equilíbrio iônico
+- constante de equilíbrio — [[qui-2023-f1-q54]]
+- grau de ionização — [[qui-2023-f1-q54]]
+- lei de diluição de Ostwald — [[qui-2023-f1-q54]]
+
+### equilíbrio químico, soluções
+- lei de Henry; dissolução de CO2 na água; pH atmosférico — [[qui-2020-f1-q69]]
 
 ### estados da matéria
 - aerossol — [[qui-2018-f1-q27]]
@@ -2949,10 +3720,74 @@
 - ácidos dicarboxílicos — [[qui-2008-f1-q03]]
 - óxidos de fórmula X3O4 — [[qui-2011-f1-q15]]
 
+### estequiometria / gases
+- consumo de reagente — [[qui-2026-f1-q12]]
+- lei das pressões parciais — [[qui-2026-f1-q12]]
+- pressão total — [[qui-2026-f1-q12]]
+- reação em fase gasosa — [[qui-2026-f1-q12]]
+
+### estequiometria / titulação
+- agente oxidante/redutor — [[qui-2025-f1-q29]]
+- asserções I-IV — [[qui-2025-f1-q29]]
+- oxirredução — [[qui-2025-f1-q29]]
+- titulação de retorno — [[qui-2025-f1-q29]]
+
+### estequiometria, combustão
+- combustão completa de alcano; razão ar/combustível — [[qui-2020-f1-q68]]
+- razão mássica combustível/O2 em combustão completa — [[qui-2020-f1-q65]]
+
+### estequiometria, gases ideais
+- reação em fase gasosa; pressões parciais; massas iniciais — [[qui-2020-f1-q62]]
+
+### estequiometria, gases, química orgânica
+- mistura gasosa; conversão de carbonos em butadieno; massa — [[qui-2019-f1-q60]]
+
+### estequiometria, oxirredução
+- balanceamento de reação redox; soma dos coeficientes — [[qui-2020-f1-q60]]
+- balanceamento redox — [[qui-2021-f1-q66]]
+- mols de elétrons — [[qui-2021-f1-q66]]
+- titulação Fe(II)/permanganato — [[qui-2021-f1-q66]]
+
 ### estequiometria, reações inorgânicas
 - balanceamento redox — [[qui-2020-f2-q08]]
 - reagente em excesso — [[qui-2020-f2-q08]]
 - rendimento — [[qui-2020-f2-q08]]
+
+### estequiometria, termoquímica
+- combustão completa — [[qui-2024-f1-q49]]
+- composição percentual — [[qui-2024-f1-q49]]
+- entalpia — [[qui-2024-f1-q49]]
+- misturas estequiométricas — [[qui-2024-f1-q49]]
+
+### estrutura atômica
+- configuração eletrônica — [[qui-2021-f1-q65]]
+- números quânticos — [[qui-2021-f1-q65]]
+- radiação eletromagnética — [[qui-2021-f1-q65]]
+- relação diagonal — [[qui-2021-f1-q65]]
+
+### estrutura atômica / leis ponderais
+- asserções I-IV — [[qui-2026-f1-q09]]
+- isótopos — [[qui-2026-f1-q09]]
+- lei das proporções múltiplas — [[qui-2026-f1-q09]]
+- massa atômica média — [[qui-2026-f1-q09]]
+- modelos atômicos — [[qui-2026-f1-q09]]
+- raios catódicos — [[qui-2026-f1-q09]]
+
+### forças intermoleculares, fases condensadas
+- energia de interação íon-dipolo — [[qui-2021-f1-q64]]
+- pontos de fusão — [[qui-2021-f1-q64]]
+- pressão de vapor — [[qui-2021-f1-q64]]
+
+### fotoquímica
+- energia do fóton — [[qui-2025-f1-q36]]
+- espectro eletromagnético — [[qui-2025-f1-q36]]
+- relação E=hc/λ — [[qui-2025-f1-q36]]
+
+### físico-química / combustão
+- asserções I-IV — [[qui-2025-f1-q25]]
+- catálise — [[qui-2025-f1-q25]]
+- detonação — [[qui-2025-f1-q25]]
+- propagação de chama — [[qui-2025-f1-q25]]
 
 ### gases
 - Lei de Henry — [[qui-2010-f1-q11]]
@@ -3008,12 +3843,30 @@
 - velocidade média das moléculas — [[qui-2014-f1-q11]]
 - velocidade média e distribuição de Maxwell-Boltzmann — [[qui-2011-f1-q20]]
 
+### gases ideais
+- P-V-T — [[qui-2025-f1-q28]]
+- equação de Clapeyron — [[qui-2025-f1-q28]]
+- transformações combinadas — [[qui-2025-f1-q28]]
+
 ### geometria molecular
+- ClF3 — [[qui-2021-f1-q69]]
+- VSEPR — [[qui-2021-f1-q69]]
+- XeF (XeF2/XeF4) — [[qui-2021-f1-q69]]
 - estruturas de Lewis — [[qui-2008-f1-q21]]
 - geometria VSEPR — [[qui-2008-f1-q21]]
 - hibridização — [[qui-2008-f1-q21]]
+- identificação de átomo central (N vs B) — [[qui-2022-f1-q69]]
 - momento dipolar — [[qui-2008-f1-q21]]
 - polaridade molecular — [[qui-2008-f1-q21]]
+- teoria VSEPR — [[qui-2022-f1-q69]]
+- tricloretos — [[qui-2022-f1-q69]]
+- ângulos F-Y-F em SF4 — [[qui-2021-f1-q69]]
+
+### geometria molecular / polaridade
+- PCl5 — [[qui-2025-f1-q32]]
+- bipirâmide trigonal — [[qui-2025-f1-q32]]
+- isômeros polares/apolares — [[qui-2025-f1-q32]]
+- substituição de halogênios — [[qui-2025-f1-q32]]
 
 ### história da química
 - Galileu — [[qui-2015-f1-q20]]
@@ -3028,21 +3881,29 @@
 - primeira lei da termodinâmica — [[qui-2014-f1-q15]]
 - revolução industrial — [[qui-2014-f1-q16]]
 
+### interações intermoleculares
+- capilaridade — [[qui-2021-f1-q56]]
+- isomeria cis-trans — [[qui-2021-f1-q56]]
+- tensão superficial — [[qui-2021-f1-q56]]
+- viscosidade — [[qui-2021-f1-q56]]
+
 ### ligações químicas
 - carga do complexo — [[qui-2014-f1-q08]]
-- cargas formais — [[qui-2011-f1-q18]]
+- cargas formais — [[qui-2011-f1-q18]], [[qui-2021-f1-q60]]
 - caráter covalente — [[qui-2017-f1-q09]]
 - caráter covalente vs iônico — [[qui-2012-f1-q17]]
-- ciclo de Born-Haber — [[qui-2019-f2-q08]]
+- ciclo de Born-Haber — [[qui-2019-f2-q08]], [[qui-2022-f1-q57]]
 - comparação de energia reticular (carga e raio iônico) — [[qui-2019-f2-q08]]
 - comparação entre álcoois — [[qui-2009-f1-q07]]
 - compostos binários — [[qui-2017-f1-q09]]
 - comprimento de ligação — [[qui-2011-f1-q18]]
+- comprimento e energia de ligação — [[qui-2021-f1-q60]]
 - condutividade elétrica — [[qui-2010-f1-q03]]
 - diagrama de van Arkel-Ketelaar — [[qui-2017-f1-q09]]
 - dissociação iônica — [[qui-2010-f1-q03]]
 - eletronegatividade — [[qui-2012-f1-q17]], [[qui-2017-f1-q09]]
 - energia de rede — [[qui-2019-f2-q08]]
+- energia reticular — [[qui-2022-f1-q57]]
 - entalpia de formação — [[qui-2019-f2-q08]]
 - espécies isoeletrônicas — [[qui-2011-f1-q18]]
 - forças intermoleculares — [[qui-2009-f1-q07]], [[qui-2018-f1-q03]]
@@ -3055,15 +3916,46 @@
 - polaridade de solventes — [[qui-2010-f1-q03]]
 - polaridade molecular — [[qui-2018-f1-q03]]
 - polarizabilidade — [[qui-2012-f1-q17]]
+- polarização — [[qui-2021-f1-q60]]
 - polarização iônica — [[qui-2013-f1-q26]]
 - ponto de ebulição — [[qui-2009-f1-q07]], [[qui-2018-f1-q03]]
 - pressão de vapor — [[qui-2018-f1-q03]]
 - regra de Fajans — [[qui-2012-f1-q17]], [[qui-2013-f1-q26]]
+- ressonância — [[qui-2021-f1-q60]]
 - solubilidade em solvente polar — [[qui-2013-f1-q26]]
+- sólido iônico — [[qui-2022-f1-q57]]
 - éteres e aminas — [[qui-2009-f1-q07]]
+
+### metodologia científica
+- ciclo do método científico hipotético-dedutivo — [[qui-2022-f1-q64]]
+- sequência de etapas — [[qui-2022-f1-q64]]
+
+### misturas e separação
+- azeótropos — [[qui-2024-f1-q53]]
+- curva de aquecimento — [[qui-2024-f1-q53]]
+- filtração à pressão reduzida — [[qui-2024-f1-q53]]
+- ligas metálicas — [[qui-2024-f1-q53]]
+
+### modelos atômicos
+- Bohr — [[qui-2024-f1-q52]]
+- Dalton — [[qui-2024-f1-q52]]
+- Rutherford — [[qui-2024-f1-q52]]
+- Thomson; identificação do modelo mínimo necessário — [[qui-2024-f1-q52]]
+- deflexão de partículas alfa — [[qui-2022-f1-q63]]
+- experimento de Rutherford — [[qui-2022-f1-q63]]
+- núcleo atômico — [[qui-2022-f1-q63]]
+
+### polímeros / estequiometria
+- PET — [[qui-2026-f1-q11]]
+- densidade — [[qui-2026-f1-q11]]
+- massa molar — [[qui-2026-f1-q11]]
+- polimerização por condensação — [[qui-2026-f1-q11]]
+- rendimento — [[qui-2026-f1-q11]]
+- ácido tereftálico + etilenoglicol — [[qui-2026-f1-q11]]
 
 ### propriedades coligativas
 - Lei de Raoult — [[qui-2023-f2-q01]]
+- abaixamento crioscópico — [[qui-2022-f1-q70]]
 - abaixamento da pressão de vapor — [[qui-2017-f1-q13]]
 - composição da fase vapor — [[qui-2023-f2-q01]]
 - concentração de solução de açúcar — [[qui-2009-f1-q19]]
@@ -3074,25 +3966,29 @@
 - cálculo de massa e temperatura de congelamento — [[qui-2009-f1-q25]]
 - cálculo de massa molar — [[qui-2008-f1-q23]], [[qui-2012-f1-q01]]
 - cálculo de molalidade — [[qui-2016-f1-q03]]
+- dimerização — [[qui-2022-f1-q70]]
 - dissolução de carbonatos — [[qui-2010-f1-q24]]
 - ebuliometria — [[qui-2018-f1-q14]]
-- ebulioscopia — [[qui-2016-f1-q03]]
+- ebulioscopia — [[qui-2016-f1-q03]], [[qui-2022-f1-q60]], [[qui-2024-f1-q58]]
 - equação de van't Hoff — [[qui-2008-f1-q23]], [[qui-2012-f1-q01]]
 - equações de reação ácido-base — [[qui-2010-f1-q24]]
+- equilíbrio de dissociação — [[qui-2024-f1-q58]]
 - equilíbrio termodinâmico entre soluções — [[qui-2015-f1-q16]]
 - fator de van't Hoff — [[qui-2017-f1-q13]]
+- fator de van't Hoff implícito — [[qui-2024-f1-q58]]
 - forças intermoleculares — [[qui-2013-f1-q03]], [[qui-2013-f1-q17]]
 - fração molar — [[qui-2009-f1-q19]], [[qui-2009-f1-q25]], [[qui-2023-f2-q01]]
 - fração molar do solvente — [[qui-2014-f1-q10]]
 - fração mássica — [[qui-2017-f1-q06]]
 - identificação de composto orgânico — [[qui-2012-f1-q01]]
+- identificação de soluto pela elevação do ponto de ebulição — [[qui-2022-f1-q60]]
 - lei de Raoult — [[qui-2009-f1-q19]], [[qui-2014-f1-q10]]
 - ligações de hidrogênio — [[qui-2013-f1-q03]]
 - membranas semipermeáveis — [[qui-2010-f1-q24]]
 - osmose — [[qui-2010-f1-q24]], [[qui-2015-f1-q16]]
-- pressão de vapor — [[qui-2009-f1-q19]], [[qui-2013-f1-q03]], [[qui-2013-f1-q17]], [[qui-2015-f1-q16]], [[qui-2023-f2-q01]]
+- pressão de vapor — [[qui-2009-f1-q19]], [[qui-2013-f1-q03]], [[qui-2013-f1-q17]], [[qui-2015-f1-q16]], [[qui-2022-f1-q70]], [[qui-2023-f2-q01]]
 - pressão de vapor de solução ideal — [[qui-2014-f1-q10]]
-- pressão osmótica — [[qui-2008-f1-q23]], [[qui-2009-f1-q25]], [[qui-2010-f1-q24]], [[qui-2012-f1-q01]], [[qui-2018-f1-q14]]
+- pressão osmótica — [[qui-2008-f1-q23]], [[qui-2009-f1-q25]], [[qui-2010-f1-q24]], [[qui-2012-f1-q01]], [[qui-2018-f1-q14]], [[qui-2022-f1-q70]]
 - regressão linear — [[qui-2008-f1-q23]]
 - soluto não-volátil — [[qui-2014-f1-q10]]
 - solução ideal — [[qui-2023-f2-q01]]
@@ -3104,6 +4000,39 @@
 - transferência de solvente — [[qui-2015-f1-q16]]
 - variação de temperatura de ebulição — [[qui-2016-f1-q03]]
 - viscosidade — [[qui-2013-f1-q17]]
+
+### propriedades físicas, ligações
+- líquidos iônicos; ponto de fusão; pressão de vapor — [[qui-2020-f1-q66]]
+
+### propriedades periódicas
+- afinidade eletrônica de gases nobres — [[qui-2025-f1-q27]]
+- asserções I-IV — [[qui-2025-f1-q27]]
+- energia de ionização — [[qui-2025-f1-q27]]
+- raio atômico — [[qui-2025-f1-q27]]
+- raio iônico — [[qui-2025-f1-q27]]
+
+### propriedades periódicas / ligações
+- asserções I-IV — [[qui-2026-f1-q02]]
+- energia de ionização — [[qui-2026-f1-q02]]
+- geometria molecular — [[qui-2026-f1-q02]]
+- polaridade — [[qui-2026-f1-q02]]
+- raio iônico — [[qui-2026-f1-q02]]
+
+### química ambiental
+- CFCs — [[qui-2026-f1-q04]]
+- asserções I-IV — [[qui-2026-f1-q04]]
+- camada de ozônio — [[qui-2026-f1-q04]]
+- ciclo do oxigênio — [[qui-2022-f1-q61]]
+- efeito estufa — [[qui-2026-f1-q04]]
+- fontes aquáticas — [[qui-2022-f1-q61]]
+- gases de efeito estufa — [[qui-2026-f1-q04]]
+- produção e consumo na atmosfera — [[qui-2022-f1-q61]]
+
+### química ambiental — ciclo do nitrogênio
+- amonificação — [[qui-2024-f1-q50]]
+- desnitrificação — [[qui-2024-f1-q50]]
+- fixação — [[qui-2024-f1-q50]]
+- nitrificação — [[qui-2024-f1-q50]]
 
 ### química analítica
 - análise qualitativa — [[qui-2009-f1-q14]]
@@ -3130,6 +4059,25 @@
 - técnicas de laboratório — [[qui-2015-f1-q01]]
 - vidrarias volumétricas — [[qui-2015-f1-q01]]
 
+### química geral / laboratório
+- filtração a quente — [[qui-2025-f1-q33]]
+- purificação de sais — [[qui-2025-f1-q33]]
+- recristalização — [[qui-2025-f1-q33]]
+- solubilidade — [[qui-2025-f1-q33]]
+
+### química inorgânica — halogênios
+- reatividade dos halogênios — [[qui-2024-f1-q55]]
+- reações de deslocamento — [[qui-2024-f1-q55]]
+- série eletroquímica — [[qui-2024-f1-q55]]
+
+### química inorgânica, reações de precipitação
+- reações de prata; identificação de sólidos formados — [[qui-2020-f1-q70]]
+
+### química nuclear
+- decaimento radioativo do ²³¹Pa — [[qui-2022-f1-q58]]
+- massa restante — [[qui-2022-f1-q58]]
+- meia-vida — [[qui-2022-f1-q58]]
+
 ### química orgânica
 - C4H8 — [[qui-2023-f2-q10]]
 - LiAlH4 — [[qui-2013-f1-q06]]
@@ -3152,10 +4100,14 @@
 - aplicações industriais — [[qui-2008-f1-q17]]
 - aromáticos — [[qui-2018-f1-q04]]
 - aromáticos vs alifáticos — [[qui-2011-f1-q07]]
+- asserções I-III — [[qui-2026-f1-q08]], [[qui-2026-f1-q10]]
+- asserções I-IV — [[qui-2025-f1-q26]]
+- atividade óptica — [[qui-2021-f1-q58]]
 - basicidade de aminas — [[qui-2009-f1-q22]]
 - biocombustíveis — [[qui-2018-f1-q10]]
 - biodiesel — [[qui-2011-f1-q13]], [[qui-2018-f1-q10]], [[qui-2020-f2-q03]]
 - borracha natural — [[qui-2012-f1-q14]]
+- carbocátion — [[qui-2026-f1-q10]]
 - catálise alcalina — [[qui-2011-f1-q13]]
 - centros quirais — [[qui-2020-f2-q07]]
 - cetonas — [[qui-2013-f1-q20]], [[qui-2022-f2-q09]]
@@ -3181,6 +4133,7 @@
 - destilação fracionada — [[qui-2018-f1-q11]]
 - efeito indutivo de halogênios — [[qui-2014-f1-q14]]
 - efeito orientador — [[qui-2010-f1-q20]]
+- efeitos diretores — [[qui-2022-f1-q66]]
 - efeitos indutivo e mesomérico — [[qui-2009-f1-q22]]
 - eletronegatividade (F vs Cl) — [[qui-2014-f1-q14]]
 - eliminação E2 — [[qui-2008-f1-q25]]
@@ -3210,10 +4163,11 @@
 - fórmula molecular — [[qui-2012-f1-q12]], [[qui-2025-f2-q01]]
 - fórmulas estruturais — [[qui-2010-f1-q26]], [[qui-2018-f1-q25]]
 - grupos ativadores/desativadores — [[qui-2010-f1-q20]]
-- grupos funcionais — [[qui-2008-f1-q16]]
+- grupos funcionais — [[qui-2008-f1-q16]], [[qui-2023-f1-q53]]
 - grupos funcionais polares — [[qui-2018-f1-q01]]
 - haletos de alquila — [[qui-2008-f1-q25]]
 - haletos orgânicos — [[qui-2010-f1-q26]]
+- haloalcanos — [[qui-2026-f1-q10]]
 - halogenação — [[qui-2016-f1-q21]]
 - halogenação de cadeia lateral — [[qui-2012-f1-q22]]
 - hidrocarbonetos aromáticos policíclicos — [[qui-2015-f1-q30]]
@@ -3230,26 +4184,31 @@
 - identificação de polímeros — [[qui-2012-f1-q14]]
 - interações intermoleculares — [[qui-2015-f1-q06]], [[qui-2022-f2-q06]]
 - isomeria — [[qui-2025-f2-q01]]
+- isomeria cis/trans — [[qui-2025-f1-q26]]
 - isomeria conformacional — [[qui-2012-f1-q12]]
 - isomeria de cadeia — [[qui-2016-f1-q05]]
 - isomeria de hidrocarbonetos — [[qui-2017-f1-q20]]
 - isomeria de posição — [[qui-2017-f1-q30]]
-- isomeria estrutural — [[qui-2012-f1-q12]], [[qui-2017-f1-q18]], [[qui-2018-f1-q04]], [[qui-2023-f2-q10]]
+- isomeria estrutural — [[qui-2012-f1-q12]], [[qui-2017-f1-q18]], [[qui-2018-f1-q04]], [[qui-2021-f1-q58]], [[qui-2023-f2-q10]]
 - isomeria funcional — [[qui-2022-f2-q09]]
 - isomeria geométrica — [[qui-2012-f1-q12]]
 - isomeria geométrica cis-trans — [[qui-2010-f1-q26]]
 - isomeria geométrica cis/trans — [[qui-2023-f2-q10]]
 - isomeria óptica — [[qui-2012-f1-q12]]
+- isólogas e heterólogas — [[qui-2026-f1-q08]]
+- isômeros estruturais de aminas — [[qui-2019-f1-q50]]
 - ligações de hidrogênio — [[qui-2022-f2-q06]]
 - mol — [[qui-2025-f2-q01]]
 - monômero isopreno — [[qui-2012-f1-q14]]
 - monômeros vinílicos — [[qui-2018-f1-q25]]
 - naftaleno — [[qui-2015-f1-q30]]
 - neutralização ácido-base — [[qui-2008-f1-q02]]
+- nitração — [[qui-2022-f1-q66]]
 - nitração de fenol — [[qui-2012-f1-q22]]
 - nitração do tolueno — [[qui-2017-f1-q23]]
 - nomenclatura — [[qui-2010-f1-q26]]
 - nomenclatura IUPAC — [[qui-2017-f1-q30]]
+- oxidação de alquenos com KMnO4 — [[qui-2025-f1-q26]]
 - oxidação de hidrocarbonetos aromáticos — [[qui-2017-f1-q10]]
 - oxidação de tolueno — [[qui-2012-f1-q22]]
 - oxidação de álcool — [[qui-2018-f1-q12]]
@@ -3259,6 +4218,7 @@
 - petróleo — [[qui-2018-f1-q11]]
 - poliacetileno — [[qui-2011-f1-q09]]
 - policarbonato — [[qui-2008-f1-q17]]
+- polimerização — [[qui-2021-f1-q58]]
 - polimerização do etileno — [[qui-2021-f2-q09]]
 - polimerização por adição — [[qui-2018-f1-q25]], [[qui-2020-f2-q09]]
 - politetrafluoretileno e siloxanos — [[qui-2012-f1-q19]]
@@ -3266,13 +4226,15 @@
 - polímeros — [[qui-2012-f1-q14]], [[qui-2012-f1-q19]], [[qui-2015-f1-q06]], [[qui-2022-f2-q06]]
 - polímeros (PEBD/PEAD) — [[qui-2021-f2-q09]]
 - polímeros condutores — [[qui-2011-f1-q09]]
-- polímeros de condensação — [[qui-2008-f1-q16]]
+- polímeros de condensação — [[qui-2008-f1-q16]], [[qui-2023-f1-q53]]
 - polímeros termoplásticos — [[qui-2008-f1-q17]]
 - ponto de ebulição — [[qui-2017-f1-q30]]
 - pressão de vapor — [[qui-2016-f1-q05]]
+- produtos majoritários — [[qui-2025-f1-q26]]
 - propriedades de polímeros — [[qui-2008-f1-q17]]
 - propriedades de superfície — [[qui-2012-f1-q19]]
 - propriedades físicas — [[qui-2014-f1-q03]]
+- propriedades químicas — [[qui-2026-f1-q08]]
 - proximidade do grupo carboxílico — [[qui-2014-f1-q14]]
 - quelação com íons metálicos — [[qui-2014-f1-q03]]
 - quiralidade — [[qui-2017-f1-q18]], [[qui-2017-f1-q20]]
@@ -3296,6 +4258,7 @@
 - reação de cianeto — [[qui-2017-f1-q26]]
 - reação de esterificação com ácido nítrico — [[qui-2019-f2-q09]]
 - reação de nitração — [[qui-2010-f1-q20]]
+- reação de substituição nucleofílica — [[qui-2026-f1-q10]]
 - reação de álcoois — [[qui-2009-f1-q17]]
 - reação isocianato-álcool — [[qui-2008-f1-q16]]
 - reações de alcanos — [[qui-2012-f1-q02]]
@@ -3306,6 +4269,8 @@
 - reações de nitração — [[qui-2012-f1-q29]]
 - reações de oxirredução em orgânica — [[qui-2008-f1-q02]]
 - reações de saponificação — [[qui-2011-f1-q13]]
+- reações de substituição em aromáticos — [[qui-2022-f1-q66]]
+- reações de substituição/adição — [[qui-2021-f1-q58]]
 - reações de ésteres — [[qui-2017-f1-q10]]
 - reações ácido-base — [[qui-2025-f2-q07]]
 - redução com LiAlH4 — [[qui-2011-f1-q26]], [[qui-2023-f2-q09]]
@@ -3315,15 +4280,17 @@
 - regra de Saytzeff — [[qui-2008-f1-q25]]
 - relação estrutura-propriedade — [[qui-2021-f2-q09]]
 - ressonância — [[qui-2021-f2-q10]]
-- saponificação — [[qui-2020-f2-q03]]
+- saponificação — [[qui-2020-f2-q03]], [[qui-2023-f1-q58]]
 - sensibilidade à água — [[qui-2016-f1-q22]]
 - simetria de cadeia — [[qui-2015-f1-q06]]
 - solubilidade — [[qui-2025-f2-q07]]
 - solubilidade de aminas — [[qui-2009-f1-q22]]
 - solubilidade em solventes apolares — [[qui-2014-f1-q03]]
+- solvente polar — [[qui-2026-f1-q10]]
 - substituição eletrofílica aromática — [[qui-2010-f1-q20]], [[qui-2012-f1-q22]]
 - substituição nucleofílica SN2 — [[qui-2011-f1-q26]]
 - substâncias explosivas — [[qui-2012-f1-q29]]
+- séries homólogas — [[qui-2026-f1-q08]]
 - síntese de TNT — [[qui-2017-f1-q23]]
 - síntese de Wöhler — [[qui-2017-f1-q26]]
 - síntese de amidas — [[qui-2017-f1-q18]]
@@ -3343,7 +4310,42 @@
 - álcoois e oxigenados — [[qui-2011-f1-q07]]
 - éster — [[qui-2025-f2-q07]]
 - ésteres — [[qui-2023-f2-q09]]
+- ésteres de ácidos graxos — [[qui-2023-f1-q58]]
 - éteres — [[qui-2018-f1-q04]]
+- óleos e gorduras — [[qui-2023-f1-q58]]
+
+### química orgânica / oxirredução
+- número de oxidação de carbono em diferentes funções orgânicas — [[qui-2025-f1-q35]]
+
+### química orgânica — acidez
+- comparação de pKa de ácidos carboxílicos — [[qui-2024-f1-q54]]
+- efeito indutivo — [[qui-2024-f1-q54]]
+- halogênios — [[qui-2024-f1-q54]]
+
+### química orgânica — reatividade
+- esterificação (efeito estérico) — [[qui-2024-f1-q57]]
+- oxidação de alcinos — [[qui-2024-f1-q57]]
+- redução de fenol — [[qui-2024-f1-q57]]
+
+### química orgânica, acidez
+- fenóis; tautomeria de alcinos — [[qui-2020-f1-q56]]
+- força ácida de ácidos carboxílicos — [[qui-2020-f1-q56]]
+
+### química orgânica, cinética química, termoquímica
+- adição a dienos conjugados; controle cinético vs. termodinâmico — [[qui-2019-f1-q58]]
+
+### química orgânica, oxirredução
+- classificação de reações orgânicas como oxidação/redução — [[qui-2020-f1-q67]]
+
+### química orgânica, polímeros
+- polímeros naturais e sintéticos; condensação; estrutura de proteínas — [[qui-2020-f1-q63]]
+
+### química orgânica, propriedades coligativas
+- ponto de ebulição; interações intermoleculares — [[qui-2019-f1-q49]]
+
+### química orgânica, ácidos e bases
+- basicidade de ânions e aminas — [[qui-2021-f1-q68]]
+- efeitos eletrônicos — [[qui-2021-f1-q68]]
 
 ### radioatividade
 - aplicações tecnológicas — [[qui-2015-f1-q03]]
@@ -3359,6 +4361,7 @@
 - decaimento a 1% — [[qui-2009-f1-q12]]
 - decaimento de iodo-131 e césio-137 — [[qui-2009-f1-q12]]
 - decaimento radioativo — [[qui-2018-f1-q30]]
+- decaimento radioativo; reações nucleares; cobalto — [[qui-2019-f1-q57]]
 - decaimentos sucessivos — [[qui-2009-f1-q03]]
 - densidade nuclear — [[qui-2023-f2-q07]]
 - deslocamento na tabela periódica — [[qui-2009-f1-q03]]
@@ -3543,7 +4546,7 @@
 - fração molar — [[qui-2013-f1-q16]]
 - graus Gay-Lussac — [[qui-2011-f1-q04]]
 - interações soluto-solvente — [[qui-2012-f1-q05]]
-- lei de Raoult — [[qui-2008-f1-q10]], [[qui-2012-f1-q05]]
+- lei de Raoult — [[qui-2008-f1-q10]], [[qui-2012-f1-q05]], [[qui-2022-f1-q56]]
 - massa específica — [[qui-2015-f1-q14]]
 - metais de transição — [[qui-2013-f1-q02]]
 - mistura de soluções — [[qui-2017-f1-q08]]
@@ -3556,13 +4559,29 @@
 - propriedades de soluções aquosas — [[qui-2013-f1-q02]]
 - razão volumétrica — [[qui-2017-f1-q08]]
 - semelhante dissolve semelhante — [[qui-2010-f1-q07]]
-- soluções ideais — [[qui-2008-f1-q10]], [[qui-2012-f1-q05]], [[qui-2013-f1-q16]]
+- similaridade molecular entre solventes — [[qui-2022-f1-q56]]
+- soluções ideais — [[qui-2008-f1-q10]], [[qui-2012-f1-q05]], [[qui-2013-f1-q16]], [[qui-2022-f1-q56]]
 - soluções não-ideais — [[qui-2015-f1-q14]]
 - solventes apolares — [[qui-2010-f1-q07]]
 - troca isotópica H/D — [[qui-2014-f1-q01]]
 - volume de mistura — [[qui-2011-f1-q04]]
 - volume parcial molar — [[qui-2015-f1-q14]]
 - íons coloridos — [[qui-2013-f1-q02]]
+
+### soluções, condutividade
+- condutividade molar — [[qui-2021-f1-q61]]
+- relação massa molar/concentração — [[qui-2021-f1-q61]]
+- soluções iônicas — [[qui-2021-f1-q61]]
+
+### soluções, solubilidade
+- análise de curvas de solubilidade — [[qui-2021-f1-q70]]
+- precipitação — [[qui-2021-f1-q70]]
+- saturação — [[qui-2021-f1-q70]]
+
+### soluções, tabela periódica
+- carga iônica — [[qui-2023-f1-q57]]
+- energia de hidratação — [[qui-2023-f1-q57]]
+- raio iônico — [[qui-2023-f1-q57]]
 
 ### tabela periódica
 - afinidade eletrônica — [[qui-2021-f2-q07]]
@@ -3585,6 +4604,19 @@
 - solubilidade de carbonatos — [[qui-2008-f1-q28]]
 - valência de elementos — [[qui-2008-f1-q15]]
 
+### termodinâmica
+- ciclo de Carnot — [[qui-2021-f1-q63]]
+- energia de Gibbs — [[qui-2025-f1-q34]]
+- energia interna — [[qui-2021-f1-q63]]
+- entalpia em processo isobárico — [[qui-2025-f1-q34]]
+- entropia — [[qui-2021-f1-q63]], [[qui-2025-f1-q34]]
+- expansão isotérmica — [[qui-2025-f1-q34]]
+- função de estado — [[qui-2022-f1-q67]]
+- processo isotérmico — [[qui-2022-f1-q67]]
+- processos reversíveis — [[qui-2021-f1-q63]]
+- processos termodinâmicos — [[qui-2022-f1-q67]]
+- sistema isolado — [[qui-2022-f1-q67]]
+
 ### termoquímica
 - Lei de Hess — [[qui-2010-f1-q16]]
 - afinidade eletrônica — [[qui-2022-f2-q07]]
@@ -3598,6 +4630,7 @@
 - calor de combustão — [[qui-2019-f2-q02]], [[qui-2025-f2-q04]]
 - calor de fusão — [[qui-2008-f1-q13]]
 - calor específico — [[qui-2008-f1-q13]], [[qui-2013-f1-q13]], [[qui-2014-f1-q12]]
+- calor latente — [[qui-2022-f1-q62]]
 - calor latente de fusão — [[qui-2023-f2-q03]]
 - calor latente de vaporização — [[qui-2016-f1-q13]]
 - calor sensível — [[qui-2018-f1-q06]], [[qui-2023-f2-q03]]
@@ -3627,6 +4660,7 @@
 - decomposição endotérmica — [[qui-2009-f1-q26]]
 - diagrama T vs V — [[qui-2009-f1-q08]]
 - dissolução — [[qui-2008-f1-q18]]
+- energia de Gibbs — [[qui-2025-f1-q30]]
 - energia de ionização — [[qui-2022-f2-q07]]
 - energia de ligação — [[qui-2011-f1-q05]]
 - energia do fóton — [[qui-2017-f1-q27]], [[qui-2018-f1-q06]]
@@ -3638,9 +4672,12 @@
 - entalpia — [[qui-2017-f1-q11]]
 - entalpia de combustão — [[qui-2010-f1-q16]], [[qui-2011-f1-q05]], [[qui-2012-f1-q26]], [[qui-2018-f1-q19]]
 - entalpia de formação — [[qui-2010-f1-q16]], [[qui-2016-f1-q13]], [[qui-2025-f2-q08]]
+- entalpia de formação a partir de energias de ligação — [[qui-2024-f1-q60]]
+- entalpia de reação — [[qui-2024-f1-q51]]
 - entalpia de rede — [[qui-2022-f2-q07]]
 - entalpia de vaporização — [[qui-2015-f1-q10]], [[qui-2021-f2-q04]]
 - entalpia de vaporização da água — [[qui-2014-f1-q29]]
+- entalpia e entropia padrão — [[qui-2025-f1-q30]]
 - entalpia molar de combustão — [[qui-2013-f1-q09]]
 - entalpia padrão de formação — [[qui-2008-f1-q19]]
 - entalpia padrão de reação — [[qui-2017-f1-q27]]
@@ -3665,7 +4702,8 @@
 - gases — [[qui-2025-f2-q04]]
 - gases ideais — [[qui-2017-f1-q15]]
 - gráfico T vs Q — [[qui-2023-f2-q03]]
-- lei de Hess — [[qui-2016-f1-q13]], [[qui-2018-f1-q19]], [[qui-2018-f1-q26]], [[qui-2022-f2-q07]], [[qui-2025-f2-q08]]
+- identificação de processo endotérmico — [[qui-2024-f1-q51]]
+- lei de Hess — [[qui-2016-f1-q13]], [[qui-2018-f1-q19]], [[qui-2018-f1-q26]], [[qui-2022-f2-q07]], [[qui-2024-f1-q60]], [[qui-2025-f2-q08]]
 - lei dos gases ideais — [[qui-2016-f1-q24]]
 - ligações de hidrogênio — [[qui-2014-f1-q29]], [[qui-2015-f1-q17]]
 - massa específica — [[qui-2014-f1-q12]], [[qui-2016-f1-q24]]
@@ -3704,17 +4742,24 @@
 - sistemas de equações — [[qui-2019-f2-q02]]
 - sublimação — [[qui-2011-f1-q10]]
 - substâncias simples — [[qui-2008-f1-q19]]
+- temperatura mínima de espontaneidade — [[qui-2025-f1-q30]]
 - trabalho de expansão — [[qui-2010-f1-q19]], [[qui-2011-f1-q10]], [[qui-2012-f1-q21]]
 - trabalho de expansão isotérmica — [[qui-2016-f1-q16]]
 - trabalho de gás ideal — [[qui-2008-f1-q26]]
 - transformações adiabáticas e isotérmicas — [[qui-2013-f1-q23]]
 - transformações de gás ideal — [[qui-2009-f1-q08]]
 - transformações termodinâmicas — [[qui-2009-f1-q02]]
+- transição de fase de água em tensoativos — [[qui-2022-f1-q62]]
 - variação de energia interna — [[qui-2008-f1-q18]], [[qui-2010-f1-q19]]
-- variação de entalpia — [[qui-2010-f1-q19]], [[qui-2018-f1-q13]], [[qui-2019-f2-q01]]
+- variação de entalpia — [[qui-2010-f1-q19]], [[qui-2018-f1-q13]], [[qui-2019-f2-q01]], [[qui-2022-f1-q62]]
 - variação de entropia — [[qui-2012-f1-q13]], [[qui-2018-f1-q13]]
 - variação de mols gasosos — [[qui-2012-f1-q21]]
 - ΔH de reação — [[qui-2019-f2-q02]]
+
+### termoquímica / calorimetria
+- calor específico — [[qui-2026-f1-q03]]
+- equilíbrio térmico — [[qui-2026-f1-q03]]
+- sistemas com múltiplos corpos — [[qui-2026-f1-q03]]
 
 ### termoquímica, estequiometria
 - calor sensível — [[qui-2020-f2-q02]]
@@ -3755,6 +4800,11 @@
 - teoria de Lewis vs Bronsted — [[qui-2015-f1-q18]]
 - ácido bórico B(OH)3 — [[qui-2014-f1-q19]]
 
+### ácidos e bases, equilíbrio iônico
+- condutividade — [[qui-2023-f1-q59]]
+- ionização — [[qui-2023-f1-q59]]
+- ácido fosfórico — [[qui-2023-f1-q59]]
+
 ### óxidos
 - caráter periódico — [[qui-2019-f2-q05]]
 - caráter ácido-básico-anfótero — [[qui-2015-f1-q11]]
@@ -3769,6 +4819,45 @@
 
 ## Inglês
 
+### compreensão de texto, Civilization (Clive Bell)
+- contexto histórico — [[ing-2021-f1-q31]]
+- contraste entre o período da Grande Guerra e o pós-guerra — [[ing-2021-f1-q31]]
+
+### compreensão de texto, Dress Your Family in Corduroy and Denim (David Sedaris)
+- compreensão geral — [[ing-2021-f1-q37]]
+- distinção entre não acreditar e não se importar — [[ing-2021-f1-q37]]
+
+### compreensão de texto, The Worship of Mediocrity (NYT, 1862)
+- análise de afirmativas — [[ing-2021-f1-q34]]
+- ironia — [[ing-2021-f1-q34]]
+- mediocridade na política — [[ing-2021-f1-q34]]
+
+### compreensão textual
+- argumentos a favor — [[ing-2022-f1-q38]]
+- aspectos culturais perdidos com extinção linguística — [[ing-2022-f1-q37]]
+- atitude dos falantes nativos — [[ing-2022-f1-q35]]
+- conformismo social — [[ing-2022-f1-q40]]
+- contradição interna — [[ing-2022-f1-q39]]
+- episódio Michel/Von der Leyen — [[ing-2022-f1-q34]]
+- hierarquia de assentos — [[ing-2022-f1-q34]]
+- identificar afirmação incorreta — [[ing-2022-f1-q31]]
+- meritocracia como justificadora do status quo — [[ing-2022-f1-q40]]
+- paradoxo da meritocracia — [[ing-2022-f1-q39]]
+- pesquisa de Castilla e Benard — [[ing-2022-f1-q39]]
+- recompensa por esforço — [[ing-2022-f1-q38]]
+- texto sobre cinismo e memes políticos — [[ing-2022-f1-q34]]
+- texto sobre desaparecimento de línguas (Mithun/Dalby) — [[ing-2022-f1-q35]]
+- texto sobre estupidez na política (Otobe) — [[ing-2022-f1-q31]]
+- texto sobre línguas — [[ing-2022-f1-q37]]
+- texto sobre meritocracia — [[ing-2022-f1-q38]]
+
+### conectivos
+- relação de contraste — [[ing-2025-f1-q38]]
+- uso de "while" como conjunção — [[ing-2025-f1-q38]]
+
+### figuras de linguagem
+- identificação de ironia e sarcasmo em parágrafos — [[ing-2021-f1-q38]]
+
 ### gramática
 - adjetivos — [[ing-2015-f1-q03]], [[ing-2016-f1-q20]], [[ing-2017-f1-q20]], [[ing-2018-f1-q04]]
 - advérbios — [[ing-2012-f1-q01]], [[ing-2014-f1-q14]], [[ing-2015-f1-q05]], [[ing-2016-f1-q19]], [[ing-2017-f1-q06]]
@@ -3780,6 +4869,7 @@
 - ação contínua — [[ing-2015-f1-q14]]
 - caso possessivo — [[ing-2015-f1-q05]]
 - classes de palavras — [[ing-2015-f1-q05]], [[ing-2016-f1-q19]], [[ing-2017-f1-q06]], [[ing-2017-f1-q16]]
+- classes gramaticais; identificar a exceção — [[ing-2019-f1-q32]]
 - classificação gramatical — [[ing-2017-f1-q16]]
 - coesão — [[ing-2011-f1-q10]], [[ing-2012-f1-q07]], [[ing-2016-f1-q07]]
 - coesão textual — [[ing-2013-f1-q07]], [[ing-2015-f1-q15]], [[ing-2017-f1-q15]], [[ing-2018-f1-q05]], [[ing-2018-f1-q20]]
@@ -3842,16 +4932,118 @@
 - superlativo — [[ing-2014-f1-q10]]
 - tempos verbais — [[ing-2014-f1-q06]], [[ing-2015-f1-q06]]
 - uso de -ing — [[ing-2016-f1-q10]]
+- uso enfático do auxiliar "do" — [[ing-2023-f1-q30]]
 - verb forms — [[ing-2008-f1-q15]]
 - verbos modais — [[ing-2018-f1-q06]]
 - voz ativa e passiva — [[ing-2015-f1-q13]]
 - voz passiva — [[ing-2014-f1-q06]], [[ing-2016-f1-q07]]
 
+### gramática / classes de palavras
+- função sintática de termos (adjetiva — [[ing-2026-f1-q02]]
+- gerúndio e particípio — [[ing-2026-f1-q02]]
+- substantiva — [[ing-2026-f1-q02]]
+- verbal) — [[ing-2026-f1-q02]]
+
+### gramática / tempos verbais
+- concordância de tempos verbais — [[ing-2026-f1-q12]]
+- discurso reportado — [[ing-2026-f1-q12]]
+- transposição para o passado — [[ing-2026-f1-q12]]
+
+### gramática / verbos modais
+- expressão de necessidade — [[ing-2026-f1-q08]]
+- uso de "must" — [[ing-2026-f1-q08]]
+
+### gramática / voz passiva
+- concordância — [[ing-2026-f1-q09]]
+- transposição ativa→passiva — [[ing-2026-f1-q09]]
+
+### gramática, conectivos
+- sentido de "but also" em trecho; relação semântica — [[ing-2020-f1-q37]]
+
+### gramática, leitura e interpretação
+- coesão textual — [[ing-2023-f1-q36]]
+- referência do pronome "that" — [[ing-2023-f1-q36]]
+
+### gramática, verbos modais
+- equivalência com "ought to" — [[ing-2022-f1-q36]]
+- substituição de "must" sem alterar significado — [[ing-2022-f1-q36]]
+
+### gramática, vocabulário
+- substituição de conjunção 'as' mantendo sentido — [[ing-2019-f1-q29]]
+- usos da palavra 'so' em diferentes contextos — [[ing-2019-f1-q36]]
+
+### interpretação de texto
+- análise de asserções verdadeiras/falsas — [[ing-2025-f1-q47]]
+- análise do terceiro parágrafo — [[ing-2021-f1-q36]]
+- asserções I-IV — [[ing-2025-f1-q47]]
+- ideia principal sobre demagogos e audiência — [[ing-2021-f1-q35]]
+- identificação de detalhe específico sobre série de TV — [[ing-2025-f1-q41]]
+- leitura crítica — [[ing-2025-f1-q41]]
+- leitura detalhada — [[ing-2025-f1-q47]]
+- marcadores textuais — [[ing-2021-f1-q35]]
+- mentalidade mediana e condenação do superior — [[ing-2021-f1-q36]]
+
+### interpretação de texto (A History of Knowledge — Van Doren)
+- identificar ideia NÃO presente no texto — [[ing-2026-f1-q01]]
+- inferência — [[ing-2026-f1-q01]]
+
+### interpretação de texto (Back To School — cellphone bans)
+- compreensão de informações explícitas e inferenciais — [[ing-2026-f1-q06]]
+
+### interpretação de texto (Coreia do Sul, feminismo)
+- análise de parágrafos específicos — [[ing-2024-f1-q36]]
+- dificuldades enfrentadas pelas mulheres coreanas — [[ing-2024-f1-q35]]
+- estopim das manifestações anti-sexismo — [[ing-2024-f1-q36]]
+- leitura crítica — [[ing-2024-f1-q35]]
+
+### interpretação de texto (IA e publicações científicas)
+- identificação de preocupação dos editores — [[ing-2025-f1-q45]]
+- leitura crítica — [[ing-2025-f1-q45]]
+
+### interpretação de texto (Morozov — artificial intelligence)
+- identificar ideia central do texto — [[ing-2026-f1-q10]]
+
+### interpretação de texto (Read Your Way Through Salvador)
+- comparação entre livros citados — [[ing-2024-f1-q27]]
+- compreensão da função dos livros citados — [[ing-2024-f1-q30]]
+- compreensão de recomendação textual — [[ing-2024-f1-q26]]
+- identificação da intenção principal do autor — [[ing-2024-f1-q25]]
+- paisagem e literatura — [[ing-2024-f1-q30]]
+- personagens principais — [[ing-2024-f1-q27]]
+- propósito de citação de livro — [[ing-2024-f1-q26]]
+
+### interpretação de texto (Woolf Social Club / Coreia do Sul)
+- contexto sociocultural — [[ing-2024-f1-q31]]
+- propósito do espaço Woolf Social Club — [[ing-2024-f1-q31]]
+
+### interpretação de texto (Woolf Social Club)
+- motivação da fundadora — [[ing-2024-f1-q33]]
+- referências a Virginia Woolf — [[ing-2024-f1-q33]]
+
+### interpretação de texto (astrofísica popular — Neil deGrasse Tyson)
+- identificação de informação principal — [[ing-2025-f1-q37]]
+- inferência — [[ing-2025-f1-q37]]
+- leitura crítica — [[ing-2025-f1-q37]]
+
+### interpretação de texto (decline of teenagers reading)
+- compreensão de ideias principais e causas — [[ing-2026-f1-q04]]
+
+### interpretação de texto (problema dos três corpos — BBC)
+- identificação de definição científica — [[ing-2025-f1-q40]]
+- leitura literal — [[ing-2025-f1-q40]]
+
+### interpretação de texto (radar e entomologia)
+- fato vs. expectativa — [[ing-2025-f1-q43]]
+- identificação de descoberta no texto — [[ing-2025-f1-q43]]
+
 ### leitura e interpretação
+- Semana de Arte Moderna — [[ing-2023-f1-q34]]
 - análise de detalhes — [[ing-2014-f1-q16]]
 - análise de estudos — [[ing-2016-f1-q17]]
 - análise de tirinha — [[ing-2018-f1-q15]]
 - análise discursiva — [[ing-2015-f1-q01]], [[ing-2015-f1-q04]], [[ing-2015-f1-q11]]
+- análise do Manifesto Antropófago — [[ing-2023-f1-q35]]
+- análise do último quadrinho da tirinha — [[ing-2019-f1-q31]]
 - análise literária — [[ing-2017-f1-q02]]
 - análise metodológica — [[ing-2016-f1-q15]]
 - análise textual — [[ing-2016-f1-q02]]
@@ -3862,6 +5054,7 @@
 - caracterização — [[ing-2012-f1-q14]]
 - coesão — [[ing-2014-f1-q07]], [[ing-2014-f1-q19]]
 - coesão textual — [[ing-2011-f1-q11]], [[ing-2013-f1-q12]], [[ing-2013-f1-q17]]
+- comparação 1976 vs. atualidade no texto sobre obesidade — [[ing-2019-f1-q25]]
 - compreensão contextual — [[ing-2014-f1-q19]]
 - compreensão de anúncio — [[ing-2011-f1-q05]], [[ing-2012-f1-q12]]
 - compreensão de contexto — [[ing-2014-f1-q11]]
@@ -3872,6 +5065,7 @@
 - compreensão de tirinha — [[ing-2017-f1-q13]], [[ing-2017-f1-q14]]
 - compreensão de título e subtítulo — [[ing-2011-f1-q08]]
 - compreensão detalhada — [[ing-2016-f1-q02]], [[ing-2016-f1-q06]], [[ing-2016-f1-q11]], [[ing-2016-f1-q12]], [[ing-2016-f1-q15]], [[ing-2016-f1-q16]], [[ing-2016-f1-q17]], [[ing-2016-f1-q18]], [[ing-2017-f1-q03]], [[ing-2017-f1-q04]], [[ing-2017-f1-q05]], [[ing-2017-f1-q09]], [[ing-2017-f1-q18]], [[ing-2017-f1-q19]], [[ing-2018-f1-q01]], [[ing-2018-f1-q02]], [[ing-2018-f1-q07]], [[ing-2018-f1-q08]], [[ing-2018-f1-q09]], [[ing-2018-f1-q10]], [[ing-2018-f1-q18]], [[ing-2018-f1-q19]]
+- compreensão geral — [[ing-2023-f1-q25]]
 - compreensão global — [[ing-2011-f1-q01]], [[ing-2011-f1-q09]], [[ing-2012-f1-q04]], [[ing-2012-f1-q10]], [[ing-2012-f1-q14]], [[ing-2013-f1-q02]], [[ing-2013-f1-q05]], [[ing-2013-f1-q13]], [[ing-2014-f1-q01]], [[ing-2014-f1-q02]], [[ing-2014-f1-q08]], [[ing-2014-f1-q16]], [[ing-2016-f1-q01]], [[ing-2016-f1-q13]], [[ing-2016-f1-q14]], [[ing-2017-f1-q01]], [[ing-2017-f1-q08]], [[ing-2017-f1-q17]], [[ing-2018-f1-q03]]
 - compreensão textual — [[ing-2015-f1-q02]], [[ing-2015-f1-q07]], [[ing-2015-f1-q08]], [[ing-2015-f1-q10]], [[ing-2015-f1-q12]], [[ing-2015-f1-q16]], [[ing-2015-f1-q17]]
 - dados específicos — [[ing-2011-f1-q02]], [[ing-2011-f1-q15]]
@@ -3882,17 +5076,23 @@
 - estereótipos de gênero — [[ing-2018-f1-q09]]
 - exclusão — [[ing-2011-f1-q05]], [[ing-2011-f1-q19]]
 - exemplificação vs. explicação — [[ing-2011-f1-q11]]
+- expressão "Even so" — [[ing-2023-f1-q34]]
 - foco narrativo — [[ing-2015-f1-q01]], [[ing-2017-f1-q02]]
 - função comunicativa — [[ing-2018-f1-q17]]
 - gênero textual — [[ing-2017-f1-q01]], [[ing-2018-f1-q17]]
 - humor — [[ing-2018-f1-q13]]
 - ideia central — [[ing-2011-f1-q08]], [[ing-2011-f1-q20]], [[ing-2012-f1-q04]], [[ing-2012-f1-q12]], [[ing-2013-f1-q05]], [[ing-2015-f1-q11]]
 - ideia principal — [[ing-2017-f1-q17]]
+- ideia principal de parágrafo — [[ing-2023-f1-q35]]
+- identificar afirmação INCORRETA sobre texto de IA — [[ing-2019-f1-q33]]
 - identificação de afirmação correta — [[ing-2011-f1-q09]], [[ing-2011-f1-q14]], [[ing-2012-f1-q03]], [[ing-2012-f1-q04]], [[ing-2012-f1-q06]], [[ing-2012-f1-q13]], [[ing-2012-f1-q19]], [[ing-2012-f1-q20]], [[ing-2013-f1-q02]], [[ing-2013-f1-q05]], [[ing-2013-f1-q10]], [[ing-2013-f1-q14]], [[ing-2013-f1-q19]]
+- identificação de afirmação correta sobre o texto — [[ing-2019-f1-q26]]
+- identificação de afirmação incorreta — [[ing-2023-f1-q26]]
 - identificação de características — [[ing-2011-f1-q05]]
 - identificação de causa — [[ing-2014-f1-q13]], [[ing-2016-f1-q13]]
 - identificação de condições específicas — [[ing-2015-f1-q10]]
 - identificação de detalhes — [[ing-2015-f1-q08]]
+- identificação de enredos do século XX — [[ing-2023-f1-q31]]
 - identificação de exemplos — [[ing-2016-f1-q06]]
 - identificação de gênero textual — [[ing-2014-f1-q01]]
 - identificação de informação — [[ing-2017-f1-q03]], [[ing-2017-f1-q08]], [[ing-2017-f1-q18]], [[ing-2018-f1-q03]], [[ing-2018-f1-q08]], [[ing-2018-f1-q19]]
@@ -3925,15 +5125,19 @@
 - interpretação de provérbio — [[ing-2011-f1-q20]]
 - interpretação de sentença — [[ing-2012-f1-q17]], [[ing-2013-f1-q11]]
 - interpretação de tirinha — [[ing-2015-f1-q20]]
+- interpretação de tirinha sobre jornalismo — [[ing-2019-f1-q30]]
 - ironia — [[ing-2018-f1-q15]]
 - julgamento de afirmações — [[ing-2014-f1-q15]], [[ing-2014-f1-q20]], [[ing-2016-f1-q17]], [[ing-2018-f1-q18]]
 - justificativa de título — [[ing-2011-f1-q01]]
+- justificativas para regulação por software — [[ing-2019-f1-q34]]
 - linguagem visual — [[ing-2017-f1-q13]]
 - main idea — [[ing-2008-f1-q09]], [[ing-2008-f1-q11]], [[ing-2008-f1-q12]], [[ing-2008-f1-q17]], [[ing-2009-f1-q01]], [[ing-2009-f1-q04]], [[ing-2009-f1-q05]], [[ing-2009-f1-q14]], [[ing-2009-f1-q16]], [[ing-2010-f1-q14]]
 - mensagem implícita — [[ing-2011-f1-q19]]
 - narrador — [[ing-2017-f1-q02]]
 - paradoxos — [[ing-2012-f1-q05]]
 - paráfrase — [[ing-2013-f1-q08]], [[ing-2013-f1-q13]]
+- populações de Estados não reconhecidos — [[ing-2023-f1-q26]]
+- posicionamento dos legisladores sobre obesidade — [[ing-2019-f1-q27]]
 - pragmática — [[ing-2018-f1-q14]]
 - preenchimento de lacuna — [[ing-2011-f1-q04]]
 - purpose/tone — [[ing-2008-f1-q14]], [[ing-2008-f1-q17]], [[ing-2009-f1-q05]], [[ing-2009-f1-q12]]
@@ -3947,12 +5151,16 @@
 - relação causa-efeito — [[ing-2016-f1-q18]], [[ing-2018-f1-q02]]
 - relação texto-imagem — [[ing-2012-f1-q10]]
 - relações de causa — [[ing-2017-f1-q05]]
+- resenhas de livros sobre América Latina — [[ing-2023-f1-q31]]
 - scanning — [[ing-2010-f1-q01]], [[ing-2010-f1-q02]], [[ing-2010-f1-q17]]
 - sentido implícito — [[ing-2012-f1-q17]], [[ing-2013-f1-q11]]
 - significado contextual — [[ing-2012-f1-q11]]
 - significado de expressão — [[ing-2013-f1-q01]], [[ing-2013-f1-q03]], [[ing-2013-f1-q12]]
 - síntese — [[ing-2011-f1-q13]], [[ing-2011-f1-q20]], [[ing-2012-f1-q14]]
 - tema central — [[ing-2011-f1-q13]]
+- tese do autor sobre causas da obesidade — [[ing-2019-f1-q28]]
+- texto sobre Conquistadores de Fernando Cervantes — [[ing-2023-f1-q32]]
+- texto sobre Estados não reconhecidos — [[ing-2023-f1-q25]]
 - tipologia textual — [[ing-2015-f1-q01]], [[ing-2017-f1-q01]], [[ing-2018-f1-q17]]
 - tirinha — [[ing-2013-f1-q01]], [[ing-2013-f1-q02]], [[ing-2013-f1-q03]]
 - tom — [[ing-2016-f1-q05]]
@@ -3964,6 +5172,38 @@
 - vocabulário — [[ing-2016-f1-q08]]
 - vocabulário contextual — [[ing-2013-f1-q10]]
 - vocabulário técnico — [[ing-2016-f1-q12]]
+
+### leitura, compreensão textual
+- análise de afirmações I a IV sobre o texto — [[ing-2020-f1-q40]]
+- completar afirmação conforme informações do texto — [[ing-2020-f1-q39]]
+- identificação de afirmação incorreta sobre o texto — [[ing-2020-f1-q35]]
+- identificação de proposta sobre deepfakes — [[ing-2020-f1-q38]]
+
+### leitura, compreensão textual (1984 de Orwell)
+- identificação de motivo no texto — [[ing-2020-f1-q33]]
+
+### leitura, compreensão textual (deepfakes)
+- identificação de afirmação correta sobre o texto — [[ing-2020-f1-q36]]
+
+### leitura, redes neurais e IA
+- análise de afirmações sobre aplicações de redes neurais — [[ing-2020-f1-q31]]
+
+### paráfrase
+- reescrita preservando sentido — [[ing-2026-f1-q05]]
+- sinônimos contextuais — [[ing-2026-f1-q05]]
+
+### referenciação textual
+- "former" e "latter" — [[ing-2026-f1-q11]]
+- coesão referencial — [[ing-2026-f1-q11]]
+
+### referência pronominal
+- identificação do antecedente do pronome "its" — [[ing-2025-f1-q48]]
+
+### tradução
+- "hammer out policies" — [[ing-2025-f1-q46]]
+- modalizadores — [[ing-2021-f1-q39]]
+- tradução de trecho preservando sentido — [[ing-2021-f1-q39]]
+- tradução de título idiomático — [[ing-2025-f1-q46]]
 
 ### vocabulário
 - antônimos — [[ing-2015-f1-q19]]
@@ -3983,6 +5223,7 @@
 - head-to-toe butterflies — [[ing-2013-f1-q09]]
 - inferência lexical — [[ing-2014-f1-q03]], [[ing-2014-f1-q18]]
 - intensificador — [[ing-2012-f1-q08]]
+- interpretação contextual de advérbio — [[ing-2025-f1-q44]]
 - linking words — [[ing-2008-f1-q10]]
 - paráfrase — [[ing-2015-f1-q09]]
 - peeved — [[ing-2012-f1-q15]]
@@ -3993,13 +5234,66 @@
 - reference (pronouns) — [[ing-2008-f1-q16]]
 - relações semânticas — [[ing-2015-f1-q19]]
 - significado contextual — [[ing-2011-f1-q18]], [[ing-2012-f1-q08]], [[ing-2012-f1-q15]], [[ing-2012-f1-q16]], [[ing-2013-f1-q04]], [[ing-2013-f1-q06]], [[ing-2013-f1-q09]], [[ing-2013-f1-q18]], [[ing-2013-f1-q20]]
+- significado de "allegiance" — [[ing-2023-f1-q29]]
+- significado de "alongside" em contexto — [[ing-2024-f1-q32]]
+- significado de "like-minded" em contexto — [[ing-2024-f1-q34]]
+- significado de "puzzlingly" — [[ing-2025-f1-q44]]
+- significado de "startled" em contexto — [[ing-2021-f1-q32]]
 - significado de palavra — [[ing-2012-f1-q02]]
-- sinônimos — [[ing-2011-f1-q06]], [[ing-2011-f1-q18]], [[ing-2012-f1-q08]], [[ing-2012-f1-q15]], [[ing-2012-f1-q16]], [[ing-2013-f1-q04]], [[ing-2013-f1-q06]], [[ing-2013-f1-q15]], [[ing-2013-f1-q20]], [[ing-2014-f1-q03]], [[ing-2014-f1-q05]], [[ing-2015-f1-q09]], [[ing-2015-f1-q18]], [[ing-2015-f1-q19]], [[ing-2016-f1-q04]], [[ing-2017-f1-q07]], [[ing-2018-f1-q11]], [[ing-2018-f1-q12]]
+- sinônimos — [[ing-2011-f1-q06]], [[ing-2011-f1-q18]], [[ing-2012-f1-q08]], [[ing-2012-f1-q15]], [[ing-2012-f1-q16]], [[ing-2013-f1-q04]], [[ing-2013-f1-q06]], [[ing-2013-f1-q15]], [[ing-2013-f1-q20]], [[ing-2014-f1-q03]], [[ing-2014-f1-q05]], [[ing-2015-f1-q09]], [[ing-2015-f1-q18]], [[ing-2015-f1-q19]], [[ing-2016-f1-q04]], [[ing-2017-f1-q07]], [[ing-2018-f1-q11]], [[ing-2018-f1-q12]], [[ing-2023-f1-q29]], [[ing-2026-f1-q07]]
+- sinônimos contextuais — [[ing-2026-f1-q03]]
+- substituição de palavras/expressões mantendo sentido — [[ing-2019-f1-q35]]
 - substituição lexical — [[ing-2012-f1-q16]], [[ing-2013-f1-q04]], [[ing-2013-f1-q15]], [[ing-2014-f1-q05]], [[ing-2016-f1-q04]]
+- substituição lexical de "outright" — [[ing-2026-f1-q07]]
 - synonyms — [[ing-2008-f1-q02]], [[ing-2008-f1-q10]], [[ing-2008-f1-q16]], [[ing-2008-f1-q20]], [[ing-2009-f1-q08]], [[ing-2009-f1-q19]], [[ing-2010-f1-q07]]
+- tradução de "cogently" — [[ing-2026-f1-q03]]
 - translation — [[ing-2008-f1-q19]], [[ing-2010-f1-q03]]
 - uso contextual — [[ing-2014-f1-q03]], [[ing-2014-f1-q05]], [[ing-2014-f1-q18]]
 - vocabulary in context — [[ing-2008-f1-q02]], [[ing-2008-f1-q19]], [[ing-2008-f1-q20]], [[ing-2009-f1-q08]], [[ing-2009-f1-q13]], [[ing-2009-f1-q19]], [[ing-2010-f1-q03]], [[ing-2010-f1-q07]]
+
+### vocabulário / conectivos
+- relação de causa/consequência — [[ing-2025-f1-q42]]
+- substituição de "hence" — [[ing-2025-f1-q42]]
+- substituição de "while" por sinônimo contextual — [[ing-2024-f1-q29]]
+
+### vocabulário / morfologia
+- il- — [[ing-2024-f1-q28]]
+- ir- — [[ing-2024-f1-q28]]
+- prefixos de negação em inglês (dis- — [[ing-2024-f1-q28]]
+- un-) — [[ing-2024-f1-q28]]
+
+### vocabulário / tradução
+- expressão "highest grossing film" — [[ing-2025-f1-q39]]
+- tradução de termo idiomático — [[ing-2025-f1-q39]]
+
+### vocabulário, conectivos
+- relações de adição — [[ing-2022-f1-q32]]
+- sinônimo de "moreover" — [[ing-2022-f1-q32]]
+- substituição do termo "rather" em contexto — [[ing-2020-f1-q34]]
+
+### vocabulário, conjunções
+- concessão — [[ing-2022-f1-q33]]
+- sinônimo de "albeit" — [[ing-2022-f1-q33]]
+
+### vocabulário, gramática
+- conector "Although" — [[ing-2023-f1-q27]]
+- conector "whereas" — [[ing-2023-f1-q28]]
+- relação de contraste — [[ing-2023-f1-q27]]
+- sinônimos — [[ing-2023-f1-q28]]
+
+### vocabulário, leitura e interpretação
+- expressão "self-styled" — [[ing-2023-f1-q33]]
+- significado contextual — [[ing-2023-f1-q33]]
+
+### vocabulário, semântica
+- ideia de concessão — [[ing-2021-f1-q40]]
+- significado de "still" em contexto — [[ing-2021-f1-q40]]
+
+### vocabulário, sinonímia
+- substituição de "likeliness" sem perda de sentido — [[ing-2021-f1-q33]]
+
+### vocabulário, sinônimos contextuais
+- substituição de palavras sublinhadas sem alteração de sentido — [[ing-2020-f1-q32]]
 
 ## Português
 
@@ -4052,6 +5346,7 @@
 - classes de palavras — [[por-2014-f1-q27]], [[por-2015-f1-q25]]
 - classificação morfológica — [[por-2017-f1-q29]]
 - classificação morfológica e função sintática do pronome QUE — [[por-2025-f2-q04]]
+- classificação morfológica; pronome relativo — [[por-2019-f1-q18]]
 - classificação verbal — [[por-2017-f1-q24]]
 - coesão — [[por-2015-f1-q34]], [[por-2018-f1-q39]]
 - coesão lexical — [[por-2014-f1-q26]]
@@ -4081,6 +5376,8 @@
 - multimodalidade — [[por-2015-f1-q32]]
 - norma padrão — [[por-2016-f1-q32]]
 - normas gramaticais — [[por-2015-f1-q27]]
+- orações subordinadas; ideia de causa — [[por-2019-f1-q16]]
+- orações subordinadas; ideia de condição — [[por-2019-f1-q15]]
 - partícula "se" — [[por-2008-f1-q21]]
 - pontuação — [[por-2013-f1-q32]], [[por-2015-f1-q27]], [[por-2016-f1-q32]], [[por-2018-f1-q36]]
 - pontuação (parênteses — [[por-2009-f1-q23]]
@@ -4128,6 +5425,12 @@
 - voz passiva pronominal — [[por-2017-f1-q24]]
 - vírgula) — [[por-2009-f1-q23]]
 
+### gramática, literatura, Presença (Lygia Fagundes Telles)
+- uso do pronome demonstrativo e pontuação para realce expressivo — [[por-2021-f1-q28]]
+
+### gramática, sintaxe
+- discurso indireto livre; identificação e função — [[por-2020-f1-q24]]
+
 ### interpretação de texto
 - Cacaso — [[por-2018-f1-q26]]
 - Sermão da Sexagésima (Pe. Antônio Vieira) — leitura literal e argumentativa — [[por-2025-f2-q09]]
@@ -4140,6 +5443,7 @@
 - analogia — [[por-2025-f2-q01]]
 - análise argumentativa — [[por-2015-f1-q22]], [[por-2015-f1-q23]], [[por-2015-f1-q24]]
 - análise comparativa de textos — [[por-2014-f1-q34]]
+- análise comparativa entre dois textos — [[por-2019-f1-q19]]
 - análise conceitual — [[por-2015-f1-q31]]
 - análise crítica — [[por-2010-f1-q23]], [[por-2014-f1-q25]], [[por-2016-f1-q22]], [[por-2017-f1-q34]]
 - análise da estrutura textual — [[por-2014-f1-q30]]
@@ -4156,6 +5460,7 @@
 - análise de visão de mundo — [[por-2014-f1-q31]]
 - análise discursiva — [[por-2013-f1-q23]], [[por-2014-f1-q33]]
 - análise do ponto de vista do autor — [[por-2017-f1-q22]]
+- análise global do texto sobre grafite e pichação — [[por-2019-f1-q13]]
 - análise pergunta-resposta — [[por-2013-f1-q28]]
 - análise semântica — [[por-2013-f1-q26]], [[por-2017-f1-q33]]
 - argumentação — [[por-2008-f1-q30]], [[por-2008-f1-q31]], [[por-2009-f1-q24]], [[por-2010-f1-q29]], [[por-2018-f1-q28]]
@@ -4195,6 +5500,7 @@
 - ideia principal — [[por-2009-f1-q24]]
 - ideias do parágrafo — [[por-2010-f1-q26]]
 - identificação da tese do autor — [[por-2016-f1-q21]], [[por-2017-f1-q21]]
+- identificação de afirmação INCORRETA sobre o texto — [[por-2019-f1-q14]]
 - identificação de afirmação incorreta — [[por-2011-f1-q28]]
 - identificação de argumentos — [[por-2010-f1-q29]], [[por-2016-f1-q24]]
 - identificação de aspecto criticado — [[por-2013-f1-q22]]
@@ -4235,6 +5541,7 @@
 - leitura analítica — [[por-2013-f1-q22]], [[por-2014-f1-q24]], [[por-2014-f1-q32]], [[por-2017-f1-q28]]
 - leitura contextual — [[por-2013-f1-q26]]
 - leitura crítica — [[por-2013-f1-q21]], [[por-2013-f1-q23]], [[por-2013-f1-q25]], [[por-2013-f1-q27]], [[por-2013-f1-q28]], [[por-2013-f1-q30]], [[por-2014-f1-q28]], [[por-2014-f1-q30]], [[por-2014-f1-q31]], [[por-2015-f1-q21]], [[por-2015-f1-q22]], [[por-2015-f1-q23]], [[por-2015-f1-q29]], [[por-2015-f1-q31]], [[por-2016-f1-q23]], [[por-2016-f1-q31]], [[por-2017-f1-q23]], [[por-2017-f1-q26]], [[por-2017-f1-q30]], [[por-2018-f1-q29]], [[por-2018-f1-q40]]
+- leitura crítica de charge — [[por-2019-f1-q20]]
 - leitura da canção "Parabolicamará" (Gilberto Gil); globalização — [[por-2025-f2-q14]]
 - leitura de gênero quadrinhos — [[por-2016-f1-q34]]
 - leitura de tirinha — [[por-2010-f1-q34]], [[por-2017-f1-q31]], [[por-2017-f1-q33]]
@@ -4300,6 +5607,7 @@
 - Dom Casmurro — [[por-2008-f1-q35]], [[por-2009-f1-q38]], [[por-2012-f1-q37]], [[por-2015-f1-q35]]
 - Drummond — [[por-2008-f1-q37]], [[por-2011-f1-q37]]
 - Fogo morto — [[por-2017-f1-q37]]
+- Geração de 30; São Bernardo — [[por-2019-f1-q23]]
 - Gonzaga — [[por-2018-f1-q25]]
 - Gonçalves Dias — [[por-2008-f1-q38]]
 - Graciliano Ramos — [[por-2009-f1-q39]], [[por-2010-f1-q39]], [[por-2014-f1-q36]], [[por-2016-f1-q38]], [[por-2018-f1-q23]]
@@ -4325,11 +5633,13 @@
 - Modernismo — [[por-2009-f1-q35]], [[por-2012-f1-q35]], [[por-2015-f1-q37]]
 - Modernismo 2ª fase — [[por-2011-f1-q36]]
 - Modernismo brasileiro — [[por-2014-f1-q36]]
+- Mário de Andrade Contos novos — [[por-2023-f1-q23]]
 - O Cortiço — [[por-2016-f1-q36]]
 - O Guarani — [[por-2009-f1-q38]], [[por-2012-f1-q38]]
 - O cortiço — [[por-2011-f1-q38]]
 - Orides Fontela — [[por-2010-f1-q40]]
 - Os Lusíadas (Camões) — episódio do Velho do Restelo / despedida em Belém — [[por-2025-f2-q13]]
+- Os ratos de Dyonélio Machado — [[por-2023-f1-q13]], [[por-2023-f1-q19]]
 - Oswald de Andrade — [[por-2012-f1-q35]], [[por-2012-f1-q36]]
 - Paulo Honório — [[por-2010-f1-q39]]
 - Paulo Leminski — [[por-2014-f1-q39]]
@@ -4338,10 +5648,12 @@
 - Quincas Borba — [[por-2010-f1-q35]], [[por-2018-f1-q22]]
 - Realismo — [[por-2015-f1-q35]]
 - Realismo século XIX x romance de 30 — [[por-2009-f1-q39]]
+- Realismo; Quincas Borba — [[por-2019-f1-q22]]
 - Romantismo — [[por-2011-f1-q35]], [[por-2015-f1-q36]]
 - Romantismo (José de Alencar) x Realismo (Machado de Assis) — [[por-2009-f1-q38]]
 - Romantismo brasileiro — [[por-2014-f1-q35]]
 - Romantismo indianista — [[por-2012-f1-q38]]
+- Romantismo; Senhora — [[por-2019-f1-q21]]
 - Ronaldo Azeredo — [[por-2011-f1-q40]]
 - Senhora — [[por-2009-f1-q38]], [[por-2015-f1-q36]], [[por-2018-f1-q21]]
 - São Bernardo — [[por-2010-f1-q39]], [[por-2016-f1-q38]], [[por-2018-f1-q23]]
@@ -4361,7 +5673,7 @@
 - análise de haicai — [[por-2014-f1-q39]]
 - análise de metáforas — [[por-2016-f1-q39]]
 - análise de narrativa — [[por-2013-f1-q39]]
-- análise de personagem — [[por-2017-f1-q35]]
+- análise de personagem — [[por-2017-f1-q35]], [[por-2023-f1-q13]]
 - análise de personagens — [[por-2017-f1-q37]]
 - análise de poema — [[por-2010-f1-q36]], [[por-2010-f1-q38]], [[por-2010-f1-q40]], [[por-2011-f1-q37]], [[por-2011-f1-q39]], [[por-2014-f1-q37]], [[por-2017-f1-q38]], [[por-2017-f1-q40]]
 - análise de poesia regionalista — [[por-2013-f1-q38]]
@@ -4376,11 +5688,16 @@
 - conflito narrativo — [[por-2012-f1-q38]]
 - contexto literário — [[por-2013-f1-q36]]
 - conto moderno — [[por-2009-f1-q40]]
+- de Graciliano Ramos — [[por-2019-f1-q23]]
+- de José de Alencar — [[por-2019-f1-q21]]
+- de Machado de Assis — [[por-2019-f1-q22]]
 - desencontro amoroso — [[por-2009-f1-q37]]
+- estrutura narrativa — [[por-2023-f1-q19]]
 - estrutura poética — [[por-2016-f1-q39]]
 - eu-lírico — [[por-2012-f1-q40]]
 - figuras de linguagem — [[por-2014-f1-q37]], [[por-2015-f1-q39]], [[por-2017-f1-q40]]
 - foco narrativo — [[por-2013-f1-q39]]
+- fragmentação temporal — [[por-2023-f1-q19]]
 - função da citação (Cortázar) — [[por-2011-f1-q31]]
 - identificação de escola literária — [[por-2013-f1-q37]]
 - identificação de incorreção — [[por-2010-f1-q35]], [[por-2010-f1-q39]]
@@ -4426,9 +5743,204 @@
 - romance século XIX — [[por-2011-f1-q38]]
 - romantismo — [[por-2008-f1-q39]], [[por-2008-f1-q40]], [[por-2017-f1-q36]]
 - simbolismo — [[por-2013-f1-q37]]
+- temas e estilo — [[por-2023-f1-q23]]
 - terceira geração romântica; aliteração no Navio Negreiro — [[por-2025-f2-q12]]
 - tom confessional — [[por-2011-f1-q39]]
 - visualidade do poema — [[por-2011-f1-q40]]
+
+### literatura comparada
+- características comuns aos protagonistas das três obras — [[por-2020-f1-q30]]
+
+### literatura comparada — Honwana e Tenório
+- comparação entre obras — [[por-2024-f1-q19]]
+- leitura crítica — [[por-2024-f1-q19]]
+- racismo no Brasil e em Moçambique — [[por-2024-f1-q19]]
+
+### literatura — *A falecida* (Nelson Rodrigues)
+- análise de personagem (Tuninho) — [[por-2024-f1-q24]]
+- análise de personagem (Zulmira) — [[por-2024-f1-q23]]
+- cotidiano — [[por-2024-f1-q21]]
+- escapismo — [[por-2024-f1-q23]]
+- influências do cinema e da crônica — [[por-2024-f1-q22]]
+- linguagem coloquial — [[por-2024-f1-q21]]
+- marginalidade social — [[por-2024-f1-q23]]
+- modernidade do teatro de Nelson Rodrigues — [[por-2024-f1-q22]]
+- realidade social do Rio nos anos 1950 — [[por-2024-f1-q21]]
+- relações familiares — [[por-2024-f1-q24]]
+
+### literatura — *Nós matamos o cão tinhoso* (Honwana)
+- colonialismo — [[por-2024-f1-q13]]
+- crítica ao colonialismo — [[por-2024-f1-q14]]
+- identidade cultural — [[por-2024-f1-q14]]
+- linguagem — [[por-2024-f1-q14]]
+- linguagem (idioma ronga) — [[por-2024-f1-q13]]
+- perspectiva infantil — [[por-2024-f1-q13]]
+
+### literatura — *O avesso da pele* (Tenório)
+- Juliana) — [[por-2024-f1-q20]]
+- Martha — [[por-2024-f1-q20]]
+- análise de personagens (Henrique — [[por-2024-f1-q20]]
+- análise de trechos — [[por-2024-f1-q18]]
+- conscientização sobre racismo — [[por-2024-f1-q20]]
+- foco narrativo — [[por-2024-f1-q17]]
+- narrador — [[por-2024-f1-q17]]
+- ponto de vista — [[por-2024-f1-q17]]
+- tomada de consciência sobre negritude — [[por-2024-f1-q18]]
+
+### literatura — conto "A velhota" (Honwana)
+- análise de excerto — [[por-2024-f1-q15]]
+- narrador — [[por-2024-f1-q15]]
+- violência colonial — [[por-2024-f1-q15]]
+
+### literatura — conto "Dina" (Honwana)
+- Madala — [[por-2024-f1-q16]]
+- Maria) — [[por-2024-f1-q16]]
+- análise de personagens (capataz — [[por-2024-f1-q16]]
+- violência e racismo — [[por-2024-f1-q16]]
+
+### literatura, A Sauna (Lygia Fagundes Telles)
+- caracterização da personagem Rosa pelo narrador — [[por-2021-f1-q25]]
+- epítetos — [[por-2021-f1-q25]]
+
+### literatura, As Formigas (Lygia Fagundes Telles)
+- análise de trechos — [[por-2021-f1-q21]]
+- atmosfera de suspense — [[por-2021-f1-q26]]
+- desfecho do conto — [[por-2021-f1-q21]]
+- dubiedade narrativa — [[por-2021-f1-q26]]
+- vulnerabilidade das protagonistas — [[por-2021-f1-q26]]
+
+### literatura, Drummond
+- "Amar" — [[por-2022-f1-q25]]
+- "Morte do leiteiro" — [[por-2022-f1-q21]]
+- Antologia poética — [[por-2022-f1-q23]]
+- amor como relação humana ampla — [[por-2022-f1-q25]]
+- amor e luxúria na obra de Drummond — [[por-2022-f1-q24]]
+- análise comparativa de versos — [[por-2022-f1-q24]]
+- crítica social — [[por-2022-f1-q21]]
+- esperança sem saudosismo — [[por-2022-f1-q22]]
+- forma e conteúdo — [[por-2022-f1-q21]]
+- ironia do poeta — [[por-2022-f1-q23]]
+- memória — [[por-2022-f1-q24]]
+- organização da obra — [[por-2022-f1-q23]]
+- poética drummondiana — [[por-2022-f1-q25]]
+- relação ambígua com a memória — [[por-2022-f1-q22]]
+
+### literatura, Graciliano Ramos (São Bernardo)
+- análise de discurso e crítica social na obra — [[por-2020-f1-q18]]
+- análise do perfil moral do narrador-protagonista — [[por-2020-f1-q17]]
+- análise do personagem seu Ribeiro; interpretação textual — [[por-2020-f1-q25]]
+- interpretação de trecho narrativo — [[por-2020-f1-q27]]
+
+### literatura, Graciliano Ramos / Guimarães Rosa
+- comparação de personagens entre São Bernardo e A Hora e Vez de Augusto Matraga — [[por-2020-f1-q19]]
+
+### literatura, Guimarães Rosa (A Hora e Vez de Augusto Matraga)
+- análise da cena final; conduta moral do protagonista — [[por-2020-f1-q29]]
+- caracterização do protagonista a partir de trecho — [[por-2020-f1-q26]]
+- interpretação da resposta do protagonista no contexto narrativo — [[por-2020-f1-q20]]
+
+### literatura, Lima Barreto
+- Numa e a ninfa — [[por-2022-f1-q16]], [[por-2022-f1-q17]], [[por-2022-f1-q20]]
+- crítica à política da República Velha — [[por-2022-f1-q16]]
+- crônica de costumes — [[por-2022-f1-q20]]
+- ironia — [[por-2022-f1-q16]]
+- juízo do narrador sobre cultura popular — [[por-2022-f1-q20]]
+- oportunismo social — [[por-2022-f1-q17]]
+- personagens Numa e Lucrécio Barba de Bode — [[por-2022-f1-q17]]
+
+### literatura, Lygia Fagundes Telles
+- amadurecimento traumático — [[por-2022-f1-q29]]
+- assédio — [[por-2022-f1-q29]]
+- balanço da vida da protagonista — [[por-2022-f1-q28]]
+- conto "A mão no ombro" — [[por-2022-f1-q26]]
+- conto "Herbarium" — [[por-2022-f1-q29]]
+- conto "Noturno amarelo" — [[por-2022-f1-q28]]
+- conto "Seminário dos ratos" — [[por-2022-f1-q30]]
+- crítica à política — [[por-2022-f1-q30]]
+- discurso indireto livre — [[por-2022-f1-q26]]
+- identificação do trecho que não ilustra o tema — [[por-2022-f1-q27]]
+- memória — [[por-2022-f1-q28]]
+- narrador em terceira pessoa — [[por-2022-f1-q26]]
+- relações amorosas desgastadas nos contos — [[por-2022-f1-q27]]
+- utilitarismo — [[por-2022-f1-q30]]
+
+### literatura, Machado de Assis (O Alienista)
+- análise de narrador — [[por-2020-f1-q16]]
+- análise do sentido da narrativa e papel dos personagens — [[por-2020-f1-q23]]
+- distinção entre razão e loucura no discurso de Simão Bacamarte — [[por-2020-f1-q22]]
+- gênero e linguagem irônica — [[por-2020-f1-q16]]
+
+### literatura, Memórias de um sargento de milícias
+- ambiguidade moral — [[por-2021-f1-q18]]
+- análise de passagem — [[por-2021-f1-q24]]
+- análise de personagens — [[por-2021-f1-q18]]
+- caracterização do narrador — [[por-2021-f1-q16]]
+- foco narrativo — [[por-2021-f1-q16]]
+- ironia sobre o "real" — [[por-2021-f1-q24]]
+- verniz de respeitabilidade — [[por-2021-f1-q24]]
+
+### literatura, Senhor Diretor (Lygia Fagundes Telles)
+- caracterização da narradora protagonista — [[por-2021-f1-q20]]
+- recalque sexual — [[por-2021-f1-q20]]
+
+### literatura, Teoria do medalhão (Machado de Assis)
+- análise semântica — [[por-2021-f1-q27]]
+- chalaça versus ironia — [[por-2021-f1-q22]]
+- frases feitas e "esforço inútil" — [[por-2021-f1-q27]]
+- ironia machadiana — [[por-2021-f1-q17]]
+- mediocridade como medida do sucesso — [[por-2021-f1-q17]]
+- publicidade e mediocridade — [[por-2021-f1-q22]]
+
+### literatura, Tigrela (Lygia Fagundes Telles)
+- análise de trechos — [[por-2021-f1-q23]]
+- compreensão do desfecho — [[por-2021-f1-q23]]
+
+### literatura, WM (Lygia Fagundes Telles)
+- abandono materno — [[por-2021-f1-q30]]
+- caracterização do enredo — [[por-2021-f1-q30]]
+- narradora — [[por-2021-f1-q30]]
+
+### literatura, contexto histórico-social
+- classes populares — [[por-2021-f1-q19]]
+- compadrio e interesse — [[por-2021-f1-q19]]
+- período joanino — [[por-2021-f1-q19]]
+
+### literatura, contos de Lygia Fagundes Telles
+- A Sauna — [[por-2021-f1-q29]]
+- Seminário dos ratos — [[por-2021-f1-q29]]
+- WM — [[por-2021-f1-q29]]
+- análise comparativa de Senhor Diretor — [[por-2021-f1-q29]]
+
+### literatura, figuras de linguagem
+- Os ratos — [[por-2023-f1-q22]]
+- animalização do humano — [[por-2023-f1-q22]]
+- análise de poema de Cecília Meireles; metáfora — [[por-2019-f1-q24]]
+- intertextualidade — [[por-2023-f1-q22]]
+
+### literatura, gramática
+- Drummond — [[por-2023-f1-q17]]
+- Os ratos de Dyonélio Machado — [[por-2023-f1-q14]]
+- experimentalismo modernista — [[por-2023-f1-q17]]
+- linguagem narrativa — [[por-2023-f1-q14]]
+- norma culta — [[por-2023-f1-q17]]
+- norma culta vs oralidade — [[por-2023-f1-q14]]
+
+### literatura, interpretação de texto
+- Carlos Drummond de Andrade — [[por-2023-f1-q15]]
+- Drummond Antologia Poética — [[por-2023-f1-q24]]
+- Drummond Cantiga de enganar — [[por-2023-f1-q21]]
+- Mário de Andrade Atrás da catedral de Ruão — [[por-2023-f1-q20]]
+- Mário de Andrade Contos novos — [[por-2023-f1-q16]]
+- Mário de Andrade O peru de Natal — [[por-2023-f1-q18]]
+- análise de versos — [[por-2023-f1-q15]]
+- análise psicológica do narrador — [[por-2023-f1-q18]]
+- classes sociais — [[por-2023-f1-q16]]
+- condição humana — [[por-2023-f1-q21]]
+- cotidiano e inconformismo — [[por-2023-f1-q24]]
+- interpretação de personagem — [[por-2023-f1-q20]]
+- ironia — [[por-2023-f1-q21]]
+- variação linguística — [[por-2023-f1-q16]]
+- versos livres — [[por-2023-f1-q15]]
 
 ### redação técnica
 - análise de proposta de redação — [[por-2016-f1-q40]]
@@ -4438,6 +5950,22 @@
 - leitura de tabelas/dados — [[por-2016-f1-q40]]
 - ordenação de parágrafos — [[por-2011-f1-q34]]
 - recursos de progressão textual — [[por-2011-f1-q32]]
+
+### semântica, sinônimos
+- sinônimos contextuais de "desinteligência" — [[por-2020-f1-q28]]
+
+### semântica, vocabulário
+- sentido contextual da palavra "bizarria" — [[por-2020-f1-q21]]
+
+### teoria literária, discurso
+- discurso direto — [[por-2022-f1-q19]]
+- indireto — [[por-2022-f1-q19]]
+- indireto livre em Numa e a ninfa — [[por-2022-f1-q19]]
+
+### teoria literária, narrador
+- caracterização do narrador de Numa e a ninfa — [[por-2022-f1-q18]]
+- ironia — [[por-2022-f1-q18]]
+- onisciência — [[por-2022-f1-q18]]
 
 ### variação linguística
 - análise de níveis de linguagem — [[por-2016-f1-q26]]
@@ -4452,6 +5980,9 @@
 - representação cultural — [[por-2015-f1-q33]]
 - técnica e popular — [[por-2008-f1-q25]]
 - uso de pronomes — [[por-2013-f1-q29]]
+
+### variação linguística, gramática
+- norma culta vs. coloquial em crônica — [[por-2019-f1-q17]]
 
 ## Redação
 

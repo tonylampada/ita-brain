@@ -24,7 +24,7 @@ source: matematica_2018.pdf
 ![](prova2018/q02.png)
 
 ## Q03
-**Assunto:** progressões
+**Assunto:** sequências e progressões
 **Competências:** progressão geométrica, binômio de Newton, termo independente, coeficientes binomiais
 **Tipo:** múltipla escolha
 
@@ -45,7 +45,7 @@ source: matematica_2018.pdf
 ![](prova2018/q05.png)
 
 ## Q06
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** combinações, contagem de triângulos, contagem de quadriláteros, equações
 **Tipo:** múltipla escolha
 
@@ -66,7 +66,7 @@ source: matematica_2018.pdf
 ![](prova2018/q08.png)
 
 ## Q09
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** mudança de base, propriedades dos logaritmos, estimativas, desigualdades
 **Tipo:** múltipla escolha
 
@@ -101,14 +101,14 @@ source: matematica_2018.pdf
 ![](prova2018/q13.png)
 
 ## Q14
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** sistema homogêneo, infinitas soluções, determinante nulo, parâmetros
 **Tipo:** múltipla escolha
 
 ![](prova2018/q14.png)
 
 ## Q15
-**Assunto:** determinantes
+**Assunto:** matrizes
 **Competências:** determinante com variável, polinômio característico, produto das raízes, relações de Girard
 **Tipo:** múltipla escolha
 
@@ -129,21 +129,21 @@ source: matematica_2018.pdf
 ![](prova2018/q17.png)
 
 ## Q18
-**Assunto:** progressões
+**Assunto:** sequências e progressões
 **Competências:** PA, soma dos termos, termo geral, determinante 3x3
 **Tipo:** múltipla escolha
 
 ![](prova2018/q18.png)
 
 ## Q19
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** eventos independentes, probabilidade da união, eventos complementares, soma de probabilidades
 **Tipo:** múltipla escolha
 
 ![](prova2018/q19.png)
 
 ## Q20
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** sistemas não lineares, equações simétricas, soma e produto, condição de discriminante
 **Tipo:** múltipla escolha
 
@@ -185,14 +185,14 @@ source: matematica_2018.pdf
 ![](prova2018/q25.png)
 
 ## Q26
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** probabilidade hipergeométrica, combinações, identidade de Vandermonde, somatórios
 **Tipo:** discursiva
 
 ![](prova2018/q26.png)
 
 ## Q27
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** decomposição em fatores primos, MMC, contagem de divisores, pares ordenados
 **Tipo:** discursiva
 

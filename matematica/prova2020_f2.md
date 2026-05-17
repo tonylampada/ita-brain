@@ -17,14 +17,14 @@ source: matematica_2020_2f.pdf
 ![](prova2020_f2/q01.png)
 
 ## Q02
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** probabilidade condicional, espaço amostral, lançamento de dados, contagem de casos favoráveis
 **Tipo:** discursiva
 
 ![](prova2020_f2/q02.png)
 
 ## Q03
-**Assunto:** números reais
+**Assunto:** teoria dos números
 **Competências:** números primos, soma de cubos, fatoração, teoria dos números
 **Tipo:** discursiva
 

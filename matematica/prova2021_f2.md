@@ -17,14 +17,14 @@ source: matematica_2021_2f.pdf
 ![](prova2021_f2/q01.png)
 
 ## Q02
-**Assunto:** determinantes
+**Assunto:** matrizes
 **Competências:** matriz não singular, cálculo de determinante, expansão de Laplace, parâmetro real
 **Tipo:** discursiva
 
 ![](prova2021_f2/q02.png)
 
 ## Q03
-**Assunto:** progressões
+**Assunto:** sequências e progressões
 **Competências:** progressão geométrica, soma de termos, produto de termos, manipulação algébrica
 **Tipo:** discursiva
 
@@ -52,7 +52,7 @@ source: matematica_2021_2f.pdf
 ![](prova2021_f2/q06.png)
 
 ## Q07
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** contagem, progressão aritmética, restrições inteiras, casos
 **Tipo:** discursiva
 
@@ -73,7 +73,7 @@ source: matematica_2021_2f.pdf
 ![](prova2021_f2/q09.png)
 
 ## Q10
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** série geométrica, esperança, paridade, eventos sucessivos
 **Tipo:** discursiva
 

@@ -10,7 +10,7 @@ source: matematica_2008.pdf
 > 30 questões. Q01–Q20 múltipla escolha; Q21–Q30 discursivas.
 
 ## Q01
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** probabilidade condicional, teorema de Bayes, eventos compostos
 **Tipo:** múltipla escolha
 
@@ -24,21 +24,21 @@ source: matematica_2008.pdf
 ![](prova2008/q02.png)
 
 ## Q03
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** discussão de sistemas, determinantes, escalonamento, parâmetros
 **Tipo:** múltipla escolha
 
 ![](prova2008/q03.png)
 
 ## Q04
-**Assunto:** determinantes
+**Assunto:** matrizes
 **Competências:** propriedades de determinantes, matriz inversa, matriz transposta
 **Tipo:** múltipla escolha
 
 ![](prova2008/q04.png)
 
 ## Q05
-**Assunto:** progressões
+**Assunto:** sequências e progressões
 **Competências:** progressão geométrica, soma de termos, polinômios e graus
 **Tipo:** múltipla escolha
 
@@ -66,14 +66,14 @@ source: matematica_2008.pdf
 ![](prova2008/q08.png)
 
 ## Q09
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** raízes complexas conjugadas, relações de Girard, raízes inteiras
 **Tipo:** múltipla escolha
 
 ![](prova2008/q09.png)
 
 ## Q10
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** equação recíproca, raízes, sistemas de equações
 **Tipo:** múltipla escolha
 
@@ -101,7 +101,7 @@ source: matematica_2008.pdf
 ![](prova2008/q13.png)
 
 ## Q14
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** equações exponenciais, mudança de variável, módulo, logaritmo na base 5
 **Tipo:** múltipla escolha
 
@@ -122,7 +122,7 @@ source: matematica_2008.pdf
 ![](prova2008/q16.png)
 
 ## Q17
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** combinações, probabilidade clássica, contagem de pares com soma fixa
 **Tipo:** múltipla escolha
 
@@ -136,7 +136,7 @@ source: matematica_2008.pdf
 ![](prova2008/q18.png)
 
 ## Q19
-**Assunto:** números reais
+**Assunto:** conjuntos
 **Competências:** teoria de conjuntos, operações com conjuntos, diferença e interseção
 **Tipo:** múltipla escolha
 
@@ -185,14 +185,14 @@ source: matematica_2008.pdf
 ![](prova2008/q25.png)
 
 ## Q26
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** equação biquadrada, discriminante, tangente, raízes reais distintas
 **Tipo:** discursiva
 
 ![](prova2008/q26.png)
 
 ## Q27
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** independência, probabilidade condicional, união e interseção de eventos
 **Tipo:** discursiva
 

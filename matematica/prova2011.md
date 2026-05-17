@@ -31,21 +31,21 @@ source: matematica_2011.pdf
 ![](prova2011/q03.png)
 
 ## Q04
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** probabilidade condicional, teorema de Bayes, eventos compostos
 **Tipo:** múltipla escolha
 
 ![](prova2011/q04.png)
 
 ## Q05
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** conjuntos, subconjuntos, cardinalidade, contagem de partes
 **Tipo:** múltipla escolha
 
 ![](prova2011/q05.png)
 
 ## Q06
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** discussão de sistema linear, determinante, condição de compatibilidade
 **Tipo:** múltipla escolha
 
@@ -66,7 +66,7 @@ source: matematica_2011.pdf
 ![](prova2011/q08.png)
 
 ## Q09
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** equações modulares, casos por sinal, produto de raízes
 **Tipo:** múltipla escolha
 
@@ -150,7 +150,7 @@ source: matematica_2011.pdf
 ![](prova2011/q20.png)
 
 ## Q21
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** teoria de conjuntos, diferença simétrica, prova de existência
 **Tipo:** discursiva
 
@@ -164,14 +164,14 @@ source: matematica_2011.pdf
 ![](prova2011/q22.png)
 
 ## Q23
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** permutações, agrupamentos, probabilidade de eventos com restrições
 **Tipo:** discursiva
 
 ![](prova2011/q23.png)
 
 ## Q24
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** propriedades de logaritmos, base fracionária, inequação exponencial, inequação quadrática
 **Tipo:** discursiva
 
@@ -185,7 +185,7 @@ source: matematica_2011.pdf
 ![](prova2011/q25.png)
 
 ## Q26
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** discriminante, soma e produto de raízes, condições para raízes reais positivas, sinal
 **Tipo:** discursiva
 

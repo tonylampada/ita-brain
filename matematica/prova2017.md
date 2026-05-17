@@ -24,7 +24,7 @@ source: matematica_2017.pdf
 ![](prova2017/q02.png)
 
 ## Q03
-**Assunto:** progressões
+**Assunto:** sequências e progressões
 **Competências:** progressão geométrica, progressão aritmética, sistemas com PG e PA, manipulação algébrica
 **Tipo:** múltipla escolha
 
@@ -45,7 +45,7 @@ source: matematica_2017.pdf
 ![](prova2017/q05.png)
 
 ## Q06
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** sistemas não-lineares com substituição, mudança de variáveis, módulo de número real
 **Tipo:** múltipla escolha
 
@@ -59,7 +59,7 @@ source: matematica_2017.pdf
 ![](prova2017/q07.png)
 
 ## Q08
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** cardinalidade de conjunto produto, fatoração inteira, contagem de produtos distintos
 **Tipo:** múltipla escolha
 
@@ -73,7 +73,7 @@ source: matematica_2017.pdf
 ![](prova2017/q09.png)
 
 ## Q10
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** propriedades de logaritmos, mudança de base, identidades exponenciais com log
 **Tipo:** múltipla escolha
 
@@ -94,14 +94,14 @@ source: matematica_2017.pdf
 ![](prova2017/q12.png)
 
 ## Q13
-**Assunto:** números reais
+**Assunto:** teoria dos números
 **Competências:** fatoração única de inteiros, progressão geométrica trigonométrica, irracionalidade de raízes de primos
 **Tipo:** múltipla escolha
 
 ![](prova2017/q13.png)
 
 ## Q14
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** arranjos com repetição, arranjos sem repetição, probabilidade clássica
 **Tipo:** múltipla escolha
 
@@ -136,7 +136,7 @@ source: matematica_2017.pdf
 ![](prova2017/q18.png)
 
 ## Q19
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** proporcionalidade inversa, probabilidade do complementar, eventos independentes, união de eventos
 **Tipo:** múltipla escolha
 
@@ -157,7 +157,7 @@ source: matematica_2017.pdf
 ![](prova2017/q21.png)
 
 ## Q22
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** inequação exponencial, logaritmação, comparação de bases, solução em R
 **Tipo:** discursiva
 
@@ -171,14 +171,14 @@ source: matematica_2017.pdf
 ![](prova2017/q23.png)
 
 ## Q24
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** funções sobrejetoras, princípio da inclusão-exclusão, contagem
 **Tipo:** discursiva
 
 ![](prova2017/q24.png)
 
 ## Q25
-**Assunto:** progressões
+**Assunto:** sequências e progressões
 **Competências:** progressão geométrica com termos inteiros, razão racional, divisibilidade, mdc
 **Tipo:** discursiva
 
@@ -192,7 +192,7 @@ source: matematica_2017.pdf
 ![](prova2017/q26.png)
 
 ## Q27
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** classificação de sistemas, determinante, sistema impossível, parâmetro
 **Tipo:** discursiva
 

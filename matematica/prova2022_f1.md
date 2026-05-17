@@ -10,7 +10,7 @@ source: 2022_fase1.pdf
 > 15 questões múltipla escolha.
 
 ## Q41
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** propriedades de logaritmo, mudança de base, soma de logs em bases distintas
 **Tipo:** múltipla escolha
 
@@ -24,7 +24,7 @@ source: 2022_fase1.pdf
 ![](prova2022_f1/q42.png)
 
 ## Q43
-**Assunto:** álgebra linear
+**Assunto:** matrizes
 **Competências:** sistemas lineares equivalentes, parâmetro real, equivalência de soluções
 **Tipo:** múltipla escolha
 
@@ -38,21 +38,21 @@ source: 2022_fase1.pdf
 ![](prova2022_f1/q44.png)
 
 ## Q45
-**Assunto:** polinômios, números complexos
+**Assunto:** polinômios
 **Competências:** raízes de polinômio de grau 4 no plano complexo, área de quadrilátero
 **Tipo:** múltipla escolha
 
 ![](prova2022_f1/q45.png)
 
 ## Q46
-**Assunto:** álgebra linear, matrizes
+**Assunto:** matrizes
 **Competências:** invertibilidade, comutatividade, transposta vs quadrado, determinante
 **Tipo:** múltipla escolha
 
 ![](prova2022_f1/q46.png)
 
 ## Q47
-**Assunto:** trigonometria, progressões
+**Assunto:** trigonometria
 **Competências:** tangente, progressão aritmética com tan(x-r), tan(x), tan(x+r)
 **Tipo:** múltipla escolha
 
@@ -80,21 +80,21 @@ source: 2022_fase1.pdf
 ![](prova2022_f1/q50.png)
 
 ## Q51
-**Assunto:** combinatória, probabilidade
+**Assunto:** combinatória
 **Competências:** representação binária, mudança no número de algarismos, probabilidade
 **Tipo:** múltipla escolha
 
 ![](prova2022_f1/q51.png)
 
 ## Q52
-**Assunto:** combinatória, geometria espacial
+**Assunto:** combinatória
 **Competências:** retas determinadas por vértices de cubo, probabilidade de interseção em vértice
 **Tipo:** múltipla escolha
 
 ![](prova2022_f1/q52.png)
 
 ## Q53
-**Assunto:** trigonometria, geometria
+**Assunto:** trigonometria
 **Competências:** ângulos internos de triângulo, desigualdade trigonométrica, classificação
 **Tipo:** múltipla escolha
 

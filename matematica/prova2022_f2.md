@@ -31,7 +31,7 @@ source: matematica_2022_2f.pdf
 ![](prova2022_f2/q03.png)
 
 ## Q04
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** contagem de configurações, casos favoráveis, permutações, princípio multiplicativo, jogo da velha
 **Tipo:** discursiva
 

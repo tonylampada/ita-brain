@@ -38,14 +38,14 @@ source: matematica_2015.pdf
 ![](prova2015/q04.png)
 
 ## Q05
-**Assunto:** sequências
+**Assunto:** sequências e progressões
 **Competências:** sequência de Fibonacci, progressão geométrica, divisibilidade, análise de afirmações
 **Tipo:** múltipla escolha
 
 ![](prova2015/q05.png)
 
 ## Q06
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** equação racional, restrições de domínio, análise de afirmações
 **Tipo:** múltipla escolha
 
@@ -164,7 +164,7 @@ source: matematica_2015.pdf
 ![](prova2015/q22.png)
 
 ## Q23
-**Assunto:** sistemas e progressões
+**Assunto:** sequências e progressões
 **Competências:** progressões, sistema de equações com cinco incógnitas
 **Tipo:** discursiva
 
@@ -185,7 +185,7 @@ source: matematica_2015.pdf
 ![](prova2015/q25.png)
 
 ## Q26
-**Assunto:** análise combinatória / probabilidade
+**Assunto:** combinatória
 **Competências:** experimento aleatório, contagem de casos, probabilidade condicional
 **Tipo:** discursiva
 

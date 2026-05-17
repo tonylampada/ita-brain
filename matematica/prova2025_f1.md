@@ -10,49 +10,49 @@ source: 2025_fase1.pdf
 > 12 questões múltipla escolha (Q1–Q12 da prova consolidada MAT+FIS+QUI+ING).
 
 ## Q01
-**Assunto:** números complexos / geometria analítica
+**Assunto:** números complexos
 **Competências:** plano de Argand-Gauss, área de triângulo, módulo e potências de complexos
 **Tipo:** múltipla escolha
 
 ![](prova2025_f1/q01.png)
 
 ## Q02
-**Assunto:** geometria espacial / poliedros
+**Assunto:** geometria espacial
 **Competências:** relação de Euler, classificação de poliedros, asserções I-III
 **Tipo:** múltipla escolha (asserções I-III)
 
 ![](prova2025_f1/q02.png)
 
 ## Q03
-**Assunto:** binômio de Newton
+**Assunto:** combinatória
 **Competências:** termo geral, termo independente, produto de expansões binomiais
 **Tipo:** múltipla escolha
 
 ![](prova2025_f1/q03.png)
 
 ## Q04
-**Assunto:** funções reais
+**Assunto:** funções
 **Competências:** injetividade, sobrejetividade, composição funcional
 **Tipo:** múltipla escolha
 
 ![](prova2025_f1/q04.png)
 
 ## Q05
-**Assunto:** sequências / séries
+**Assunto:** sequências e progressões
 **Competências:** progressões aritméticas e geométricas, somas parciais, asserções I-III
 **Tipo:** múltipla escolha (asserções I-III)
 
 ![](prova2025_f1/q05.png)
 
 ## Q06
-**Assunto:** equações exponenciais
+**Assunto:** funções
 **Competências:** mudança de variável, equação do 2º grau, condições para raízes reais distintas
 **Tipo:** múltipla escolha
 
 ![](prova2025_f1/q06.png)
 
 ## Q07
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** equivalência de sistemas, parâmetros, escalonamento
 **Tipo:** múltipla escolha
 
@@ -66,21 +66,21 @@ source: 2025_fase1.pdf
 ![](prova2025_f1/q08.png)
 
 ## Q09
-**Assunto:** geometria plana / sólidos de revolução
+**Assunto:** geometria plana
 **Competências:** intersecção de circunferências, volume de sólido de revolução, cone
 **Tipo:** múltipla escolha
 
 ![](prova2025_f1/q09.png)
 
 ## Q10
-**Assunto:** polinômios / números complexos
+**Assunto:** polinômios
 **Competências:** raízes comuns, MDC de polinômios, raízes complexas
 **Tipo:** múltipla escolha
 
 ![](prova2025_f1/q10.png)
 
 ## Q11
-**Assunto:** geometria analítica (cônicas)
+**Assunto:** geometria analítica
 **Competências:** elipse e hipérbole, focos comuns, excentricidade
 **Tipo:** múltipla escolha
 

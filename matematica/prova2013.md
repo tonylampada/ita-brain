@@ -10,7 +10,7 @@ source: matematica_2013.pdf
 > 30 questões. Q01–Q20 múltipla escolha; Q21–Q30 discursivas.
 
 ## Q01
-**Assunto:** números reais
+**Assunto:** conjuntos
 **Competências:** teoria dos conjuntos, operações entre conjuntos, complementar, diferença de conjuntos
 **Tipo:** múltipla escolha
 
@@ -31,14 +31,14 @@ source: matematica_2013.pdf
 ![](prova2013/q03.png)
 
 ## Q04
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** equações exponenciais, mudança de variável, fatoração, soma de raízes
 **Tipo:** múltipla escolha
 
 ![](prova2013/q04.png)
 
 ## Q05
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** sistemas com radicais, propriedades do logaritmo natural, manipulação algébrica
 **Tipo:** múltipla escolha
 
@@ -59,7 +59,7 @@ source: matematica_2013.pdf
 ![](prova2013/q07.png)
 
 ## Q08
-**Assunto:** números reais
+**Assunto:** teoria dos números
 **Competências:** divisibilidade, divisão euclidiana, paridade, aritmética modular
 **Tipo:** múltipla escolha
 
@@ -80,21 +80,21 @@ source: matematica_2013.pdf
 ![](prova2013/q10.png)
 
 ## Q11
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** espaço amostral finito, eventos, união e interseção, complementar, leis de De Morgan
 **Tipo:** múltipla escolha
 
 ![](prova2013/q11.png)
 
 ## Q12
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** distribuição binomial, lançamentos independentes, comparação de probabilidades
 **Tipo:** múltipla escolha
 
 ![](prova2013/q12.png)
 
 ## Q13
-**Assunto:** determinantes
+**Assunto:** matrizes
 **Competências:** propriedades de determinante, determinante de produto, determinante de transposta, escalar
 **Tipo:** múltipla escolha
 
@@ -157,35 +157,35 @@ source: matematica_2013.pdf
 ![](prova2013/q21.png)
 
 ## Q22
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** domínio de função logarítmica, base do logaritmo, identidades trigonométricas, inequações
 **Tipo:** discursiva
 
 ![](prova2013/q22.png)
 
 ## Q23
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** relações de Girard, polinômio do segundo grau, raízes em intervalo, teorema de Bolzano
 **Tipo:** discursiva
 
 ![](prova2013/q23.png)
 
 ## Q24
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** contagem com simetrias, grupo de rotações do tetraedro, permutações distinguíveis
 **Tipo:** discursiva
 
 ![](prova2013/q24.png)
 
 ## Q25
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** sistemas não lineares, equações polinomiais, soluções reais, parâmetros
 **Tipo:** discursiva
 
 ![](prova2013/q25.png)
 
 ## Q26
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** discussão de sistemas, determinante, sistema possível e determinado, sistema impossível, trigonometria
 **Tipo:** discursiva
 

@@ -10,21 +10,21 @@ source: 2019_fase1.pdf
 > 12 questões múltipla escolha.
 
 ## Q37
-**Assunto:** geometria plana, trigonometria
+**Assunto:** geometria plana
 **Competências:** retângulo; tangente de ângulo entre segmentos
 **Tipo:** múltipla escolha
 
 ![](prova2019_f1/q37.png)
 
 ## Q38
-**Assunto:** polinômios, progressões
+**Assunto:** polinômios
 **Competências:** raízes em PA; soma de coeficientes
 **Tipo:** múltipla escolha
 
 ![](prova2019_f1/q38.png)
 
 ## Q39
-**Assunto:** geometria analítica, trigonometria
+**Assunto:** geometria analítica
 **Competências:** circunferência; retas tangentes; cosseno do ângulo
 **Tipo:** múltipla escolha
 
@@ -38,56 +38,56 @@ source: 2019_fase1.pdf
 ![](prova2019_f1/q40.png)
 
 ## Q41
-**Assunto:** sistemas lineares, geometria analítica
+**Assunto:** matrizes
 **Competências:** lugar geométrico de pares (a,b) que tornam sistema impossível
 **Tipo:** múltipla escolha
 
 ![](prova2019_f1/q41.png)
 
 ## Q42
-**Assunto:** números complexos, geometria plana
+**Assunto:** números complexos
 **Competências:** raízes n-ésimas; área de triângulo no plano de Argand-Gauss
 **Tipo:** múltipla escolha
 
 ![](prova2019_f1/q42.png)
 
 ## Q43
-**Assunto:** sequências, progressões, números reais
+**Assunto:** sequências e progressões
 **Competências:** somas; equações; PA com raízes
 **Tipo:** múltipla escolha
 
 ![](prova2019_f1/q43.png)
 
 ## Q44
-**Assunto:** análise combinatória, probabilidade
+**Assunto:** combinatória
 **Competências:** lançamentos de moedas numeradas; probabilidade de soma
 **Tipo:** múltipla escolha
 
 ![](prova2019_f1/q44.png)
 
 ## Q45
-**Assunto:** matrizes, determinantes
+**Assunto:** matrizes
 **Competências:** matrizes inversíveis com elementos inteiros; propriedades
 **Tipo:** múltipla escolha
 
 ![](prova2019_f1/q45.png)
 
 ## Q46
-**Assunto:** funções, trigonometria, séries
+**Assunto:** funções
 **Competências:** arcsen; soma de série envolvendo cosseno
 **Tipo:** múltipla escolha
 
 ![](prova2019_f1/q46.png)
 
 ## Q47
-**Assunto:** geometria espacial, progressões
+**Assunto:** geometria espacial
 **Competências:** volumes em PA; tronco de cone, esfera, cilindro
 **Tipo:** múltipla escolha
 
 ![](prova2019_f1/q47.png)
 
 ## Q48
-**Assunto:** equações algébricas, números reais
+**Assunto:** polinômios
 **Competências:** raízes de equação cúbica; divisibilidade; afirmações
 **Tipo:** múltipla escolha
 

@@ -10,14 +10,14 @@ source: 2021_fase1.pdf
 > 15 questões múltipla escolha.
 
 ## Q41
-**Assunto:** álgebra linear, matrizes
+**Assunto:** matrizes
 **Competências:** matrizes simétricas e antissimétricas, comutatividade, determinante
 **Tipo:** múltipla escolha
 
 ![](prova2021_f1/q41.png)
 
 ## Q42
-**Assunto:** inequações
+**Assunto:** funções
 **Competências:** inequação racional/polinomial, conjunto solução em R
 **Tipo:** múltipla escolha
 
@@ -31,14 +31,14 @@ source: 2021_fase1.pdf
 ![](prova2021_f1/q43.png)
 
 ## Q44
-**Assunto:** geometria analítica, cônicas
+**Assunto:** geometria analítica
 **Competências:** elipse, retângulo circunscrito, circunferência circunscrita ao retângulo
 **Tipo:** múltipla escolha
 
 ![](prova2021_f1/q44.png)
 
 ## Q45
-**Assunto:** trigonometria, geometria plana
+**Assunto:** trigonometria
 **Competências:** lei dos cossenos, área de triângulo, raio da circunferência inscrita
 **Tipo:** múltipla escolha
 
@@ -52,21 +52,21 @@ source: 2021_fase1.pdf
 ![](prova2021_f1/q46.png)
 
 ## Q47
-**Assunto:** equações exponenciais
+**Assunto:** funções
 **Competências:** equação 7^x = 5^(9x-1), localização da solução em intervalo
 **Tipo:** múltipla escolha
 
 ![](prova2021_f1/q47.png)
 
 ## Q48
-**Assunto:** álgebra linear, matrizes
+**Assunto:** matrizes
 **Competências:** matriz 2x2 atuando em vetores, traço da matriz
 **Tipo:** múltipla escolha
 
 ![](prova2021_f1/q48.png)
 
 ## Q49
-**Assunto:** progressões aritméticas, geometria plana
+**Assunto:** sequências e progressões
 **Competências:** triângulos com lados em PA, perímetro fixo, desigualdade triangular
 **Tipo:** múltipla escolha
 
@@ -87,14 +87,14 @@ source: 2021_fase1.pdf
 ![](prova2021_f1/q51.png)
 
 ## Q52
-**Assunto:** probabilidade, geometria espacial
+**Assunto:** combinatória
 **Competências:** dodecaedro regular, probabilidade de dois vértices pertencerem à mesma aresta
 **Tipo:** múltipla escolha
 
 ![](prova2021_f1/q52.png)
 
 ## Q53
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** distribuição de balas com restrições, contagem combinatória
 **Tipo:** múltipla escolha
 

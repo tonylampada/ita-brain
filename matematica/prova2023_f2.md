@@ -10,7 +10,7 @@ source: matematica_2023_2f.pdf
 > 10 questões discursivas.
 
 ## Q01
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** sistemas homogêneos, solução não trivial, determinantes, parametrização de soluções
 **Tipo:** discursiva
 
@@ -24,7 +24,7 @@ source: matematica_2023_2f.pdf
 ![](prova2023_f2/q02.png)
 
 ## Q03
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** inequações logarítmicas, base variável, domínio de funções, análise de sinais
 **Tipo:** discursiva
 
@@ -73,7 +73,7 @@ source: matematica_2023_2f.pdf
 ![](prova2023_f2/q09.png)
 
 ## Q10
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** combinações, contagem em polígonos, diagonais, interseção de segmentos
 **Tipo:** discursiva
 

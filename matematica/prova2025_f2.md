@@ -38,14 +38,14 @@ source: matematica_2025_2f.pdf
 ![](prova2025_f2/q04.png)
 
 ## Q05
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** logaritmo decimal, característica e mantissa, primeiro algarismo de potência, manipulação de log
 **Tipo:** discursiva
 
 ![](prova2025_f2/q05.png)
 
 ## Q06
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** distribuição binomial negativa, otimização discreta, probabilidade do enésimo sucesso, análise combinatória
 **Tipo:** discursiva
 
@@ -59,7 +59,7 @@ source: matematica_2025_2f.pdf
 ![](prova2025_f2/q07.png)
 
 ## Q08
-**Assunto:** determinantes
+**Assunto:** matrizes
 **Competências:** determinante de matriz max{i,j}, operações elementares, somatório, padrão recursivo
 **Tipo:** discursiva
 

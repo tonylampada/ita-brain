@@ -10,14 +10,14 @@ source: 2024_fase1.pdf
 > 12 questões múltipla escolha (Q37–Q48 da prova consolidada).
 
 ## Q37
-**Assunto:** teoria dos conjuntos
+**Assunto:** conjuntos
 **Competências:** operações entre conjuntos (união, interseção, diferença), identidades
 **Tipo:** múltipla escolha (asserções I-III)
 
 ![](prova2024_f1/q37.png)
 
 ## Q38
-**Assunto:** álgebra linear
+**Assunto:** matrizes
 **Competências:** sistemas lineares matriciais, condições de existência e unicidade, invertibilidade
 **Tipo:** múltipla escolha (asserções I-III)
 
@@ -31,14 +31,14 @@ source: 2024_fase1.pdf
 ![](prova2024_f1/q39.png)
 
 ## Q40
-**Assunto:** análise combinatória / princípio das gavetas
+**Assunto:** combinatória
 **Competências:** subconjuntos, princípio da casa dos pombos, produto fixo
 **Tipo:** múltipla escolha
 
 ![](prova2024_f1/q40.png)
 
 ## Q41
-**Assunto:** polinômios / análise combinatória
+**Assunto:** combinatória
 **Competências:** soma das raízes (relações de Girard), contagem, polinômios de grau 4
 **Tipo:** múltipla escolha
 
@@ -52,7 +52,7 @@ source: 2024_fase1.pdf
 ![](prova2024_f1/q42.png)
 
 ## Q43
-**Assunto:** geometria espacial / progressões
+**Assunto:** geometria espacial
 **Competências:** cilindro circular reto, áreas e volume, progressão geométrica
 **Tipo:** múltipla escolha
 
@@ -87,7 +87,7 @@ source: 2024_fase1.pdf
 ![](prova2024_f1/q47.png)
 
 ## Q48
-**Assunto:** geometria analítica — cônicas
+**Assunto:** geometria analítica
 **Competências:** elipse, círculo, excentricidade, posição relativa entre cônicas
 **Tipo:** múltipla escolha
 

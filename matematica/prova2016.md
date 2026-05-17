@@ -10,21 +10,21 @@ source: matematica_2016.pdf
 > 30 questões. Q01–Q20 múltipla escolha; Q21–Q30 discursivas.
 
 ## Q01
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** monotonicidade de função logarítmica, equações exponenciais, existência de raízes
 **Tipo:** múltipla escolha
 
 ![](prova2016/q01.png)
 
 ## Q02
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** estimativa de número de dígitos, log10, parte inteira de raiz, ordem de grandeza
 **Tipo:** múltipla escolha
 
 ![](prova2016/q02.png)
 
 ## Q03
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** contagem de progressões geométricas com inteiros, combinações, espaço amostral
 **Tipo:** múltipla escolha
 
@@ -38,7 +38,7 @@ source: matematica_2016.pdf
 ![](prova2016/q04.png)
 
 ## Q05
-**Assunto:** sequências
+**Assunto:** sequências e progressões
 **Competências:** sequência recursiva, logaritmo, monotonicidade, limites, análise de afirmações
 **Tipo:** múltipla escolha
 
@@ -59,7 +59,7 @@ source: matematica_2016.pdf
 ![](prova2016/q07.png)
 
 ## Q08
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** sistema impossível, escalonamento, condições sobre parâmetros, posto de matriz
 **Tipo:** múltipla escolha
 
@@ -136,7 +136,7 @@ source: matematica_2016.pdf
 ![](prova2016/q18.png)
 
 ## Q19
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** colorações de cubo, grupo de rotações, contagem com simetrias
 **Tipo:** múltipla escolha
 
@@ -150,7 +150,7 @@ source: matematica_2016.pdf
 ![](prova2016/q20.png)
 
 ## Q21
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** domínio de função logarítmica, base variável, inequações logarítmicas, equações
 **Tipo:** discursiva
 
@@ -178,7 +178,7 @@ source: matematica_2016.pdf
 ![](prova2016/q24.png)
 
 ## Q25
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** passeio aleatório no plano, contagem, distribuição multinomial, retorno à origem
 **Tipo:** discursiva
 
@@ -192,7 +192,7 @@ source: matematica_2016.pdf
 ![](prova2016/q26.png)
 
 ## Q27
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** equação recíproca, mudança de variável, equação do 2º grau, raízes
 **Tipo:** discursiva
 

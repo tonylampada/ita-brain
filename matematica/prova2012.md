@@ -10,14 +10,14 @@ source: matematica_2012.pdf
 > 30 questões. Q01–Q20 múltipla escolha; Q21–Q30 discursivas.
 
 ## Q01
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** contagem de soluções inteiras não-negativas, partições, troca de moedas
 **Tipo:** múltipla escolha
 
 ![](prova2012/q01.png)
 
 ## Q02
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** eventos independentes, probabilidade do complementar, união de eventos
 **Tipo:** múltipla escolha
 
@@ -52,7 +52,7 @@ source: matematica_2012.pdf
 ![](prova2012/q06.png)
 
 ## Q07
-**Assunto:** progressões
+**Assunto:** sequências e progressões
 **Competências:** progressão aritmética, razão constante, sistema linear
 **Tipo:** múltipla escolha
 
@@ -94,14 +94,14 @@ source: matematica_2012.pdf
 ![](prova2012/q12.png)
 
 ## Q13
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** operações com conjuntos, complementar, leis de De Morgan, álgebra de conjuntos
 **Tipo:** múltipla escolha
 
 ![](prova2012/q13.png)
 
 ## Q14
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** cardinalidade, conjunto das partes, conjuntos disjuntos, contagem
 **Tipo:** múltipla escolha
 
@@ -150,7 +150,7 @@ source: matematica_2012.pdf
 ![](prova2012/q20.png)
 
 ## Q21
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** combinações, espaço amostral equiprovável, contagem de partições
 **Tipo:** discursiva
 
@@ -164,7 +164,7 @@ source: matematica_2012.pdf
 ![](prova2012/q22.png)
 
 ## Q23
-**Assunto:** determinantes
+**Assunto:** matrizes
 **Competências:** determinante de matriz especial, progressão geométrica, produto telescópico
 **Tipo:** discursiva
 
@@ -192,7 +192,7 @@ source: matematica_2012.pdf
 ![](prova2012/q26.png)
 
 ## Q27
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** princípio inclusão-exclusão, diagrama de Venn, porcentagem
 **Tipo:** discursiva
 
@@ -206,7 +206,7 @@ source: matematica_2012.pdf
 ![](prova2012/q28.png)
 
 ## Q29
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** inequação logarítmica, base variável, análise de sinais, trigonometria
 **Tipo:** discursiva
 

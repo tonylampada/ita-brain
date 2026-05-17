@@ -31,7 +31,7 @@ source: matematica_2019_2f.pdf
 ![](prova2019_f2/q03.png)
 
 ## Q04
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** propriedades de logaritmos, mudança de variável, otimização em intervalo fechado, análise de funções polinomiais
 **Tipo:** discursiva
 
@@ -45,14 +45,14 @@ source: matematica_2019_2f.pdf
 ![](prova2019_f2/q05.png)
 
 ## Q06
-**Assunto:** progressões
+**Assunto:** sequências e progressões
 **Competências:** progressão aritmética, soma de senos e cossenos, identidades trigonométricas, raízes de equações trigonométricas
 **Tipo:** discursiva
 
 ![](prova2019_f2/q06.png)
 
 ## Q07
-**Assunto:** números reais
+**Assunto:** teoria dos números
 **Competências:** representação posicional na base 10, manipulação algébrica de dígitos, equações diofantinas, divisibilidade
 **Tipo:** discursiva
 
@@ -73,7 +73,7 @@ source: matematica_2019_2f.pdf
 ![](prova2019_f2/q09.png)
 
 ## Q10
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** análise combinatória, contagem por classes de resto, probabilidade em conjuntos finitos, divisibilidade
 **Tipo:** discursiva
 

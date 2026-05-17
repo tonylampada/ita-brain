@@ -10,14 +10,14 @@ source: matematica_2009.pdf
 > 30 questões. Q01–Q20 múltipla escolha; Q21–Q30 discursivas.
 
 ## Q01
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** teoria dos conjuntos, operações com conjuntos, conjunto das partes, cardinalidade
 **Tipo:** múltipla escolha
 
 ![](prova2009/q01.png)
 
 ## Q02
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** princípio da inclusão-exclusão, contagem com porcentagens, raciocínio lógico
 **Tipo:** múltipla escolha
 
@@ -52,14 +52,14 @@ source: matematica_2009.pdf
 ![](prova2009/q06.png)
 
 ## Q07
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** equações recíprocas, raízes complexas conjugadas, propriedades de raízes
 **Tipo:** múltipla escolha
 
 ![](prova2009/q07.png)
 
 ## Q08
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** relações de Girard, progressão geométrica, raízes em PG
 **Tipo:** múltipla escolha
 
@@ -73,7 +73,7 @@ source: matematica_2009.pdf
 ![](prova2009/q09.png)
 
 ## Q10
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** classificação de sistemas, ortogonalidade, discussão de soluções
 **Tipo:** múltipla escolha
 
@@ -87,7 +87,7 @@ source: matematica_2009.pdf
 ![](prova2009/q11.png)
 
 ## Q12
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** teorema de Bayes, probabilidade condicional, probabilidade total
 **Tipo:** múltipla escolha
 
@@ -150,7 +150,7 @@ source: matematica_2009.pdf
 ![](prova2009/q20.png)
 
 ## Q21
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** inequações com logaritmo, base variável, domínio do logaritmando, complemento de conjunto
 **Tipo:** discursiva
 
@@ -171,14 +171,14 @@ source: matematica_2009.pdf
 ![](prova2009/q23.png)
 
 ## Q24
-**Assunto:** equações algébricas
+**Assunto:** polinômios
 **Competências:** raízes complexas conjugadas, progressão aritmética, relações de Girard, polinômios com coeficientes reais
 **Tipo:** discursiva
 
 ![](prova2009/q24.png)
 
 ## Q25
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** distribuição binomial, prova de Bernoulli, cálculo de probabilidade cumulativa
 **Tipo:** discursiva
 

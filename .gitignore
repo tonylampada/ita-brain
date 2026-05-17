@@ -2,3 +2,4 @@
 *.pendente
 __pycache__/
 *.pyc
+.obsidian

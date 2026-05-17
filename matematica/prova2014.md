@@ -24,7 +24,7 @@ source: matematica_2014.pdf
 ![](prova2014/q02.png)
 
 ## Q03
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** propriedades de logaritmos, mudança de base, somatórios
 **Tipo:** múltipla escolha
 
@@ -52,7 +52,7 @@ source: matematica_2014.pdf
 ![](prova2014/q06.png)
 
 ## Q07
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** coeficientes binomiais, identidades binomiais, somatório
 **Tipo:** múltipla escolha
 
@@ -73,14 +73,14 @@ source: matematica_2014.pdf
 ![](prova2014/q09.png)
 
 ## Q10
-**Assunto:** determinantes
+**Assunto:** matrizes
 **Competências:** propriedades de determinantes, determinante de matriz inversa, determinante de múltiplo escalar
 **Tipo:** múltipla escolha
 
 ![](prova2014/q10.png)
 
 ## Q11
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** sistema 3x3, determinante paramétrico, regra de Cramer, manipulação com exponenciais
 **Tipo:** múltipla escolha
 
@@ -157,7 +157,7 @@ source: matematica_2014.pdf
 ![](prova2014/q21.png)
 
 ## Q22
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** propriedades de logaritmos, mudança de base, equação logarítmica
 **Tipo:** discursiva
 
@@ -171,21 +171,21 @@ source: matematica_2014.pdf
 ![](prova2014/q23.png)
 
 ## Q24
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** espaço amostral, lançamento de dados, contagem de eventos, probabilidade clássica
 **Tipo:** discursiva
 
 ![](prova2014/q24.png)
 
 ## Q25
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** contagem de paralelepípedos, combinação com repetição, arestas inteiras
 **Tipo:** discursiva
 
 ![](prova2014/q25.png)
 
 ## Q26
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** sistema homogêneo paramétrico, trigonometria (sen, cos2θ), condição de infinitas soluções
 **Tipo:** discursiva
 

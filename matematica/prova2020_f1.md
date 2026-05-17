@@ -10,35 +10,35 @@ source: 2020_fase1.pdf
 > 15 questões múltipla escolha.
 
 ## Q41
-**Assunto:** logaritmos, exponenciais
+**Assunto:** funções
 **Competências:** produto de logaritmos encadeados; mudança de base
 **Tipo:** múltipla escolha
 
 ![](prova2020_f1/q41.png)
 
 ## Q42
-**Assunto:** progressões, números reais
+**Assunto:** sequências e progressões
 **Competências:** PG e relação pitagórica; razão e soma de valores
 **Tipo:** múltipla escolha
 
 ![](prova2020_f1/q42.png)
 
 ## Q43
-**Assunto:** números complexos, séries
+**Assunto:** números complexos
 **Competências:** parte real de soma infinita de PG complexa
 **Tipo:** múltipla escolha
 
 ![](prova2020_f1/q43.png)
 
 ## Q44
-**Assunto:** geometria analítica, cônicas
+**Assunto:** geometria analítica
 **Competências:** interseções de cônicas com eixos; área de quadrilátero
 **Tipo:** múltipla escolha
 
 ![](prova2020_f1/q44.png)
 
 ## Q45
-**Assunto:** análise combinatória, aritmética
+**Assunto:** combinatória
 **Competências:** problema de contagem com pacotes de velas; progressões
 **Tipo:** múltipla escolha
 
@@ -59,7 +59,7 @@ source: 2020_fase1.pdf
 ![](prova2020_f1/q47.png)
 
 ## Q48
-**Assunto:** polinômios, números complexos
+**Assunto:** polinômios
 **Competências:** raízes de polinômio com relação entre parte real e imaginária
 **Tipo:** múltipla escolha
 
@@ -87,14 +87,14 @@ source: 2020_fase1.pdf
 ![](prova2020_f1/q51.png)
 
 ## Q52
-**Assunto:** números reais, lógica
+**Assunto:** números reais
 **Competências:** análise de afirmações sobre racionalidade de a, p, q
 **Tipo:** múltipla escolha
 
 ![](prova2020_f1/q52.png)
 
 ## Q53
-**Assunto:** geometria espacial, poliedros
+**Assunto:** geometria espacial
 **Competências:** relação de Euler; ângulos das faces; existência de poliedros
 **Tipo:** múltipla escolha
 
@@ -108,7 +108,7 @@ source: 2020_fase1.pdf
 ![](prova2020_f1/q54.png)
 
 ## Q55
-**Assunto:** matrizes, probabilidade
+**Assunto:** combinatória
 **Competências:** matrizes nilpotentes; probabilidade de L² = 0 e R² = 0
 **Tipo:** múltipla escolha
 

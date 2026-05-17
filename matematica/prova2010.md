@@ -10,7 +10,7 @@ source: matematica_2010.pdf
 > 30 questões. Q01–Q20 múltipla escolha; Q21–Q30 discursivas.
 
 ## Q01
-**Assunto:** números reais
+**Assunto:** conjuntos
 **Competências:** teoria dos conjuntos, operações com conjuntos, diferença simétrica, leis de De Morgan
 **Tipo:** múltipla escolha
 
@@ -38,7 +38,7 @@ source: matematica_2010.pdf
 ![](prova2010/q04.png)
 
 ## Q05
-**Assunto:** progressões
+**Assunto:** sequências e progressões
 **Competências:** progressão aritmética, soma de termos, sistema linear, fórmula da soma de PA
 **Tipo:** múltipla escolha
 
@@ -80,21 +80,21 @@ source: matematica_2010.pdf
 ![](prova2010/q10.png)
 
 ## Q11
-**Assunto:** números reais
+**Assunto:** combinatória
 **Competências:** binômio de Newton, simplificação de radicais, expansão de potências
 **Tipo:** múltipla escolha
 
 ![](prova2010/q11.png)
 
 ## Q12
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** distribuição binomial, ensaios independentes, combinações, soma de probabilidades
 **Tipo:** múltipla escolha
 
 ![](prova2010/q12.png)
 
 ## Q13
-**Assunto:** determinantes
+**Assunto:** matrizes
 **Competências:** matriz triangular, determinante como produto da diagonal, progressão aritmética, equações algébricas
 **Tipo:** múltipla escolha
 
@@ -150,14 +150,14 @@ source: matematica_2010.pdf
 ![](prova2010/q20.png)
 
 ## Q21
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** cardinalidade de conjuntos, princípio inclusão-exclusão, progressão geométrica, conjunto das partes
 **Tipo:** discursiva
 
 ![](prova2010/q21.png)
 
 ## Q22
-**Assunto:** progressões
+**Assunto:** sequências e progressões
 **Competências:** progressão geométrica infinita, soma de PG, subsequências, razão negativa
 **Tipo:** discursiva
 
@@ -185,14 +185,14 @@ source: matematica_2010.pdf
 ![](prova2010/q25.png)
 
 ## Q26
-**Assunto:** probabilidade
+**Assunto:** combinatória
 **Competências:** equiprobabilidade, princípio da inclusão-exclusão, múltiplos, probabilidade condicional, probabilidade total
 **Tipo:** discursiva
 
 ![](prova2010/q26.png)
 
 ## Q27
-**Assunto:** sistemas lineares
+**Assunto:** matrizes
 **Competências:** existência e unicidade, determinante, sistema 4x4, escalonamento, condição sobre parâmetros
 **Tipo:** discursiva
 

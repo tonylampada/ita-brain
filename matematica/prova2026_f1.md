@@ -17,21 +17,21 @@ source: 2026_fase1.pdf
 ![](prova2026_f1/q01.png)
 
 ## Q02
-**Assunto:** logaritmos
+**Assunto:** funções
 **Competências:** mudança de base, propriedades de logaritmos, aproximações numéricas
 **Tipo:** múltipla escolha
 
 ![](prova2026_f1/q02.png)
 
 ## Q03
-**Assunto:** matrizes / álgebra linear
+**Assunto:** matrizes
 **Competências:** matriz simétrica, progressão aritmética em linhas, matriz singular, asserções I-III
 **Tipo:** múltipla escolha (asserções I-III)
 
 ![](prova2026_f1/q03.png)
 
 ## Q04
-**Assunto:** números complexos / geometria plana
+**Assunto:** números complexos
 **Competências:** raízes de equação complexa, polígono no plano de Argand-Gauss, área
 **Tipo:** múltipla escolha
 
@@ -80,14 +80,14 @@ source: 2026_fase1.pdf
 ![](prova2026_f1/q10.png)
 
 ## Q11
-**Assunto:** análise combinatória
+**Assunto:** combinatória
 **Competências:** bijeções com restrições de ordem, contagem
 **Tipo:** múltipla escolha
 
 ![](prova2026_f1/q11.png)
 
 ## Q12
-**Assunto:** progressões / geometria analítica
+**Assunto:** sequências e progressões
 **Competências:** progressão geométrica, circunferências tangentes externamente, parâmetros
 **Tipo:** múltipla escolha
 

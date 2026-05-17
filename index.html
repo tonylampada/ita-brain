@@ -791,6 +791,12 @@ function buildTopBars(elId, extract, topN, alt=false) {
     </div>`).join('');
 }
 
+function revealGabarito(el, withLabel=false) {
+  const ans = el.dataset.ans;
+  const label = withLabel ? 'Gabarito: ' : '';
+  el.outerHTML = `<strong style="color:var(--green)">${label}${ans}</strong>`;
+}
+
 load();
 </script>
 </body>

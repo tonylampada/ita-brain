@@ -43,6 +43,7 @@ def parse_prova(md_path: Path, materia: str, ano: int, fase: int):
         assunto = field("Assunto") or ""
         comps_raw = field("Compet[êe]ncias") or ""
         tipo = field("Tipo") or ""
+        gabarito = field("Gabarito")
         tema = field("Tema")
         genero = field("G[êe]nero")
 
@@ -67,6 +68,8 @@ def parse_prova(md_path: Path, materia: str, ano: int, fase: int):
             "imagem": f"{materia}/{md_path.stem}/q{numero:02d}.png",
             "arquivo": f"{materia}/{md_path.name}",
         }
+        if gabarito:
+            rec["gabarito"] = gabarito
         if tema:
             rec["tema"] = tema
         if genero:

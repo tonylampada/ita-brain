@@ -608,6 +608,7 @@ function renderModal() {
     <span class="k">Tipo</span><span>${TIPO_LABEL[q.tipo] || q.tipo}</span>
     ${q.tema ? `<span class="k">Tema</span><span>${q.tema}</span>` : ''}
     ${q.genero ? `<span class="k">Gênero</span><span>${q.genero}</span>` : ''}
+    ${q.gabarito ? `<span class="k">Gabarito</span><span id="modal-gabarito"><button onclick="this.parentElement.innerHTML='<span style=\'color:var(--green);font-weight:bold\'>' + this.dataset.ans + '</span>'" data-ans="${q.gabarito}" style="background:var(--panel-2); border:1px solid var(--border); color:var(--accent); padding:2px 8px; border-radius:4px; font-size:11px;">revelar</button></span>` : ''}
   `;
   document.getElementById('modal-nav-info').textContent =
     `${state.modalIdx + 1} / ${state.filtered.length}`;
@@ -657,6 +658,7 @@ function showProva(p) {
         <div class="meta"><strong>${q.assunto || '—'}</strong>${comps ? ' · ' + comps : ''} · ${TIPO_LABEL[q.tipo]||q.tipo}</div>
       </div>
       <img loading="lazy" src="${q.imagem}" alt="Q${q.numero}">
+      ${q.gabarito ? `<div style="margin-top:12px; font-size:13px;"><button onclick="this.outerHTML='<strong style=\'color:var(--green)\'>Gabarito: ' + this.dataset.ans + '</strong>'" data-ans="${q.gabarito}" style="background:var(--panel-2); border:1px solid var(--border); color:var(--accent); padding:4px 12px; border-radius:6px;">Revelar Gabarito</button></div>` : ''}
     </div>`;
   }
   d.innerHTML = html;

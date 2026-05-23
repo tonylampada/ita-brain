@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roteiro Iezzi para ITA — ITA Brain</title>
+<style>
+:root{--bg:#0f1115;--panel:#1a1d27;--panel2:#232735;--border:#2a2f3d;--text:#e8e8e0;--muted:#9aa0aa;--accent:#ffb05c;--blue:#6fb8ff;--green:#7fd6a8;}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif;line-height:1.62;font-size:16px}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.shell{display:grid;grid-template-columns:300px minmax(0,1fr);min-height:100vh}aside{position:sticky;top:0;height:100vh;overflow:auto;background:#11141b;border-right:1px solid var(--border);padding:24px}.brand{font-weight:900;letter-spacing:-.04em;margin-bottom:20px}.brand span{color:var(--accent)}.back{display:inline-block;color:var(--muted);font-size:13px;margin-bottom:26px}.toc-title{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);font-weight:800;margin:18px 0 10px}.toc a{display:block;color:var(--muted);font-size:13px;padding:5px 0;line-height:1.25}.toc a:hover{color:var(--text)}main{max-width:920px;padding:46px 36px 80px}.hero{background:linear-gradient(135deg,rgba(255,176,92,.12),rgba(127,214,168,.07));border:1px solid var(--border);border-radius:24px;padding:32px;margin-bottom:34px}.hero h1{font-size:clamp(36px,6vw,62px);line-height:.98;margin:0 0 14px;letter-spacing:-.065em}.hero p{color:var(--muted);font-size:18px;margin:0}h1,h2,h3{letter-spacing:-.035em;line-height:1.12}h1{font-size:44px}h2{font-size:31px;margin-top:48px;padding-top:12px;border-top:1px solid var(--border)}h3{font-size:23px;margin-top:34px;color:var(--accent)}p,li{color:#d7d7cf}ul{padding-left:20px}li{margin:6px 0}strong{color:#fff}code,.qid{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em;background:var(--panel2);border:1px solid var(--border);border-radius:6px;padding:2px 5px}.qid{color:var(--green);white-space:nowrap}hr{border:0;border-top:1px solid var(--border);margin:36px 0}.step{display:flex;gap:12px;align-items:flex-start;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:10px 12px}.step span{flex:0 0 auto;width:25px;height:25px;border-radius:50%;background:var(--accent);color:#171922;display:inline-grid;place-items:center;font-weight:900;font-size:13px}.checklist{list-style:none;padding-left:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.checklist li{margin:0}.checklist label{display:flex;gap:9px;align-items:flex-start;background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:10px;cursor:pointer}input[type=checkbox]{accent-color:var(--green);margin-top:4px}@media(max-width:900px){.shell{display:block}aside{position:static;height:auto}main{padding:28px 18px 60px}.checklist{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside>
+  <div class="brand">ITA <span>Brain</span></div>
+  <a class="back" href="../">← início</a> · <a class="back" href="../questoes/">questões</a>
+  <div class="toc-title">Mapa</div>
+  <nav class="toc">
+    <a href="#como-usar">Como usar</a>
+    <a href="#mapa-macro-da-colecao-vs-ita">Mapa macro</a>
+    <a href="#jornada-recomendada">Jornada</a>
+    <a href="#fase-0-ferramentas-de-base">Fase 0</a>
+    <a href="#fase-1-algebra-forte-o-coracao-da-prova">Álgebra forte</a>
+    <a href="#fase-2-matrizes-sistemas-e-sequencias">Matrizes e sequências</a>
+    <a href="#fase-3-contagem-e-probabilidade">Contagem e probabilidade</a>
+    <a href="#fase-4-trigonometria-como-linguagem">Trigonometria</a>
+    <a href="#fase-5-geometria-em-tres-mapas">Geometrias</a>
+    <a href="#checklist-de-conquista-por-territorio">Checklist</a>
+  </nav>
+</aside>
+<main>
+  <section class="hero"><h1>Roteiro Iezzi para ITA</h1><p>Uma jornada por territórios: estude no FME, valide com questões reais do ITA e marque o que já virou domínio.</p></section>
+<h1 id="guia-de-estudo-ita-usando-fundamentos-de-matem-tica-elementar-iezzi">Guia de estudo ITA usando Fundamentos de Matemática Elementar — Iezzi</h1>
+<p>Este é um mapa de território, não uma fila única. A ideia é o aluno avançar por ilhas de domínio: estudar teoria no Iezzi, resolver exercícios do livro, depois validar com questões reais do ITA.</p>
+<p>Base usada: <code>banco_questoes.jsonl</code> de matemática do repo, 495 questões catalogadas de 2008 a 2026.</p>
+<h2 id="como-usar">Como usar</h2>
+<p>Para cada território:</p>
+<p class="step"><span>1</span>Ler o capítulo/bloco indicado no Iezzi.</p>
+<p class="step"><span>2</span>Fazer exercícios básicos até ganhar fluência mecânica.</p>
+<p class="step"><span>3</span>Fazer exercícios intermediários/desafiadores do próprio volume.</p>
+<p class="step"><span>4</span>Resolver as questões ITA indicadas sem consulta.</p>
+<p class="step"><span>5</span>Marcar como conhecido só se conseguir explicar a solução em voz alta.</p>
+<p>Critério prático:</p>
+<ul>
+<li><strong>Conhecido</strong>: acerta questões ITA do bloco em tempo razoável.</li>
+<li><strong>Fronteira</strong>: sabe a teoria, mas trava em combinações de ideias.</li>
+<li><strong>Desconhecido</strong>: ainda depende de fórmula/receita.</li>
+</ul>
+<hr>
+<h1 id="mapa-macro-da-cole-o-vs-ita">Mapa macro da coleção vs ITA</h1>
+<h2 id="n-cleo-pesado-do-ita">Núcleo pesado do ITA</h2>
+<ul>
+<li><strong>FME 6 — Complexos, Polinômios e Equações</strong>: 99 questões no banco.</li>
+<li><strong>FME 4 — Sequências, Matrizes, Determinantes e Sistemas</strong>: 70 questões.</li>
+<li><strong>FME 1 — Conjuntos e Funções</strong>: 60 questões.</li>
+<li><strong>FME 5 — Combinatória e Probabilidade</strong>: 59 questões.</li>
+<li><strong>FME 7 — Geometria Analítica</strong>: 53 questões.</li>
+<li><strong>FME 3 — Trigonometria</strong>: 50 questões.</li>
+<li><strong>FME 10 — Geometria Espacial</strong>: 49 questões.</li>
+<li><strong>FME 9 — Geometria Plana</strong>: 48 questões.</li>
+</ul>
+<h2 id="baixa-incid-ncia-como-assunto-principal">Baixa incidência como assunto principal</h2>
+<ul>
+<li><strong>FME 2 — Logaritmos</strong>: aparece muito dentro de Funções, mas raramente como território isolado.</li>
+<li><strong>FME 8 — Limites, Derivadas e Integral</strong>: quase não é eixo principal do ITA nesse banco.</li>
+<li><strong>FME 11 — Financeira, Estatística</strong>: não é prioridade para ITA matemática tradicional.</li>
+</ul>
+<hr>
+<h1 id="jornada-recomendada">Jornada recomendada</h1>
+<h2 id="fase-0-ferramentas-de-base">Fase 0 — Ferramentas de base</h2>
+<p>Objetivo: parar de perder questão por álgebra, notação ou manipulação.</p>
+<h3 id="estudar">Estudar</h3>
+<ul>
+<li><strong>FME 1</strong>: noções de lógica, conjuntos, conjuntos numéricos, intervalos, relações.</li>
+<li><strong>FME 1</strong>: funções, domínio, imagem, composição, inversa, inequações.</li>
+<li><strong>FME 2</strong>: propriedades de logaritmos, mudança de base, equações e inequações logarítmicas.</li>
+<li>Revisar álgebra: fatoração, produtos notáveis, radicais, módulo, inequações.</li>
+</ul>
+<h3 id="quest-es-ita-para-validar">Questões ITA para validar</h3>
+<ul>
+<li>Conjuntos: <a class="qid" href="../questoes/?q=mat-2008-f1-q19">mat-2008-f1-q19</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q01">mat-2010-f1-q01</a>, <a class="qid" href="../questoes/?q=mat-2013-f1-q01">mat-2013-f1-q01</a>, <a class="qid" href="../questoes/?q=mat-2024-f1-q37">mat-2024-f1-q37</a></li>
+<li>Números reais/inequações: <a class="qid" href="../questoes/?q=mat-2008-f1-q21">mat-2008-f1-q21</a>, <a class="qid" href="../questoes/?q=mat-2012-f1-q05">mat-2012-f1-q05</a>, <a class="qid" href="../questoes/?q=mat-2014-f1-q01">mat-2014-f1-q01</a>, <a class="qid" href="../questoes/?q=mat-2015-f1-q01">mat-2015-f1-q01</a>, <a class="qid" href="../questoes/?q=mat-2017-f1-q07">mat-2017-f1-q07</a>, <a class="qid" href="../questoes/?q=mat-2020-f1-q52">mat-2020-f1-q52</a></li>
+<li>Funções/log/exponenciais: <a class="qid" href="../questoes/?q=mat-2008-f1-q14">mat-2008-f1-q14</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q15">mat-2008-f1-q15</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q23">mat-2008-f1-q23</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q03">mat-2009-f1-q03</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q21">mat-2009-f1-q21</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q02">mat-2010-f1-q02</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q06">mat-2010-f1-q06</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q11">mat-2011-f1-q11</a></li>
+</ul>
+<h3 id="marco-de-dom-nio">Marco de domínio</h3>
+<p>O aluno deve conseguir descobrir domínio/imagem, inverter função, compor funções, resolver inequações e reconhecer quando uma questão de logaritmo é só uma questão de função disfarçada.</p>
+<hr>
+<h2 id="fase-1-lgebra-forte-o-cora-o-da-prova">Fase 1 — Álgebra forte: o coração da prova</h2>
+<h2 id="territ-rio-a-complexos">Território A — Complexos</h2>
+<h3 id="estudar">Estudar</h3>
+<ul>
+<li><strong>FME 6</strong>: forma algébrica, conjugado, módulo.</li>
+<li><strong>FME 6</strong>: forma trigonométrica/polar.</li>
+<li><strong>FME 6</strong>: potências, raízes da unidade, De Moivre.</li>
+<li><strong>FME 6</strong>: interpretação geométrica no plano complexo.</li>
+</ul>
+<h3 id="quest-es-ita">Questões ITA</h3>
+<p><a class="qid" href="../questoes/?q=mat-2008-f1-q02">mat-2008-f1-q02</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q22">mat-2008-f1-q22</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q04">mat-2009-f1-q04</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q22">mat-2009-f1-q22</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q03">mat-2010-f1-q03</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q04">mat-2010-f1-q04</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q01">mat-2011-f1-q01</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q02">mat-2011-f1-q02</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q03">mat-2011-f1-q03</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q22">mat-2011-f1-q22</a>, <a class="qid" href="../questoes/?q=mat-2012-f1-q03">mat-2012-f1-q03</a>, <a class="qid" href="../questoes/?q=mat-2012-f1-q04">mat-2012-f1-q04</a></p>
+<h3 id="marco-de-dom-nio">Marco de domínio</h3>
+<p>Complexos deixam de ser “conta” e viram geometria: módulo como distância, argumento como ângulo, raiz como rotação.</p>
+<h2 id="territ-rio-b-polin-mios-e-equa-es">Território B — Polinômios e equações</h2>
+<h3 id="estudar">Estudar</h3>
+<ul>
+<li><strong>FME 6</strong>: grau, operações, divisão, resto, fatoração.</li>
+<li><strong>FME 6</strong>: raízes, multiplicidade, relações de Girard.</li>
+<li><strong>FME 6</strong>: raízes reais e complexas, conjugadas, inteiras/racionais.</li>
+<li><strong>FME 6</strong>: equações algébricas e parâmetros.</li>
+</ul>
+<h3 id="quest-es-ita">Questões ITA</h3>
+<p><a class="qid" href="../questoes/?q=mat-2008-f1-q08">mat-2008-f1-q08</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q09">mat-2008-f1-q09</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q10">mat-2008-f1-q10</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q24">mat-2008-f1-q24</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q26">mat-2008-f1-q26</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q05">mat-2009-f1-q05</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q06">mat-2009-f1-q06</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q07">mat-2009-f1-q07</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q08">mat-2009-f1-q08</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q24">mat-2009-f1-q24</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q08">mat-2010-f1-q08</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q09">mat-2010-f1-q09</a></p>
+<h3 id="marco-de-dom-nio">Marco de domínio</h3>
+<p>O aluno precisa enxergar fatoração, simetria de raízes, Girard e divisibilidade polinomial como uma caixa de ferramentas única.</p>
+<hr>
+<h2 id="fase-2-matrizes-sistemas-e-sequ-ncias">Fase 2 — Matrizes, sistemas e sequências</h2>
+<h2 id="territ-rio-c-matrizes-determinantes-e-sistemas">Território C — Matrizes, determinantes e sistemas</h2>
+<h3 id="estudar">Estudar</h3>
+<ul>
+<li><strong>FME 4</strong>: matrizes, operações, produto, inversa.</li>
+<li><strong>FME 4</strong>: determinantes e propriedades.</li>
+<li><strong>FME 4</strong>: sistemas lineares, escalonamento, discussão com parâmetros.</li>
+</ul>
+<h3 id="quest-es-ita">Questões ITA</h3>
+<p><a class="qid" href="../questoes/?q=mat-2008-f1-q03">mat-2008-f1-q03</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q04">mat-2008-f1-q04</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q25">mat-2008-f1-q25</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q09">mat-2009-f1-q09</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q10">mat-2009-f1-q10</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q11">mat-2009-f1-q11</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q26">mat-2009-f1-q26</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q13">mat-2010-f1-q13</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q14">mat-2010-f1-q14</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q27">mat-2010-f1-q27</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q06">mat-2011-f1-q06</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q07">mat-2011-f1-q07</a></p>
+<h3 id="marco-de-dom-nio">Marco de domínio</h3>
+<p>Saber calcular determinante não basta. O aluno precisa usar determinante como linguagem para dependência linear, inversibilidade e discussão de sistemas.</p>
+<h2 id="territ-rio-d-sequ-ncias-e-progress-es">Território D — Sequências e progressões</h2>
+<h3 id="estudar">Estudar</h3>
+<ul>
+<li><strong>FME 4</strong>: sequências, PA, PG, somas.</li>
+<li><strong>FME 4</strong>: recorrências simples.</li>
+<li><strong>FME 4/FME 1</strong>: somatórios, manipulação algébrica, indução informal.</li>
+</ul>
+<h3 id="quest-es-ita">Questões ITA</h3>
+<p><a class="qid" href="../questoes/?q=mat-2008-f1-q05">mat-2008-f1-q05</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q05">mat-2010-f1-q05</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q22">mat-2010-f1-q22</a>, <a class="qid" href="../questoes/?q=mat-2012-f1-q07">mat-2012-f1-q07</a>, <a class="qid" href="../questoes/?q=mat-2015-f1-q05">mat-2015-f1-q05</a>, <a class="qid" href="../questoes/?q=mat-2015-f1-q23">mat-2015-f1-q23</a>, <a class="qid" href="../questoes/?q=mat-2016-f1-q05">mat-2016-f1-q05</a>, <a class="qid" href="../questoes/?q=mat-2017-f1-q03">mat-2017-f1-q03</a>, <a class="qid" href="../questoes/?q=mat-2017-f1-q25">mat-2017-f1-q25</a>, <a class="qid" href="../questoes/?q=mat-2018-f1-q03">mat-2018-f1-q03</a>, <a class="qid" href="../questoes/?q=mat-2018-f1-q18">mat-2018-f1-q18</a>, <a class="qid" href="../questoes/?q=mat-2019-f1-q43">mat-2019-f1-q43</a></p>
+<h3 id="marco-de-dom-nio">Marco de domínio</h3>
+<p>Reconhecer PA/PG escondida em geometria, polinômios, contagem e problemas de recorrência.</p>
+<hr>
+<h2 id="fase-3-contagem-e-probabilidade">Fase 3 — Contagem e probabilidade</h2>
+<h2 id="territ-rio-e-combinat-ria">Território E — Combinatória</h2>
+<h3 id="estudar">Estudar</h3>
+<ul>
+<li><strong>FME 5</strong>: princípio fundamental da contagem.</li>
+<li><strong>FME 5</strong>: permutações, arranjos, combinações.</li>
+<li><strong>FME 5</strong>: binômio de Newton e identidades binomiais.</li>
+<li><strong>FME 5</strong>: inclusão-exclusão, contagem por casos, simetria.</li>
+</ul>
+<h3 id="quest-es-ita">Questões ITA</h3>
+<p><a class="qid" href="../questoes/?q=mat-2008-f1-q17">mat-2008-f1-q17</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q01">mat-2009-f1-q01</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q02">mat-2009-f1-q02</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q11">mat-2010-f1-q11</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q21">mat-2010-f1-q21</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q23">mat-2011-f1-q23</a>, <a class="qid" href="../questoes/?q=mat-2012-f1-q01">mat-2012-f1-q01</a>, <a class="qid" href="../questoes/?q=mat-2012-f1-q14">mat-2012-f1-q14</a>, <a class="qid" href="../questoes/?q=mat-2012-f1-q21">mat-2012-f1-q21</a>, <a class="qid" href="../questoes/?q=mat-2014-f1-q07">mat-2014-f1-q07</a>, <a class="qid" href="../questoes/?q=mat-2016-f1-q19">mat-2016-f1-q19</a>, <a class="qid" href="../questoes/?q=mat-2018-f1-q26">mat-2018-f1-q26</a></p>
+<h2 id="territ-rio-f-probabilidade">Território F — Probabilidade</h2>
+<h3 id="estudar">Estudar</h3>
+<ul>
+<li><strong>FME 5</strong>: espaço amostral, eventos, complementar.</li>
+<li><strong>FME 5</strong>: probabilidade condicional, independência, Bayes.</li>
+<li><strong>FME 5</strong>: distribuição binomial, hipergeométrica, esperança simples.</li>
+</ul>
+<h3 id="quest-es-ita">Questões ITA</h3>
+<p><a class="qid" href="../questoes/?q=mat-2008-f1-q01">mat-2008-f1-q01</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q27">mat-2008-f1-q27</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q12">mat-2009-f1-q12</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q25">mat-2009-f1-q25</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q12">mat-2010-f1-q12</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q26">mat-2010-f1-q26</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q04">mat-2011-f1-q04</a>, <a class="qid" href="../questoes/?q=mat-2013-f1-q11">mat-2013-f1-q11</a>, <a class="qid" href="../questoes/?q=mat-2013-f1-q12">mat-2013-f1-q12</a>, <a class="qid" href="../questoes/?q=mat-2014-f1-q24">mat-2014-f1-q24</a>, <a class="qid" href="../questoes/?q=mat-2015-f1-q26">mat-2015-f1-q26</a>, <a class="qid" href="../questoes/?q=mat-2025-f2-q06">mat-2025-f2-q06</a></p>
+<h3 id="marco-de-dom-nio">Marco de domínio</h3>
+<p>O aluno deve separar “contar casos” de “calcular probabilidade”. Em ITA, o erro comum é escolher o espaço amostral errado.</p>
+<hr>
+<h2 id="fase-4-trigonometria-como-linguagem">Fase 4 — Trigonometria como linguagem</h2>
+<h2 id="territ-rio-g-trigonometria">Território G — Trigonometria</h2>
+<h3 id="estudar">Estudar</h3>
+<ul>
+<li><strong>FME 3</strong>: ciclo trigonométrico, seno, cosseno, tangente.</li>
+<li><strong>FME 3</strong>: identidades fundamentais.</li>
+<li><strong>FME 3</strong>: soma e diferença de arcos, arco duplo, arco metade.</li>
+<li><strong>FME 3</strong>: equações trigonométricas.</li>
+<li><strong>FME 3 + FME 9</strong>: lei dos senos, lei dos cossenos, área trigonométrica.</li>
+</ul>
+<h3 id="quest-es-ita">Questões ITA</h3>
+<p><a class="qid" href="../questoes/?q=mat-2008-f1-q11">mat-2008-f1-q11</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q13">mat-2008-f1-q13</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q16">mat-2008-f1-q16</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q13">mat-2009-f1-q13</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q17">mat-2009-f1-q17</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q27">mat-2009-f1-q27</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q07">mat-2010-f1-q07</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q15">mat-2010-f1-q15</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q16">mat-2010-f1-q16</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q28">mat-2010-f1-q28</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q14">mat-2011-f1-q14</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q17">mat-2011-f1-q17</a></p>
+<h3 id="marco-de-dom-nio">Marco de domínio</h3>
+<p>Trigonometria não é decorar fórmula; é converter ângulo, comprimento, área e equação para a forma mais manipulável.</p>
+<hr>
+<h2 id="fase-5-geometria-em-tr-s-mapas">Fase 5 — Geometria em três mapas</h2>
+<h2 id="territ-rio-h-geometria-plana">Território H — Geometria plana</h2>
+<h3 id="estudar">Estudar</h3>
+<ul>
+<li><strong>FME 9</strong>: ângulos, paralelas, triângulos.</li>
+<li><strong>FME 9</strong>: congruência, semelhança, relações métricas.</li>
+<li><strong>FME 9</strong>: circunferência, potência de ponto, polígonos.</li>
+<li><strong>FME 9</strong>: áreas.</li>
+<li><strong>FME 3</strong>: lei dos senos/cossenos quando aparecer trigonometria.</li>
+</ul>
+<h3 id="quest-es-ita">Questões ITA</h3>
+<p><a class="qid" href="../questoes/?q=mat-2008-f1-q07">mat-2008-f1-q07</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q18">mat-2008-f1-q18</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q20">mat-2008-f1-q20</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q28">mat-2008-f1-q28</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q15">mat-2009-f1-q15</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q15">mat-2011-f1-q15</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q16">mat-2011-f1-q16</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q18">mat-2011-f1-q18</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q29">mat-2011-f1-q29</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q30">mat-2011-f1-q30</a>, <a class="qid" href="../questoes/?q=mat-2012-f1-q09">mat-2012-f1-q09</a>, <a class="qid" href="../questoes/?q=mat-2012-f1-q30">mat-2012-f1-q30</a></p>
+<h2 id="territ-rio-i-geometria-anal-tica">Território I — Geometria analítica</h2>
+<h3 id="estudar">Estudar</h3>
+<ul>
+<li><strong>FME 7</strong>: plano cartesiano, distância, ponto médio, área.</li>
+<li><strong>FME 7</strong>: reta, inclinação, ângulo, distância ponto-reta.</li>
+<li><strong>FME 7</strong>: circunferência.</li>
+<li><strong>FME 7</strong>: cônicas — parábola, elipse, hipérbole.</li>
+<li><strong>FME 7 + FME 6</strong>: lugares geométricos e álgebra pesada.</li>
+</ul>
+<h3 id="quest-es-ita">Questões ITA</h3>
+<p><a class="qid" href="../questoes/?q=mat-2008-f1-q12">mat-2008-f1-q12</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q30">mat-2008-f1-q30</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q14">mat-2009-f1-q14</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q16">mat-2009-f1-q16</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q18">mat-2009-f1-q18</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q28">mat-2009-f1-q28</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q29">mat-2009-f1-q29</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q17">mat-2010-f1-q17</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q19">mat-2010-f1-q19</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q29">mat-2010-f1-q29</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q13">mat-2011-f1-q13</a>, <a class="qid" href="../questoes/?q=mat-2012-f1-q10">mat-2012-f1-q10</a></p>
+<h2 id="territ-rio-j-geometria-espacial">Território J — Geometria espacial</h2>
+<h3 id="estudar">Estudar</h3>
+<ul>
+<li><strong>FME 10</strong>: posições relativas, paralelismo, perpendicularidade.</li>
+<li><strong>FME 10</strong>: prismas, pirâmides, cilindros, cones, esfera.</li>
+<li><strong>FME 10</strong>: áreas e volumes.</li>
+<li><strong>FME 10</strong>: poliedros, Euler, sólidos inscritos/circunscritos.</li>
+<li><strong>FME 9/FME 3</strong>: seções planas e trigonometria dentro do sólido.</li>
+</ul>
+<h3 id="quest-es-ita">Questões ITA</h3>
+<p><a class="qid" href="../questoes/?q=mat-2008-f1-q06">mat-2008-f1-q06</a>, <a class="qid" href="../questoes/?q=mat-2008-f1-q29">mat-2008-f1-q29</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q19">mat-2009-f1-q19</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q20">mat-2009-f1-q20</a>, <a class="qid" href="../questoes/?q=mat-2009-f1-q30">mat-2009-f1-q30</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q18">mat-2010-f1-q18</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q20">mat-2010-f1-q20</a>, <a class="qid" href="../questoes/?q=mat-2010-f1-q30">mat-2010-f1-q30</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q19">mat-2011-f1-q19</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q20">mat-2011-f1-q20</a>, <a class="qid" href="../questoes/?q=mat-2011-f1-q27">mat-2011-f1-q27</a>, <a class="qid" href="../questoes/?q=mat-2012-f1-q19">mat-2012-f1-q19</a></p>
+<h3 id="marco-de-dom-nio">Marco de domínio</h3>
+<p>Geometria espacial do ITA costuma exigir reduzir o sólido a triângulos bons, seções planas e relações métricas conhecidas.</p>
+<hr>
+<h2 id="fase-6-territ-rios-complementares">Fase 6 — Territórios complementares</h2>
+<h2 id="teoria-dos-n-meros">Teoria dos números</h2>
+<p>Não há um volume dedicado na coleção FME clássica, mas aparece em problemas de divisibilidade, paridade, congruência e fatoração.</p>
+<h3 id="estudar-por-fora-complementar">Estudar por fora/complementar</h3>
+<ul>
+<li>Divisibilidade.</li>
+<li>MDC/MMC.</li>
+<li>Congruências modulares.</li>
+<li>Paridade.</li>
+<li>Fatoração única.</li>
+<li>Expoente de primo em fatorial.</li>
+<li>Equações diofantinas simples.</li>
+</ul>
+<h3 id="quest-es-ita">Questões ITA</h3>
+<p><a class="qid" href="../questoes/?q=mat-2013-f1-q08">mat-2013-f1-q08</a>, <a class="qid" href="../questoes/?q=mat-2017-f1-q13">mat-2017-f1-q13</a>, <a class="qid" href="../questoes/?q=mat-2019-f2-q07">mat-2019-f2-q07</a>, <a class="qid" href="../questoes/?q=mat-2020-f1-q49">mat-2020-f1-q49</a>, <a class="qid" href="../questoes/?q=mat-2020-f2-q03">mat-2020-f2-q03</a>, <a class="qid" href="../questoes/?q=mat-2025-f1-q12">mat-2025-f1-q12</a></p>
+<h2 id="c-lculo-fme-8">Cálculo / FME 8</h2>
+<p>Baixa prioridade como eixo principal para ITA, mas útil como maturidade matemática.</p>
+<h3 id="estudar-se-houver-tempo">Estudar se houver tempo</h3>
+<ul>
+<li>Limite intuitivo e algébrico.</li>
+<li>Derivada como taxa/otimização.</li>
+<li>Noções de integral.</li>
+</ul>
+<h3 id="uso-real">Uso real</h3>
+<p>Serve mais para fortalecer raciocínio e algumas soluções alternativas do que como frente central de prova.</p>
+<h2 id="financeira-estat-stica-fme-11">Financeira/Estatística / FME 11</h2>
+<p>Baixa prioridade para ITA matemática. Estudar depois do núcleo, se a preparação estiver folgada.</p>
+<hr>
+<h1 id="ordem-sugerida-para-um-aluno-come-ando-s-rio">Ordem sugerida para um aluno começando sério</h1>
+<h2 id="ciclo-1-base-alg-brica">Ciclo 1 — Base algébrica</h2>
+<p class="step"><span>1</span>FME 1 — conjuntos, reais, funções.</p>
+<p class="step"><span>2</span>FME 2 — logaritmos, como extensão de funções.</p>
+<p class="step"><span>3</span>FME 6 — complexos.</p>
+<p class="step"><span>4</span>FME 6 — polinômios/equações.</p>
+<h2 id="ciclo-2-estrutura-e-contagem">Ciclo 2 — Estrutura e contagem</h2>
+<p class="step"><span>5</span>FME 4 — matrizes, determinantes, sistemas.</p>
+<p class="step"><span>6</span>FME 4 — sequências e progressões.</p>
+<p class="step"><span>7</span>FME 5 — combinatória.</p>
+<p class="step"><span>8</span>FME 5 — probabilidade.</p>
+<h2 id="ciclo-3-geometria-e-trigonometria">Ciclo 3 — Geometria e trigonometria</h2>
+<p class="step"><span>9</span>FME 3 — trigonometria.</p>
+<p class="step"><span>10</span>FME 9 — geometria plana.</p>
+<p class="step"><span>11</span>FME 7 — geometria analítica.</p>
+<p class="step"><span>12</span>FME 10 — geometria espacial.</p>
+<h2 id="ciclo-4-revis-o-ita">Ciclo 4 — Revisão ITA</h2>
+<p class="step"><span>13</span>Refazer questões erradas por assunto.</p>
+<p class="step"><span>14</span>Misturar assuntos em simulados.</p>
+<p class="step"><span>15</span>Criar caderno de padrões: “quando vejo X, tento Y”.</p>
+<p class="step"><span>16</span>Voltar ao Iezzi só nos buracos detectados.</p>
+<hr>
+<h1 id="checklist-de-conquista-por-territ-rio">Checklist de conquista por território</h1>
+<ul class="checklist">
+<li><label><input type="checkbox"> <span>FME 1 — conjuntos e lógica básica.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 1 — funções, composição, inversa, domínio/imagem.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 2 — logaritmos e exponenciais.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 6 — complexos algébricos e geométricos.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 6 — polinômios, raízes, Girard, fatoração.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 4 — matrizes, determinantes, sistemas.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 4 — PA, PG, somas, recorrências.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 5 — contagem e binômio.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 5 — probabilidade, condicional, Bayes.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 3 — identidades e equações trigonométricas.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 9 — geometria plana.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 7 — geometria analítica.</span></label></li>
+<li><label><input type="checkbox"> <span>FME 10 — geometria espacial.</span></label></li>
+<li><label><input type="checkbox"> <span>Teoria dos números complementar.</span></label></li>
+<li><label><input type="checkbox"> <span>Simulados mistos com questões ITA.</span></label></li>
+</ul>
+<hr>
+<h1 id="receita-semanal-simples">Receita semanal simples</h1>
+<p>Para cada semana de estudo:</p>
+<p class="step"><span>1</span>Escolher um território.</p>
+<p class="step"><span>2</span>Ler teoria e exemplos do Iezzi.</p>
+<p class="step"><span>3</span>Fazer 30–60 exercícios do livro, começando fáceis e subindo.</p>
+<p class="step"><span>4</span>Resolver 8–12 questões ITA do mesmo território.</p>
+<p class="step"><span>5</span>Registrar erros em três categorias:</p>
+<p>   - não sabia teoria;</p>
+<p>   - sabia, mas não viu o caminho;</p>
+<p>   - erro algébrico/atenção.</p>
+<p class="step"><span>6</span>Reestudar só o que apareceu como buraco real.</p>
+<hr>
+<h1 id="observa-o-importante">Observação importante</h1>
+<p>O Iezzi é ótimo para construir musculatura. Mas a prova do ITA cobra mistura: uma questão catalogada como geometria pode usar trigonometria; uma de combinatória pode usar polinômio; uma de espacial pode virar geometria plana. Por isso o mapa deve ser usado como exploração de territórios, não como lista rígida de capítulos.</p>
+</main>
+</div>
+</body>
+</html>

@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ITA Brain — Questões</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --bg-2: #161922;
+    --panel: #1a1d27;
+    --panel-2: #232735;
+    --border: #2a2f3d;
+    --text: #e8e8e0;
+    --muted: #8a8f99;
+    --accent: #ffb05c;
+    --accent-2: #6fb8ff;
+    --green: #7fd6a8;
+    --red: #ff7a7a;
+    --shadow: 0 4px 24px rgba(0,0,0,.4);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif;
+    font-size: 14px; line-height: 1.5; }
+  a { color: var(--accent-2); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  button { font-family: inherit; cursor: pointer; }
+
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(15,17,21,.92); backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 24px; display: flex; align-items: center; gap: 24px;
+  }
+  .logo { font-size: 17px; font-weight: 700; letter-spacing: -.5px; }
+  .logo .accent { color: var(--accent); }
+  nav.tabs { display: flex; gap: 4px; margin-left: 12px; }
+  nav.tabs button {
+    background: transparent; color: var(--muted); border: none;
+    padding: 6px 14px; border-radius: 8px; font-size: 13px; font-weight: 500;
+  }
+  nav.tabs button:hover { background: var(--panel); color: var(--text); }
+  nav.tabs button.active { background: var(--panel-2); color: var(--accent); }
+  .meta-count { margin-left: auto; color: var(--muted); font-size: 12px; }
+  .gh-link { color: var(--muted); font-size: 12px; }
+
+  main { display: grid; grid-template-columns: 280px 1fr; min-height: calc(100vh - 56px); }
+  aside {
+    background: var(--bg-2); border-right: 1px solid var(--border);
+    padding: 20px; overflow-y: auto;
+    position: sticky; top: 56px; height: calc(100vh - 56px);
+  }
+  .view-main { padding: 24px 32px; min-width: 0; }
+
+  .filter-group { margin-bottom: 22px; }
+  .filter-group h3 {
+    margin: 0 0 8px; font-size: 11px; text-transform: uppercase;
+    letter-spacing: .8px; color: var(--muted); font-weight: 600;
+  }
+  .search-input {
+    width: 100%; padding: 8px 12px; background: var(--panel);
+    border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text); font-size: 13px; outline: none;
+  }
+  .search-input:focus { border-color: var(--accent); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    background: var(--panel); border: 1px solid var(--border); color: var(--text);
+    padding: 4px 10px; border-radius: 14px; font-size: 12px;
+    user-select: none;
+  }
+  .chip:hover { border-color: var(--muted); }
+  .chip.active { background: var(--accent); color: #1a1d27; border-color: var(--accent); font-weight: 600; }
+  .chip.muted { opacity: .55; }
+  .year-grid {
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px;
+  }
+  .year-grid .chip { text-align: center; padding: 4px 0; font-size: 11px; }
+  select.assunto-select {
+    width: 100%; padding: 8px 10px; background: var(--panel);
+    border: 1px solid var(--border); border-radius: 8px; color: var(--text);
+    font-size: 13px; outline: none;
+  }
+  .clear-btn {
+    width: 100%; background: transparent; border: 1px solid var(--border);
+    color: var(--muted); padding: 8px; border-radius: 8px; font-size: 12px;
+    margin-top: 4px;
+  }
+  .clear-btn:hover { color: var(--text); border-color: var(--muted); }
+
+  .toolbar { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  .toolbar .label { color: var(--muted); font-size: 12px; }
+  .toolbar select {
+    background: var(--panel); border: 1px solid var(--border); color: var(--text);
+    padding: 5px 10px; border-radius: 6px; font-size: 12px; outline: none;
+  }
+
+  /* Catálogo: grid de cards */
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+    overflow: hidden; cursor: pointer; transition: transform .12s, border-color .12s;
+    display: flex; flex-direction: column;
+  }
+  .card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .card-img {
+    background: #fff; height: 180px; overflow: hidden;
+    display: flex; align-items: flex-start; justify-content: center;
+  }
+  .card-img img {
+    width: 100%; object-fit: cover; object-position: top;
+    display: block;
+  }
+  .card-body { padding: 10px 12px 12px; }
+  .card-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-size: 12px; color: var(--muted); margin-bottom: 4px;
+  }
+  .card-head .materia { color: var(--accent); font-weight: 600; text-transform: capitalize; }
+  .card-assunto { font-size: 13px; color: var(--text); font-weight: 500; margin-bottom: 4px; }
+  .card-comps { font-size: 11px; color: var(--muted); line-height: 1.4; }
+  .badge-tipo {
+    display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 4px;
+    background: var(--panel-2); color: var(--muted); margin-left: 6px;
+  }
+  .badge-tipo.disc { background: #3a2e1a; color: var(--accent); }
+
+  .load-more {
+    margin: 20px auto; display: block; padding: 10px 24px;
+    background: var(--panel); border: 1px solid var(--border); color: var(--text);
+    border-radius: 8px; font-size: 13px;
+  }
+  .load-more:hover { border-color: var(--accent); }
+  .empty {
+    text-align: center; padding: 60px 20px; color: var(--muted);
+  }
+
+  /* Provas view */
+  .prova-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+  .prova-card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 14px 16px; cursor: pointer;
+  }
+  .prova-card:hover { border-color: var(--accent-2); }
+  .prova-card h4 { margin: 0 0 4px; font-size: 14px; }
+  .prova-card .meta { color: var(--muted); font-size: 12px; }
+
+  .prova-detail .prova-q {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    margin-bottom: 18px; padding: 18px;
+  }
+  .prova-q-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px; }
+  .prova-q-head h3 { margin: 0; font-size: 16px; color: var(--accent); }
+  .prova-q-head .meta { color: var(--muted); font-size: 13px; }
+  .prova-q img { max-width: 100%; background: white; border-radius: 6px; }
+  .back-link { color: var(--muted); font-size: 13px; cursor: pointer; margin-bottom: 12px; display: inline-block; }
+  .back-link:hover { color: var(--text); }
+
+  /* Stats */
+  .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 1100px) { .stats-grid { grid-template-columns: 1fr; } }
+  .stat-card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+    padding: 18px;
+  }
+  .stat-card h3 { margin: 0 0 14px; font-size: 14px; }
+  .stat-card .sub { color: var(--muted); font-size: 12px; margin-top: -10px; margin-bottom: 14px; }
+  .bar-row { display: grid; grid-template-columns: 160px 1fr 40px; gap: 8px; align-items: center; margin-bottom: 4px; font-size: 12px; }
+  .bar-row .label { color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bar-row .bar { background: var(--panel-2); border-radius: 4px; height: 14px; overflow: hidden; }
+  .bar-row .bar-fill { background: var(--accent); height: 100%; }
+  .bar-row .bar-fill.alt { background: var(--accent-2); }
+  .bar-row .num { color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+
+  .heatmap {
+    display: grid; gap: 2px; font-size: 11px;
+  }
+  .heatmap .cell {
+    padding: 6px 2px; text-align: center; border-radius: 3px;
+    background: var(--panel-2); color: var(--muted);
+    font-variant-numeric: tabular-nums; cursor: default;
+  }
+  .heatmap .head { background: transparent; color: var(--muted); text-transform: capitalize; font-weight: 500; }
+  .heatmap .year-head { background: transparent; color: var(--muted); font-weight: 500; }
+
+  .donut-wrap { display: flex; gap: 16px; align-items: center; }
+  .donut-legend { font-size: 12px; }
+  .donut-legend .item { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+  .donut-legend .swatch { width: 12px; height: 12px; border-radius: 3px; }
+
+  /* Modal */
+  .modal-bg {
+    position: fixed; inset: 0; background: rgba(0,0,0,.85);
+    display: none; align-items: flex-start; justify-content: center;
+    z-index: 100; padding: 30px; overflow-y: auto;
+  }
+  .modal-bg.open { display: flex; }
+  .modal {
+    background: var(--panel); border-radius: 14px; max-width: 1000px; width: 100%;
+    box-shadow: var(--shadow); position: relative;
+  }
+  .modal-head {
+    padding: 16px 20px; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 14px;
+  }
+  .modal-head .id { font-family: ui-monospace, monospace; color: var(--muted); font-size: 12px; }
+  .modal-head .title { font-weight: 600; }
+  .modal-head .close {
+    margin-left: auto; background: transparent; border: none; color: var(--muted);
+    font-size: 22px; padding: 0 4px;
+  }
+  .modal-head .close:hover { color: var(--text); }
+  .modal-body { padding: 20px; }
+  .modal-body img { width: 100%; max-width: 100%; background: white; border-radius: 6px; }
+  .modal-meta {
+    margin-top: 14px; display: grid; grid-template-columns: 90px 1fr; gap: 6px 14px;
+    font-size: 13px;
+  }
+  .modal-meta .k { color: var(--muted); }
+  .modal-foot {
+    padding: 12px 20px; border-top: 1px solid var(--border);
+    display: flex; gap: 10px; align-items: center;
+  }
+  .modal-foot button {
+    background: var(--panel-2); border: 1px solid var(--border); color: var(--text);
+    padding: 6px 14px; border-radius: 6px; font-size: 12px;
+  }
+  .modal-foot button:hover { border-color: var(--accent); }
+  .modal-foot .nav-info { color: var(--muted); font-size: 12px; margin-left: auto; }
+
+  .loading {
+    text-align: center; padding: 80px 20px; color: var(--muted);
+  }
+
+  @media (max-width: 800px) {
+    main { grid-template-columns: 1fr; }
+    aside { position: static; height: auto; }
+    .view-main { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="../" style="color:var(--text); text-decoration:none">ITA <span class="accent">Brain</span></a>
+  <nav class="tabs">
+    <button data-view="catalogo" class="active">Catálogo</button>
+    <button data-view="provas">Provas</button>
+    <button data-view="stats">Stats</button>
+  </nav>
+  <div class="meta-count" id="meta-count">carregando…</div>
+  <a class="gh-link" href="../">início</a><a class="gh-link" href="https://github.com/tonylampada/ita-brain" target="_blank">github ↗</a>
+</header>
+
+<main>
+  <aside id="sidebar">
+    <div class="filter-group">
+      <h3>Busca</h3>
+      <input type="text" class="search-input" id="search" placeholder="assunto, competência…">
+    </div>
+
+    <div class="filter-group">
+      <h3>Matéria</h3>
+      <div class="chips" id="filter-materia"></div>
+    </div>
+
+    <div class="filter-group">
+      <h3>Ano</h3>
+      <div class="year-grid" id="filter-ano"></div>
+    </div>
+
+    <div class="filter-group">
+      <h3>Tipo</h3>
+      <div class="chips" id="filter-tipo">
+        <div class="chip" data-val="multipla_escolha">múltipla escolha</div>
+        <div class="chip" data-val="discursiva">discursiva</div>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <h3>Assunto</h3>
+      <select class="assunto-select" id="filter-assunto">
+        <option value="">— todos —</option>
+      </select>
+    </div>
+
+    <button class="clear-btn" id="clear-filters">limpar filtros</button>
+  </aside>
+
+  <div class="view-main">
+    <div id="view-catalogo">
+      <div class="toolbar">
+        <span class="label">Ordenar por:</span>
+        <select id="sort">
+          <option value="ano-desc">Ano (mais recente)</option>
+          <option value="ano-asc">Ano (mais antigo)</option>
+          <option value="materia">Matéria</option>
+          <option value="assunto">Assunto</option>
+        </select>
+      </div>
+      <div class="cards" id="cards"></div>
+      <button class="load-more" id="load-more" style="display:none">carregar mais</button>
+    </div>
+
+    <div id="view-provas" style="display:none">
+      <div id="provas-list"></div>
+      <div id="provas-detail" class="prova-detail" style="display:none"></div>
+    </div>
+
+    <div id="view-stats" style="display:none">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>Questões por matéria</h3>
+          <div class="donut-wrap">
+            <svg id="donut" width="160" height="160" viewBox="0 0 160 160"></svg>
+            <div class="donut-legend" id="donut-legend"></div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <h3>Múltipla escolha vs Discursiva</h3>
+          <div id="tipo-bars"></div>
+        </div>
+        <div class="stat-card" style="grid-column: 1 / -1;">
+          <h3>Heatmap matéria × ano</h3>
+          <div class="sub">intensidade ∝ número de questões</div>
+          <div id="heatmap"></div>
+        </div>
+        <div class="stat-card">
+          <h3>Top 20 assuntos</h3>
+          <div class="sub">o que o ITA mais cobra</div>
+          <div id="top-assuntos"></div>
+        </div>
+        <div class="stat-card">
+          <h3>Top 20 competências</h3>
+          <div class="sub">habilidades mais recorrentes</div>
+          <div id="top-competencias"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="loading" id="loading">Carregando banco de questões…</div>
+  </div>
+</main>
+
+<div class="modal-bg" id="modal-bg">
+  <div class="modal">
+    <div class="modal-head">
+      <span class="id" id="modal-id"></span>
+      <span class="title" id="modal-title"></span>
+      <button class="close" id="modal-close">×</button>
+    </div>
+    <div class="modal-body">
+      <img id="modal-img" loading="lazy">
+      <div class="modal-meta" id="modal-meta"></div>
+    </div>
+    <div class="modal-foot">
+      <button id="modal-prev">← anterior</button>
+      <button id="modal-next">próxima →</button>
+      <span class="nav-info" id="modal-nav-info"></span>
+    </div>
+  </div>
+</div>
+
+<script>
+const MATERIA_COLORS = {
+  matematica: '#ffb05c',
+  fisica:     '#6fb8ff',
+  quimica:    '#7fd6a8',
+  ingles:     '#c997ff',
+  portugues:  '#ff7a9c',
+  redacao:    '#ffeb8c',
+};
+
+window.revealGabarito = function(btn, withLabel) {
+  const ans = btn.getAttribute('data-ans');
+  const txt = (withLabel ? 'Gabarito: ' : '') + ans;
+  btn.parentNode.innerHTML = '<strong style="color:#7fd6a8">' + txt + '</strong>';
+};
+
+const TIPO_LABEL = { multipla_escolha: 'múltipla escolha', discursiva: 'discursiva' };
+const asset = (path) => '../' + path;
+
+const state = {
+  data: [],
+  filtered: [],
+  filters: { search: '', materia: new Set(), ano: new Set(), tipo: new Set(), assunto: '' },
+  sort: 'ano-desc',
+  visibleN: 60,
+  view: 'catalogo',
+  modalIdx: -1,
+};
+
+async function load() {
+  try {
+    const r = await fetch('../banco_questoes.jsonl');
+    if (!r.ok) throw new Error('fetch failed: ' + r.status);
+    const text = await r.text();
+    state.data = text.trim().split('\n').map(JSON.parse);
+  } catch (e) {
+    document.getElementById('loading').textContent = 'Erro carregando dados: ' + e.message;
+    return;
+  }
+  document.getElementById('loading').style.display = 'none';
+  initFilters();
+  bindUI();
+  hydrateFromUrl();
+  applyFilters();
+  buildStats();
+  buildProvasList();
+}
+
+function initFilters() {
+  const materias = [...new Set(state.data.map(q => q.materia))];
+  const materiaEl = document.getElementById('filter-materia');
+  materias.forEach(m => {
+    const el = document.createElement('div');
+    el.className = 'chip';
+    el.dataset.val = m;
+    el.textContent = m;
+    el.style.textTransform = 'capitalize';
+    materiaEl.appendChild(el);
+  });
+
+  const anos = [...new Set(state.data.map(q => q.ano))].sort();
+  const anoEl = document.getElementById('filter-ano');
+  anos.forEach(a => {
+    const el = document.createElement('div');
+    el.className = 'chip';
+    el.dataset.val = a;
+    el.textContent = a;
+    anoEl.appendChild(el);
+  });
+
+  refreshAssuntoOptions();
+}
+
+function refreshAssuntoOptions() {
+  const sel = document.getElementById('filter-assunto');
+  const mset = state.filters.materia;
+  const pool = mset.size
+    ? state.data.filter(q => mset.has(q.materia))
+    : state.data;
+  const assuntos = [...new Set(pool.map(q => q.assunto).filter(Boolean))].sort();
+  const cur = state.filters.assunto;
+  sel.innerHTML = '<option value="">— todos —</option>' +
+    assuntos.map(a => `<option value="${a}"${a===cur?' selected':''}>${a}</option>`).join('');
+  if (cur && !assuntos.includes(cur)) {
+    state.filters.assunto = '';
+    sel.value = '';
+  }
+}
+
+function hydrateFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q') || params.get('search');
+  if (q) {
+    state.filters.search = q.toLowerCase().trim();
+    document.getElementById('search').value = q;
+  }
+}
+
+function bindUI() {
+  document.querySelectorAll('nav.tabs button').forEach(b => {
+    b.addEventListener('click', () => switchView(b.dataset.view));
+  });
+
+  document.getElementById('search').addEventListener('input', (e) => {
+    state.filters.search = e.target.value.toLowerCase().trim();
+    state.visibleN = 60;
+    applyFilters();
+  });
+
+  document.getElementById('filter-materia').addEventListener('click', (e) => {
+    if (!e.target.classList.contains('chip')) return;
+    toggleSetFilter('materia', e.target.dataset.val, e.target);
+  });
+  document.getElementById('filter-ano').addEventListener('click', (e) => {
+    if (!e.target.classList.contains('chip')) return;
+    toggleSetFilter('ano', parseInt(e.target.dataset.val), e.target);
+  });
+  document.getElementById('filter-tipo').addEventListener('click', (e) => {
+    if (!e.target.classList.contains('chip')) return;
+    toggleSetFilter('tipo', e.target.dataset.val, e.target);
+  });
+
+  document.getElementById('filter-assunto').addEventListener('change', (e) => {
+    state.filters.assunto = e.target.value;
+    state.visibleN = 60;
+    applyFilters();
+  });
+
+  document.getElementById('sort').addEventListener('change', (e) => {
+    state.sort = e.target.value;
+    applyFilters();
+  });
+
+  document.getElementById('clear-filters').addEventListener('click', clearFilters);
+  document.getElementById('load-more').addEventListener('click', () => {
+    state.visibleN += 60;
+    renderCards();
+  });
+
+  document.getElementById('modal-bg').addEventListener('click', (e) => {
+    if (e.target.id === 'modal-bg') closeModal();
+  });
+  document.getElementById('modal-close').addEventListener('click', closeModal);
+  document.getElementById('modal-prev').addEventListener('click', () => navModal(-1));
+  document.getElementById('modal-next').addEventListener('click', () => navModal(1));
+
+  document.addEventListener('keydown', (e) => {
+    if (!document.getElementById('modal-bg').classList.contains('open')) return;
+    if (e.key === 'Escape') closeModal();
+    else if (e.key === 'ArrowLeft') navModal(-1);
+    else if (e.key === 'ArrowRight') navModal(1);
+  });
+}
+
+function toggleSetFilter(key, val, el) {
+  const set = state.filters[key];
+  if (set.has(val)) { set.delete(val); el.classList.remove('active'); }
+  else { set.add(val); el.classList.add('active'); }
+  state.visibleN = 60;
+  if (key === 'materia') refreshAssuntoOptions();
+  applyFilters();
+}
+
+function clearFilters() {
+  state.filters = { search: '', materia: new Set(), ano: new Set(), tipo: new Set(), assunto: '' };
+  state.visibleN = 60;
+  document.getElementById('search').value = '';
+  document.getElementById('filter-assunto').value = '';
+  document.querySelectorAll('.chip.active').forEach(c => c.classList.remove('active'));
+  refreshAssuntoOptions();
+  applyFilters();
+}
+
+function applyFilters() {
+  const f = state.filters;
+  state.filtered = state.data.filter(q => {
+    if (f.materia.size && !f.materia.has(q.materia)) return false;
+    if (f.ano.size && !f.ano.has(q.ano)) return false;
+    if (f.tipo.size && !f.tipo.has(q.tipo)) return false;
+    if (f.assunto && q.assunto !== f.assunto) return false;
+    if (f.search) {
+      const hay = (q.id + ' ' + q.assunto + ' ' + (q.competencias || []).join(' ') + ' ' + (q.tema || '')).toLowerCase();
+      if (!hay.includes(f.search)) return false;
+    }
+    return true;
+  });
+
+  const sort = state.sort;
+  state.filtered.sort((a, b) => {
+    if (sort === 'ano-desc') return b.ano - a.ano || a.materia.localeCompare(b.materia) || a.numero - b.numero;
+    if (sort === 'ano-asc')  return a.ano - b.ano || a.materia.localeCompare(b.materia) || a.numero - b.numero;
+    if (sort === 'materia')  return a.materia.localeCompare(b.materia) || b.ano - a.ano || a.numero - b.numero;
+    if (sort === 'assunto')  return (a.assunto||'').localeCompare(b.assunto||'') || b.ano - a.ano;
+    return 0;
+  });
+
+  document.getElementById('meta-count').textContent =
+    `${state.filtered.length} de ${state.data.length} questões`;
+  renderCards();
+}
+
+function renderCards() {
+  const c = document.getElementById('cards');
+  const visible = state.filtered.slice(0, state.visibleN);
+  c.innerHTML = '';
+  if (!visible.length) {
+    c.innerHTML = '<div class="empty">Nenhuma questão com esses filtros.</div>';
+    document.getElementById('load-more').style.display = 'none';
+    return;
+  }
+  visible.forEach((q, idx) => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    const compsHtml = (q.competencias || []).slice(0, 4).join(' · ');
+    const tipoCls = q.tipo === 'discursiva' ? 'disc' : '';
+    const tipoLabel = q.tipo === 'discursiva' ? 'D' : 'ME';
+    card.innerHTML = `
+      <div class="card-img"><img loading="lazy" src="${asset(q.imagem)}" alt="Q${q.numero}"></div>
+      <div class="card-body">
+        <div class="card-head">
+          <span class="materia">${q.materia}</span>
+          <span>${q.ano}${q.fase===2 ? ' · 2ª fase' : ''} · Q${String(q.numero).padStart(2,'0')}<span class="badge-tipo ${tipoCls}">${tipoLabel}</span></span>
+        </div>
+        <div class="card-assunto">${q.assunto || '—'}</div>
+        <div class="card-comps">${compsHtml}</div>
+      </div>`;
+    card.addEventListener('click', () => openModal(idx));
+    c.appendChild(card);
+  });
+  const more = document.getElementById('load-more');
+  more.style.display = state.visibleN < state.filtered.length ? 'block' : 'none';
+  more.textContent = `carregar mais (${state.filtered.length - state.visibleN} restantes)`;
+}
+
+/* Modal */
+function openModal(filteredIdx) {
+  state.modalIdx = filteredIdx;
+  renderModal();
+  document.getElementById('modal-bg').classList.add('open');
+}
+function closeModal() {
+  document.getElementById('modal-bg').classList.remove('open');
+}
+function navModal(dir) {
+  const next = state.modalIdx + dir;
+  if (next < 0 || next >= state.filtered.length) return;
+  state.modalIdx = next;
+  renderModal();
+}
+function renderModal() {
+  const q = state.filtered[state.modalIdx];
+  if (!q) return;
+  document.getElementById('modal-id').textContent = q.id;
+  document.getElementById('modal-title').textContent =
+    `${q.materia} · ${q.ano}${q.fase===2 ? ' · 2ª fase' : ''} · Q${String(q.numero).padStart(2,'0')}`;
+  document.getElementById('modal-img').src = asset(q.imagem);
+  const meta = document.getElementById('modal-meta');
+  meta.innerHTML = `
+    <span class="k">Assunto</span><span>${q.assunto || '—'}</span>
+    <span class="k">Competências</span><span>${(q.competencias||[]).join(', ') || '—'}</span>
+    <span class="k">Tipo</span><span>${TIPO_LABEL[q.tipo] || q.tipo}</span>
+    ${q.tema ? `<span class="k">Tema</span><span>${q.tema}</span>` : ''}
+    ${q.genero ? `<span class="k">Gênero</span><span>${q.genero}</span>` : ''}
+    ${q.gabarito ? `<span class="k">Gabarito</span><span id="modal-gabarito"><button onclick="revealGabarito(this)" data-ans="${q.gabarito}" style="background:var(--panel-2); border:1px solid var(--border); color:var(--accent); padding:2px 8px; border-radius:4px; font-size:11px;">revelar</button></span>` : ''}
+  `;
+  document.getElementById('modal-nav-info').textContent =
+    `${state.modalIdx + 1} / ${state.filtered.length}`;
+}
+
+/* Provas view */
+function buildProvasList() {
+  const groups = new Map();
+  for (const q of state.data) {
+    const key = `${q.arquivo}`;
+    if (!groups.has(key)) {
+      groups.set(key, { arquivo: q.arquivo, materia: q.materia, ano: q.ano, fase: q.fase, items: [] });
+    }
+    groups.get(key).items.push(q);
+  }
+  const provas = [...groups.values()].sort((a, b) =>
+    b.ano - a.ano || a.materia.localeCompare(b.materia) || (a.fase||0)-(b.fase||0)
+  );
+  const el = document.getElementById('provas-list');
+  el.innerHTML = '<div class="prova-list" id="prova-grid"></div>';
+  const grid = document.getElementById('prova-grid');
+  provas.forEach(p => {
+    const card = document.createElement('div');
+    card.className = 'prova-card';
+    card.style.borderLeft = `3px solid ${MATERIA_COLORS[p.materia] || '#888'}`;
+    card.innerHTML = `
+      <h4 style="text-transform:capitalize">${p.materia} — ${p.ano}${p.fase ? (p.fase===1 ? ' · 1ª fase' : ' · 2ª fase') : ''}</h4>
+      <div class="meta">${p.items.length} questões</div>`;
+    card.addEventListener('click', () => showProva(p));
+    grid.appendChild(card);
+  });
+}
+
+function showProva(p) {
+  document.getElementById('provas-list').style.display = 'none';
+  const d = document.getElementById('provas-detail');
+  d.style.display = 'block';
+  const sorted = p.items.slice().sort((a,b) => a.numero - b.numero);
+  let html = `<a class="back-link" id="back-to-provas">← voltar</a>
+    <h2 style="text-transform:capitalize; margin: 0 0 4px;">${p.materia} — ${p.ano}${p.fase ? (p.fase===1 ? ' · 1ª fase' : ' · 2ª fase') : ''}</h2>
+    <p style="color: var(--muted); margin: 0 0 24px;">${sorted.length} questões</p>`;
+  for (const q of sorted) {
+    const comps = (q.competencias||[]).join(' · ');
+    html += `<div class="prova-q">
+      <div class="prova-q-head">
+        <h3>Q${String(q.numero).padStart(2,'0')}</h3>
+        <div class="meta"><strong>${q.assunto || '—'}</strong>${comps ? ' · ' + comps : ''} · ${TIPO_LABEL[q.tipo]||q.tipo}</div>
+      </div>
+      <img loading="lazy" src="${asset(q.imagem)}" alt="Q${q.numero}">
+      ${q.gabarito ? `<div style="margin-top:12px; font-size:13px;"><button onclick="revealGabarito(this, true)" data-ans="${q.gabarito}" style="background:var(--panel-2); border:1px solid var(--border); color:var(--accent); padding:4px 12px; border-radius:6px;">Revelar Gabarito</button></div>` : ''}
+    </div>`;
+  }
+  d.innerHTML = html;
+  document.getElementById('back-to-provas').addEventListener('click', () => {
+    document.getElementById('provas-list').style.display = 'block';
+    d.style.display = 'none';
+    window.scrollTo(0, 0);
+  });
+  window.scrollTo(0, 0);
+}
+
+/* View switching */
+function switchView(view) {
+  state.view = view;
+  document.querySelectorAll('nav.tabs button').forEach(b =>
+    b.classList.toggle('active', b.dataset.view === view));
+  document.getElementById('view-catalogo').style.display = view === 'catalogo' ? 'block' : 'none';
+  document.getElementById('view-provas').style.display = view === 'provas' ? 'block' : 'none';
+  document.getElementById('view-stats').style.display = view === 'stats' ? 'block' : 'none';
+  document.querySelector('aside').style.display = view === 'catalogo' ? 'block' : 'none';
+  document.querySelector('main').style.gridTemplateColumns = view === 'catalogo' ? '280px 1fr' : '1fr';
+}
+
+/* Stats */
+function buildStats() {
+  buildDonut();
+  buildTipoBars();
+  buildHeatmap();
+  buildTopBars('top-assuntos', q => [q.assunto].filter(Boolean), 20);
+  buildTopBars('top-competencias', q => q.competencias || [], 20, true);
+}
+
+function buildDonut() {
+  const counts = {};
+  for (const q of state.data) counts[q.materia] = (counts[q.materia]||0) + 1;
+  const total = Object.values(counts).reduce((a,b)=>a+b, 0);
+  const entries = Object.entries(counts).sort((a,b) => b[1]-a[1]);
+  const svg = document.getElementById('donut');
+  let acc = 0;
+  const cx = 80, cy = 80, r = 60, sw = 22;
+  const C = 2 * Math.PI * r;
+  svg.innerHTML = `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="#232735" stroke-width="${sw}"/>`;
+  entries.forEach(([m, n]) => {
+    const frac = n / total;
+    const color = MATERIA_COLORS[m] || '#888';
+    const dash = (frac * C).toFixed(2);
+    svg.innerHTML += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none"
+      stroke="${color}" stroke-width="${sw}"
+      stroke-dasharray="${dash} ${C}"
+      stroke-dashoffset="${-acc * C}"
+      transform="rotate(-90 ${cx} ${cy})"/>`;
+    acc += frac;
+  });
+  svg.innerHTML += `<text x="${cx}" y="${cy-2}" text-anchor="middle" fill="#e8e8e0" font-size="22" font-weight="600">${total}</text>
+    <text x="${cx}" y="${cy+16}" text-anchor="middle" fill="#8a8f99" font-size="10">questões</text>`;
+  const legend = document.getElementById('donut-legend');
+  legend.innerHTML = entries.map(([m, n]) =>
+    `<div class="item"><span class="swatch" style="background:${MATERIA_COLORS[m]||'#888'}"></span><span style="text-transform:capitalize">${m}</span> <span style="color:var(--muted)">${n} (${Math.round(n/total*100)}%)</span></div>`
+  ).join('');
+}
+
+function buildTipoBars() {
+  const byMateria = {};
+  for (const q of state.data) {
+    if (!byMateria[q.materia]) byMateria[q.materia] = { multipla_escolha: 0, discursiva: 0 };
+    byMateria[q.materia][q.tipo]++;
+  }
+  const el = document.getElementById('tipo-bars');
+  el.innerHTML = '';
+  Object.entries(byMateria).forEach(([m, c]) => {
+    const total = c.multipla_escolha + c.discursiva;
+    const mePct = (c.multipla_escolha / total) * 100;
+    el.innerHTML += `
+      <div style="margin-bottom: 10px;">
+        <div style="display:flex; justify-content:space-between; font-size:12px; margin-bottom:3px;">
+          <span style="text-transform:capitalize">${m}</span>
+          <span style="color:var(--muted)">${c.multipla_escolha} ME · ${c.discursiva} D</span>
+        </div>
+        <div style="display:flex; height:10px; border-radius:3px; overflow:hidden; background:var(--panel-2);">
+          <div style="width:${mePct}%; background:var(--accent-2);" title="múltipla escolha"></div>
+          <div style="width:${100-mePct}%; background:var(--accent);" title="discursiva"></div>
+        </div>
+      </div>`;
+  });
+}
+
+function buildHeatmap() {
+  const materias = [...new Set(state.data.map(q => q.materia))];
+  const anos = [...new Set(state.data.map(q => q.ano))].sort();
+  const counts = {};
+  let max = 0;
+  for (const q of state.data) {
+    const k = `${q.materia}|${q.ano}`;
+    counts[k] = (counts[k]||0) + 1;
+    if (counts[k] > max) max = counts[k];
+  }
+  const el = document.getElementById('heatmap');
+  el.style.gridTemplateColumns = `90px repeat(${anos.length}, 1fr)`;
+  let html = '<div class="cell head"></div>';
+  anos.forEach(a => html += `<div class="cell year-head">${a}</div>`);
+  for (const m of materias) {
+    html += `<div class="cell head" style="text-align:right; padding-right:8px">${m}</div>`;
+    for (const a of anos) {
+      const n = counts[`${m}|${a}`] || 0;
+      const intensity = n / max;
+      const color = MATERIA_COLORS[m] || '#888';
+      const bg = n ? `${color}${Math.round(intensity*255).toString(16).padStart(2,'0')}` : 'transparent';
+      const fg = intensity > .5 ? '#1a1d27' : '#e8e8e0';
+      html += `<div class="cell" style="background:${bg}; color:${n?fg:'var(--muted)'}; font-weight:${n?600:400}" title="${m} ${a}: ${n}">${n||''}</div>`;
+    }
+  }
+  el.innerHTML = html;
+}
+
+function buildTopBars(elId, extract, topN, alt=false) {
+  const counts = new Map();
+  for (const q of state.data) {
+    for (const t of extract(q)) {
+      counts.set(t, (counts.get(t)||0) + 1);
+    }
+  }
+  const sorted = [...counts.entries()].sort((a,b) => b[1]-a[1]).slice(0, topN);
+  const max = sorted[0] ? sorted[0][1] : 1;
+  const el = document.getElementById(elId);
+  el.innerHTML = sorted.map(([t, n]) => `
+    <div class="bar-row" title="${t}">
+      <span class="label">${t}</span>
+      <div class="bar"><div class="bar-fill ${alt?'alt':''}" style="width:${(n/max)*100}%"></div></div>
+      <span class="num">${n}</span>
+    </div>`).join('');
+}
+
+load();
+</script>
+</body>
+</html>
